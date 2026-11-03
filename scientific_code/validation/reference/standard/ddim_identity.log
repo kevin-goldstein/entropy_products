@@ -1,0 +1,7 @@
+D=4: [{a1: -2*B(r)**2, a2: -2*B(r)**2}]   residual -> 0
+  [PASS] D=4: the rho-identity is a combination of E^t_t and E^th_th
+D=5: [{a1: -B(r)**2/2, a2: -B(r)**2}]   residual -> 0
+  [PASS] D=5: the rho-identity is a combination of E^t_t and E^th_th
+D=6: [{a1: -2*B(r)**2/9, a2: -2*B(r)**2/3}]   residual -> 0
+  [PASS] D=6: the rho-identity is a combination of E^t_t and E^th_th
+checks: 3 passed, 0 failed

@@ -1,0 +1,13 @@
+red1a is a combination of the field equations: True   coefficients: {c1: -2*z7**2, c2: 0, c3: -2*z7**2, c4: 0}
+  [PASS] red1a is a linear combination of the covariant field equations
+red1b is a combination of the field equations: True   coefficients: {c1: 1/(2*z6), c2: -1/(2*z6), c3: 0, c4: 0}
+  [PASS] red1b is a linear combination of the covariant field equations
+red2  is a combination of the field equations: True   coefficients: {c1: 0, c2: 0, c3: 0, c4: z7**2/4}
+  [PASS] red2 is a linear combination of the covariant field equations
+red3a is a combination of the field equations: True   coefficients: {c1: -z7**2, c2: 0, c3: 0, c4: 0}
+  [PASS] red3a is a linear combination of the covariant field equations
+red3b is a combination of the field equations: True   coefficients: {c1: 0, c2: 0, c3: z7**2, c4: 0}
+  [PASS] red3b is a linear combination of the covariant field equations
+red4  is a combination of the field equations: True   coefficients: {c1: -z7**2/2, c2: z7**2/2, c3: -z7**2, c4: 0}
+  [PASS] red4 is a linear combination of the covariant field equations
+checks: 6 passed, 0 failed

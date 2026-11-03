@@ -1,0 +1,36 @@
+  [PASS] nested collections, NumPy and mpmath matrices reduce to the correct finite maximum  (difference 0.00e+00, tolerance 0e+00)
+  [PASS] finite componentwise positive check  (|value| = 1.00e-12, tolerance 1e-10)
+  [PASS] finite componentwise negative control  (|value| = 2.00e-02, must exceed 1e-02)
+  [PASS] NaN at component 0 is rejected, including after a finite maximum
+  [PASS] NaN at component 1 is rejected, including after a finite maximum
+  [PASS] NaN at component 2 is rejected, including after a finite maximum
+  [PASS] +Inf at component 0 is rejected, including after a finite maximum
+  [PASS] +Inf at component 1 is rejected, including after a finite maximum
+  [PASS] +Inf at component 2 is rejected, including after a finite maximum
+  [PASS] -Inf at component 0 is rejected, including after a finite maximum
+  [PASS] -Inf at component 1 is rejected, including after a finite maximum
+  [PASS] -Inf at component 2 is rejected, including after a finite maximum
+  [PASS] an all-NaN collection is rejected
+  [PASS] NumPy matrix containing NaN is rejected
+  [PASS] mpmath matrix containing NaN is rejected
+  [PASS] SymPy matrix containing NaN is rejected
+  [PASS] complex non-finite component is rejected
+  [PASS] an empty collection cannot pass vacuously
+  [PASS] arbitrary precision is preserved beyond binary64  (difference 0.00e+00, tolerance 1e-80)
+  [PASS] subnormal-to-binary64 magnitude is not silently rounded to zero
+  [PASS] positive array check: finish returns failure  (captured child exit 1)
+  [PASS] negative array control: finish returns failure  (captured child exit 1)
+  [PASS] all-NaN array check: finish returns failure  (captured child exit 1)
+  [PASS] direct NaN: finish returns failure  (captured child exit 1)
+  [PASS] direct infinity: finish returns failure  (captured child exit 1)
+  [PASS] empty check set: finish returns failure  (captured child exit 1)
+  [PASS] precision-sensitive failed check: finish returns failure  (captured child exit 1)
+  [PASS] actual Kerr-Newman test: one Einstein component is NaN: injection location exists exactly once
+  [PASS] actual Kerr-Newman test: one Einstein component is NaN: nonzero exit and explicit non-finite diagnostic  (captured child exit 1)
+  [PASS] actual Kerr-Newman test: one Maxwell component is infinity: injection location exists exactly once
+  [PASS] actual Kerr-Newman test: one Maxwell component is infinity: nonzero exit and explicit non-finite diagnostic  (captured child exit 1)
+  [PASS] actual Kerr-Sen grid: every tensor component is NaN: injection location exists exactly once
+  [PASS] actual Kerr-Sen grid: every tensor component is NaN: nonzero exit and explicit non-finite diagnostic  (captured child exit 1)
+  [PASS] actual negative control: a later Einstein component is NaN: injection location exists exactly once
+  [PASS] actual negative control: a later Einstein component is NaN: nonzero exit and explicit non-finite diagnostic  (captured child exit 1)
+checks: 35 passed, 0 failed

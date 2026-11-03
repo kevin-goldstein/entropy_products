@@ -1,0 +1,8 @@
+PASS: NHEK warp metric Euler equation
+PASS: NHEK circle metric Euler equation
+PASS: NHEK angular lapse constraint
+PASS: NHEK raw bulk integrand has exact primitive
+PASS: NHEK bulk f=-J, axis B_g=J, full f=0
+PASS: NHEK rotational charge density has exact primitive
+PASS: df/dk=J and entropy/(2*pi)=J
+PASS: spherical AdS potential signs and on-shell entropy

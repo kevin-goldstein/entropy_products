@@ -1,0 +1,31 @@
+{
+  "nu": 2.99,
+  "alpha": 4.884690368897501,
+  "method": "Existing independent radial half-interval solver with alpha fixed, plus integration from reflected inner horizon to center",
+  "runs": [
+    {
+      "cutoff": 1e-05,
+      "order": 5,
+      "rtol": 1e-12,
+      "epsilon": 0.3468036818438554,
+      "eta": 0.99893467959955,
+      "inner_center_mismatch": 5.3086424145476485e-12
+    },
+    {
+      "cutoff": 1e-06,
+      "order": 6,
+      "rtol": 2e-13,
+      "epsilon": 0.34680368181805443,
+      "eta": 0.9989346795983868,
+      "inner_center_mismatch": 1.4841461393189093e-12
+    },
+    {
+      "cutoff": 1e-07,
+      "order": 6,
+      "rtol": 3e-14,
+      "epsilon": 0.34680368181001353,
+      "eta": 0.9989346795981273,
+      "inner_center_mismatch": 1.3944401189291966e-13
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "2026.11.02-r5",
+  "date": "2026-11-02",
+  "status": "Prepared for GitHub upload",
+  "baseline_version": "2026.11.02-r4",
+  "changes": [
+    "Combined all five symmetric eta-versus-nu curves on common axes beneath the n=3 amplitude example",
+    "Preserved all numerical data and existing calculations",
+    "Updated paper-to-code maps for the full manuscript review"
+  ],
+  "archival_doi": null,
+  "license": "Not selected by the authors; see LICENSE_STATUS.md",
+  "integrity": "MANIFEST.sha256 covers supplied files except itself, local caches and fresh results/",
+  "reference_validation": "validation/reference contains retained historical records; path strings were normalized without changing numerical results",
+  "packaging_validation": "Branch figure task passed (14.579 s) and was visually inspected; source CSV byte-identical to r4. Historical scientific runs retained with original scope. See validation/review/."
+}

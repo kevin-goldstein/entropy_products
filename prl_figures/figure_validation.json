@@ -1,0 +1,8 @@
+{
+  "source_csv_hashes_verified": true,
+  "new_numerical_solutions": false,
+  "curves_scales_and_samples_preserved": true,
+  "visual_review": "Pass: both annotations readable, no overlaps; n=3 arrow points along increasing epsilon and asymmetric line remains continuous through the open zero-amplitude point.",
+  "output_pdf": "prl_figures/figures/product_branches.pdf",
+  "output_sha256": "9ecbd2e8fb2998c68529aa2adcaee074dffcc2b15f0b0025a960b12e6cd3af7e"
+}

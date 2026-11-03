@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "spherical_hessians_over_pi_B": {
+    "0": "24",
+    "1": "-20/3",
+    "2": "-12/5",
+    "3": "0",
+    "4": "16/9"
+  },
+  "finite_amplitude": [
+    {
+      "quadrature_nodes": 320,
+      "alpha": 4.893760362084313,
+      "B": 1.9998599615713475,
+      "p": 0.9999299807856737,
+      "q": -0.9999299807856737,
+      "maxwell_integrals": [
+        1.999859961571556,
+        1.999859961571595
+      ],
+      "modes": {
+        "1": {
+          "hessian_over_pi_B": -7.061814672924038,
+          "first_variation_over_pi_B": -2.5708948858671477e-13,
+          "gradient": 1.3333333333332802,
+          "electromagnetic_part": -8.395148006257319,
+          "finite_difference_steps": [
+            0.001,
+            0.0005
+          ],
+          "finite_difference_values": [
+            -7.061789880413727,
+            -7.061808473096676
+          ]
+        },
+        "3": {
+          "hessian_over_pi_B": 0.5393188240368176,
+          "first_variation_over_pi_B": -1.0957901253050295e-13,
+          "gradient": 3.4285714285713014,
+          "electromagnetic_part": -2.8892526045344837,
+          "finite_difference_steps": [
+            0.001,
+            0.0005
+          ],
+          "finite_difference_values": [
+            0.5393209900894647,
+            0.5393193678315811
+          ]
+        },
+        "4": {
+          "hessian_over_pi_B": 1.5531369731938023,
+          "first_variation_over_pi_B": 4.8556812162749556e-14,
+          "gradient": 4.444444444444279,
+          "electromagnetic_part": -2.891307471250477,
+          "finite_difference_steps": [
+            0.001,
+            0.0005
+          ],
+          "finite_difference_values": [
+            1.553139409526949,
+            1.553137582988029
+          ]
+        }
+      },
+      "endpoint_order": 6,
+      "cutoff": 0.0001,
+      "initial_nodes": 401,
+      "off_grid_scaled_ode_max": 4.640667849997726e-10
+    },
+    {
+      "quadrature_nodes": 320,
+      "alpha": 4.893760362084041,
+      "B": 1.9998599615713062,
+      "p": 0.9999299807856531,
+      "q": -0.9999299807856531,
+      "maxwell_integrals": [
+        1.9998599615715797,
+        1.9998599615715764
+      ],
+      "modes": {
+        "1": {
+          "hessian_over_pi_B": -7.06181467292282,
+          "first_variation_over_pi_B": -2.078424238272092e-13,
+          "gradient": 1.3333333333332802,
+          "electromagnetic_part": -8.3951480062561,
+          "finite_difference_steps": [
+            0.001,
+            0.0005
+          ],
+          "finite_difference_values": [
+            -7.061789880413727,
+            -7.0618084748730325
+          ]
+        },
+        "3": {
+          "hessian_over_pi_B": 0.5393188240370441,
+          "first_variation_over_pi_B": -2.631228568361621e-14,
+          "gradient": 3.4285714285713014,
+          "electromagnetic_part": -2.8892526045342573,
+          "finite_difference_steps": [
+            0.001,
+            0.0005
+          ],
+          "finite_difference_values": [
+            0.5393209892012862,
+            0.5393193642788674
+          ]
+        },
+        "4": {
+          "hessian_over_pi_B": 1.553136973194202,
+          "first_variation_over_pi_B": 4.341419937706936e-16,
+          "gradient": 4.444444444444279,
+          "electromagnetic_part": -2.8913074712500775,
+          "finite_difference_steps": [
+            0.001,
+            0.0005
+          ],
+          "finite_difference_values": [
+            1.5531394086387706,
+            1.5531375812116721
+          ]
+        }
+      },
+      "endpoint_order": 8,
+      "cutoff": 0.0001,
+      "initial_nodes": 601,
+      "off_grid_scaled_ode_max": 8.023431086190413e-10
+    }
+  ],
+  "conclusion": "The fixed-charge static entropy functional has both signs in admissible scalar/Maxwell directions.",
+  "scope": "No Lorentzian dynamical stability conclusion. Finite-amplitude signs are numerical; small-amplitude saddle follows analytically by continuity from P1 and P4.",
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "sympy": "1.14.0"
+  }
+}

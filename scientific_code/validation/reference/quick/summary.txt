@@ -1,0 +1,15 @@
+task                                status      seconds   PASS   FAIL
+quartic                             PASS         0.031      0      0
+tuned_branch_bvp                    PASS         3.581    143      0
+test_tuned_branch_bvp               PASS         2.652     52      0
+half_interval_scan                  PASS         2.089      0      0
+orbit_scan                          PASS         1.181      0      0
+validate_core                       PASS         1.231      0      0
+plot_orbit                          PASS        15.056      0      0
+c3_exact                            PASS         3.635     42      0
+check_static_virial                 PASS         3.497      0      0
+rotating_exact_controls             PASS         0.029      0      0
+complex_validation                  PASS         0.201      0      0
+second_variation_control            PASS         2.858      0      0
+12 tasks passed, 0 failed; 36.046 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

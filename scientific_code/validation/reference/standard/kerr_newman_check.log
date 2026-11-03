@@ -1,0 +1,46 @@
+r+ = 2.216515139  r- = 0.383484861   radii: ['30.0', '4.0', '1.3', '0.1917']
+  d/dM  K_t   = ['1.0', '1.0', '1.0', '1.0']
+  [PASS] d/dM K_t at r = 30, 4, (r+ + r-)/2, r-/2 equals 1  (|value| = 0.00e+00, tolerance 1e-19)
+  d/dM  K_phi = ['-0.6', '-0.6', '-0.6', '-0.6']
+  [PASS] d/dM K_phi at r = 30, 4, (r+ + r-)/2, r-/2 equals -0.6  (|value| = 0.00e+00, tolerance 1e-19)
+  d/da  K_t   = ['2.63496955892e-26', '-1.55556592148e-26', '-2.07967868366e-24', '-3.9087965507e-23']
+  [PASS] d/da K_t at r = 30, 4, (r+ + r-)/2, r-/2 equals 0  (|value| = 3.91e-23, tolerance 1e-19)
+  d/da  K_phi = ['-1.3', '-1.3', '-1.3', '-1.3']
+  [PASS] d/da K_phi at r = 30, 4, (r+ + r-)/2, r-/2 equals -1.3  (|value| = 1.69e-21, tolerance 1e-19)
+  d/dQ  K_t   = ['2.37064250719e-26', '-1.19785217001e-26', '-3.59129001739e-25', '-7.51121187085e-23']
+  [PASS] d/dQ K_t at r = 30, 4, (r+ + r-)/2, r-/2 equals 0  (|value| = 7.51e-23, tolerance 1e-19)
+  d/dQ  K_phi = ['1.39079885546e-29', '7.77419463916e-27', '2.29406318848e-25', '4.63799672892e-23']
+  [PASS] d/dQ K_phi at r = 30, 4, (r+ + r-)/2, r-/2 equals 0  (|value| = 4.64e-23, tolerance 1e-19)
+  expected: K_t = dM -> (1,0,0);  K_phi = -dJ = -(a, M, 0) =  (mpf('-0.59999999999999999999966'), mpf('-1.3000000000000000000007'), 0)
+  T+S+ + T-S- = 0.0 ;  S+S- - pi^2(Q^4+4J^2) = 0.0
+  [PASS] T+S+ + T-S- = 0  (|value| = 0.00e+00, tolerance 1e-18)
+  [PASS] S+S- = pi^2 (Q^4 + 4 J^2)  (|value| = 0.00e+00, tolerance 1e-18)
+  first law at r+, d/dM: K_{xi} - (T dS + Phi dQ) = -3.1304e-16
+  [PASS] first law at r+, d/dM (central differences, step 1e-8)  (|value| = 3.13e-16, tolerance 1e-11)
+  first law at r-, d/dM: K_{xi} - (T dS + Phi dQ) = 2.9954e-14
+  [PASS] first law at r-, d/dM (central differences, step 1e-8)  (|value| = 3.00e-14, tolerance 1e-11)
+  first law at r+, d/da: K_{xi} - (T dS + Phi dQ) = -1.0732e-14
+  [PASS] first law at r+, d/da (central differences, step 1e-8)  (|value| = 1.07e-14, tolerance 1e-11)
+  first law at r-, d/da: K_{xi} - (T dS + Phi dQ) = 1.0235e-14
+  [PASS] first law at r-, d/da (central differences, step 1e-8)  (|value| = 1.02e-14, tolerance 1e-11)
+  first law at r+, d/dQ: K_{xi} - (T dS + Phi dQ) = -5.1925e-14
+  [PASS] first law at r+, d/dQ (central differences, step 1e-8)  (|value| = 5.19e-14, tolerance 1e-11)
+  first law at r-, d/dQ: K_{xi} - (T dS + Phi dQ) = -3.7202e-14
+  [PASS] first law at r-, d/dQ (central differences, step 1e-8)  (|value| = 3.72e-14, tolerance 1e-11)
+  Maxwell part of k_xi = -(1/4pi)[(xi.A) dG + dA ^ (xi.G)] for d/dQ, G = *F:
+  [PASS] sqrt(-g) = (r^2 + a^2 cos^2) sin(theta)  (simplifies to 0)
+     G_thph = -Q*(a**2 + r**2)*(a**2*cos(theta)**2 - r**2)*sin(theta)/(a**2*cos(theta)**2 + r**2)**2 ;  (d_t.G)_th = G_tth = -Q*a*(a**2*cos(theta)**2 - r**2)*sin(theta)/(a**2*cos(theta)**2 + r**2)**2
+     xi = d_t, r = 4.0:  -(1/4pi) oint (xi.A) dG = 0.173727897127763 ;  -(1/4pi) oint dA ^ (xi.G) = 0.00257875287348466 ;  Maxwell part of K from stationary_k_num = 0.176306650001248
+  [PASS] xi = d_t, r = 4.0: the two terms add up to the Maxwell part of K  (difference 0.00e+00, tolerance 1e-18)
+  [PASS] xi = d_t, r = 4: dA ^ (xi.G) term = (a^2 Q r/2) int (r^2 - a^2 c^2) s^3/(r^2 + a^2 c^2)^3  (difference 0.00e+00, tolerance 1e-18)
+  [PASS] xi = d_t, r = 4: the dA ^ (xi.G) term is nonzero on a sphere of Kerr-Newman  (|value| = 2.58e-03, must exceed 1e-03)
+  [PASS] xi = d_t, r = 4: xi.A depends on theta, so it cannot be taken outside the integral  (|value| = 3.79e-03, must exceed 1e-03)
+     xi = d_t, r = 30.0:  -(1/4pi) oint (xi.A) dG = 0.0233302239637194 ;  -(1/4pi) oint dA ^ (xi.G) = 6.22023187880782e-6 ;  Maxwell part of K from stationary_k_num = 0.0233364441955982
+  [PASS] xi = d_t, r = 30.0: the two terms add up to the Maxwell part of K  (difference 2.65e-23, tolerance 1e-18)
+  [PASS] xi = d_t: the dA ^ (xi.G) term decays like r^-3 (r = 30 vs r = 4)  (ratio 2.41e-03)
+  [PASS] xi_+: (xi_+.G)_theta = 0 on the horizon r = r+, so dA ^ (xi_+.G) pulls back to zero there  (simplifies to 0)
+  [PASS] xi_+: xi_+.A = -Phi_+ = -Q r+/(r+^2 + a^2) on the horizon, independent of theta  (simplifies to 0)
+  [PASS] oint dG = 4 pi dQ at r = 2.21652  (difference 0.00e+00, tolerance 1e-18)
+  [PASS] oint dG = 4 pi dQ at r = 4.0  (difference 0.00e+00, tolerance 1e-18)
+     => at the horizon the Maxwell part of k_{xi_+} is -(xi_+.A) dQ = Phi_+ dQ; on a sphere with xi = d_t it is not -(xi.A) dQ
+checks: 25 passed, 0 failed

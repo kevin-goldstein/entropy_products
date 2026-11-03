@@ -1,0 +1,45 @@
+{
+  "exact_equations": [
+    "metric",
+    "scalar",
+    "constraint"
+  ],
+  "endpoint_phi_minus": "-epsilon",
+  "endpoint_area_radius_product": "V_eff(phi_star)",
+  "fixture": {
+    "alpha1": 4,
+    "alpha2": -6,
+    "Vstar": 1,
+    "bplus_squared": 5,
+    "exp_2epsilon": 1.5
+  },
+  "ivp_interval": [
+    0.99,
+    -0.99
+  ],
+  "ivp_comparisons": [
+    {
+      "rtol": 1e-10,
+      "atol": 1e-12,
+      "max_absolute_errors": {
+        "b": 5.726963347996161e-11,
+        "bprime": 4.6201975578696874e-10,
+        "phi": 1.985087649813977e-10,
+        "j": 1.507628744068512e-10
+      },
+      "rhs_evaluations": 665
+    },
+    {
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_absolute_errors": {
+        "b": 1.2824186157445183e-12,
+        "bprime": 2.9610536245172625e-11,
+        "phi": 5.573902450706214e-12,
+        "j": 5.787814671975866e-12
+      },
+      "rhs_evaluations": 986
+    }
+  ],
+  "scope": "Exact B2 formula and independent IVP; not an asymmetric BVP pipeline benchmark."
+}

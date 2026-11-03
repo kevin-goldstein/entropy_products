@@ -1,0 +1,23 @@
+Theory: a1 = sqrt7, a2 = -2 sqrt7, Q^2 = 2, P^2 = 1;  phi0 = 0.0, V0 = 3.0, S_ext = 3 pi, nu = 2.192582403567 = (sqrt29 - 1)/2
+
+A. reversible autonomous shooting (even matching):
+   tau0 = -40.0, rtol = 1e-12:  phi_+ = 0.4427936622728   eta = 1.0220531880180
+   tau0 = -50.0, rtol = 1e-13:  phi_+ = 0.4427936622729   eta = 1.0220531880188
+
+B. radial two-sided shooting, r_+ = 1, r_- = 0.35, b_+ = 2.5 b_+^DE = 5.218195887144:
+   N =  6: phi_+ = 0.4427936622736  phi_- = 0.4427936622735  b_- = 0.5812160855354  eta = 1.0220531880186  |F| = 5e-15  unused b' mismatch = -4e-13
+   N =  8: phi_+ = 0.4427936622730  phi_- = 0.4427936622730  b_- = 0.5812160855355  eta = 1.0220531880189  |F| = 3e-15  unused b' mismatch = -6e-14
+   N = 10: phi_+ = 0.4427936622730  phi_- = 0.4427936622730  b_- = 0.5812160855355  eta = 1.0220531880189  |F| = 2e-15  unused b' mismatch = -6e-14
+
+C. coupling identity integrated from the RN bifurcation (nu = 2, eta = 1):
+   eta = 1.0220531880189
+
+Asymptotically flat representative (G = 1, unit lapse at infinity):
+   M = 4.167397366   phi_inf = 0.939575491   Sigma = -3.134477254   (min b' = 5.4712 > 0)
+   S_+ = 85.544211784   S_- = 1.061268131   S_+ S_- = 90.785345784   S_ext^2 = 9 pi^2 = 88.826439610
+   eta = S_+ S_- / S_ext^2 = 1.022053188019
+   T_+ = 0.0103930886   T_- = -0.8377416997   T_+ S_+ = 0.889068568   T_- S_- = -0.889068568
+   Q Phi_+ = 2.382654188   P Psi_+ = 0.006606050   Smarr residual M - (2 T_+ S_+ + Q Phi_+ + P Psi_+) = -8.3e-09
+   k = V(phi_+)/V0 = 2.183278;  orbit floor (k - eta/k) = 1.715150 < (S_+ - S_-)/S_ext = 8.963919
+   Kretschmann: outer horizon 9.959158e-03,  inner horizon 6.191293e+04
+[PASS] Regular excess example, two constructions and asymptotically flat exterior

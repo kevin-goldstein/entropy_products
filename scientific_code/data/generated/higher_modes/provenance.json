@@ -1,0 +1,8 @@
+{
+  "provenance": "Exact rational results for n=1,...,20 retained from earlier independently checked calculations. This packaging revision does not claim a fresh symbolic run.",
+  "source_sha256": "e659c5fcb4ef3bc5a5ad0030efef5915abafff871666cbd56286d07d6b8a978e",
+  "results_sha256": "0f96bcd3f6835196e9dc26b95607c791b6b59d22f48c66adaa961d756fbcfd67",
+  "reproduce": "python3 calculations/higher_modes.py > higher_modes_results.tsv",
+  "runner": "python3 run.py --only higher_modes; exact TSV is printed in the task log",
+  "scope": "Finite exact check through n=20, not an all-mode sign theorem or global finite-amplitude continuation."
+}

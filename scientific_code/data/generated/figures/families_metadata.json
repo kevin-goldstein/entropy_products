@@ -1,0 +1,18 @@
+{
+  "schematic": true,
+  "new_ODE_solves": false,
+  "alpha": 4.893760362084386,
+  "eta": 0.9998599664742153,
+  "epsilon": 0.2,
+  "Bcrit": 4.203969175802427,
+  "sources": [
+    {
+      "path": "data/generated/orbit/orbit_metadata.json",
+      "sha256": "376caf028249c00dce9855e96a229851078d890038181a68e83f92a2e9ad7544"
+    },
+    {
+      "path": "data/generated/branch/amplitude_scan.csv",
+      "sha256": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60"
+    }
+  ]
+}

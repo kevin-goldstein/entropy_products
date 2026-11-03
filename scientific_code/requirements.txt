@@ -1,0 +1,8 @@
+# Exact versions in the recorded validation/reference environment (Python 3.14.3).
+# This is a version-pinned environment specification, not a platform-specific
+# wheel lock; installation on other platforms has not been tested here.
+numpy==2.4.4
+scipy==1.17.1
+sympy==1.14.0
+mpmath==1.4.1
+matplotlib==3.10.8

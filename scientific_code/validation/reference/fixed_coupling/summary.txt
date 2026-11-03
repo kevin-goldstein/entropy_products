@@ -1,0 +1,6 @@
+task                                status      seconds   PASS   FAIL
+branch_trace                        PASS        36.307      5      0
+fixed_coupling_control              PASS        14.163     18      0
+plot_branches                       PASS        14.346      1      0
+3 tasks passed, 0 failed; 64.818 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

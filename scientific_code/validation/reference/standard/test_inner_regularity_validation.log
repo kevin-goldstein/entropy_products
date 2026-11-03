@@ -1,0 +1,31 @@
+  [PASS] early-stop regression uses a real physical solution with an asymptotically flat exterior
+  [PASS] the complete integration resolves the known singular logarithmic term
+  [PASS] complete singular result retains its numerical value  (difference 0.00e+00, tolerance 1e-07)
+  [PASS] failed main integration cannot masquerade as a regular horizon  (main integration: two-radius fit (coarse point) did not complete: controlled interruption after a real partial integration)
+  [PASS] the diagnostic exposes the solver failure reason
+  [PASS] run rejects a failed inward solution  (run inward integration did not complete: controlled interruption after a real partial integration)
+  [PASS] shooting coefficient rejects a failed solution  (two-radius fit (coarse point) did not complete: controlled interruption after a real partial integration)
+  [PASS] coupling root finder aborts on a failed solve  (two-radius fit (coarse point) did not complete: controlled interruption after a real partial integration)
+  [PASS] successful termination at an early radius still lacks coverage  (main integration: two-radius fit (coarse point) does not cover requested radii; computed domain is [0.35999999999999999, 0.99999899999999997])
+  [PASS] run also checks its intended endpoint  (run inward integration does not cover requested radii; computed domain is [0.35999999999999999, 0.99999899999999997])
+  [PASS] launch-refined failure invalidates the diagnosis and product  (launch-refined integration: two-radius fit (coarse point) did not complete: controlled interruption after a real partial integration)
+  [PASS] tolerance-refined failure invalidates the diagnosis and product  (tolerance-refined integration: two-radius fit (coarse point) did not complete: controlled interruption after a real partial integration)
+  [PASS] a NaN anywhere in the stored trajectory is rejected  (main integration: two-radius fit (coarse point) has an invalid or non-finite stored trajectory)
+  [PASS] non-finite dense scalar samples (nan) invalidate the diagnosis  (main integration: two-radius fit (coarse point) returned invalid or non-finite dense values)
+  [PASS] non-finite vector samples (nan), used by the figure, are rejected  (inward sample returned invalid or non-finite dense values)
+  [PASS] non-finite dense scalar samples (inf) invalidate the diagnosis  (main integration: two-radius fit (coarse point) returned invalid or non-finite dense values)
+  [PASS] non-finite vector samples (inf), used by the figure, are rejected  (inward sample returned invalid or non-finite dense values)
+  [PASS] a request before the integration domain is refused  (inward sample does not cover requested radii; computed domain is [0.35000000999999997, 0.99999899999999997])
+  [PASS] a request after the integration domain is refused  (inward sample does not cover requested radii; computed domain is [0.35000000999999997, 0.99999899999999997])
+  [PASS] non-finite query coordinates are refused  (inward sample requested a non-finite sample radius)
+  [PASS] invalid requests never call the extrapolating interpolant
+  [PASS] valid vector sampling retains all four finite fields
+  [PASS] non-finite derived differences cannot produce a classification  (fit extrapolation: overflow encountered in scalar subtract)
+  [PASS] non-finite derived geometric tail cannot produce a classification  (fit extrapolation: overflow encountered in scalar divide)
+  [PASS] non-finite derived convergence ratio cannot produce a classification  (fit extrapolation: non-finite residual at component 0: inf)
+  [PASS] a later NaN cannot hide inside an area-product or coefficient spread
+  [PASS] small genuine signal (2,-6), eps=0.001 remains nonzero
+  [PASS] small genuine signal (3,-8), eps=0.005 remains nonzero
+  [PASS] a valid Toda solution remains consistent with zero
+  [PASS] the valid Toda area product is unchanged  (difference 5.84e-14, tolerance 1e-10)
+checks: 30 passed, 0 failed

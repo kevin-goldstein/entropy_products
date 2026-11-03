@@ -1,0 +1,157 @@
+{
+  "mode": "quick",
+  "utc_started": "2026-10-24T07:54:30Z",
+  "environment": {
+    "python": "3.14.3",
+    "implementation": "CPython",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.4.4",
+      "scipy": "1.17.1",
+      "sympy": "1.14.0",
+      "mpmath": "1.4.1",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "tasks": [
+    {
+      "task": "quartic",
+      "script": "calculations/quartic.py",
+      "exit_code": 0,
+      "seconds": 0.031,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "quartic.log"
+    },
+    {
+      "task": "tuned_branch_bvp",
+      "script": "scripts/tuned_branch_bvp.py",
+      "exit_code": 0,
+      "seconds": 3.581,
+      "pass_markers": 143,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "tuned_branch_bvp.log"
+    },
+    {
+      "task": "test_tuned_branch_bvp",
+      "script": "scripts/test_tuned_branch_bvp.py",
+      "exit_code": 0,
+      "seconds": 2.652,
+      "pass_markers": 52,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "test_tuned_branch_bvp.log"
+    },
+    {
+      "task": "half_interval_scan",
+      "script": "calculations/half_interval_scan.py",
+      "exit_code": 0,
+      "seconds": 2.089,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "half_interval_scan.log"
+    },
+    {
+      "task": "orbit_scan",
+      "script": "calculations/orbit_scan.py",
+      "exit_code": 0,
+      "seconds": 1.181,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "orbit_scan.log"
+    },
+    {
+      "task": "validate_core",
+      "script": "calculations/validate_core.py",
+      "exit_code": 0,
+      "seconds": 1.231,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "validate_core.log"
+    },
+    {
+      "task": "plot_orbit",
+      "script": "calculations/plot_orbit.py",
+      "exit_code": 0,
+      "seconds": 15.056,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "plot_orbit.log"
+    },
+    {
+      "task": "c3_exact",
+      "script": "scripts/c3_exact.py",
+      "exit_code": 0,
+      "seconds": 3.635,
+      "pass_markers": 42,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "c3_exact.log"
+    },
+    {
+      "task": "check_static_virial",
+      "script": "controls/check_static_virial.py",
+      "exit_code": 0,
+      "seconds": 3.497,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "check_static_virial.log"
+    },
+    {
+      "task": "rotating_exact_controls",
+      "script": "controls/rotating_exact_controls.py",
+      "exit_code": 0,
+      "seconds": 0.029,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "rotating_exact_controls.log"
+    },
+    {
+      "task": "complex_validation",
+      "script": "controls/complex_validation.py",
+      "exit_code": 0,
+      "seconds": 0.201,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "complex_validation.log"
+    },
+    {
+      "task": "second_variation_control",
+      "script": "controls/second_variation_control.py",
+      "exit_code": 0,
+      "seconds": 2.858,
+      "pass_markers": 0,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "second_variation_control.log"
+    }
+  ],
+  "scope": "Only listed tasks were executed; no claim is made for omitted tasks.",
+  "total_seconds": 36.046,
+  "tasks_passed": 12,
+  "tasks_failed": 0,
+  "pass_markers": 237,
+  "fail_markers": 0
+}

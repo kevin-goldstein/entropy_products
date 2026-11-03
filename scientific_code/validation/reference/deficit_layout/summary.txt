@@ -1,0 +1,4 @@
+task                                status      seconds   PASS   FAIL
+plot_deficit                        PASS        13.473      0      0
+1 tasks passed, 0 failed; 13.474 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

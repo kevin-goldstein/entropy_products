@@ -1,0 +1,4 @@
+task                                status      seconds   PASS   FAIL
+validate_core                       PASS         1.129      0      0
+1 tasks passed, 0 failed; 1.130 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

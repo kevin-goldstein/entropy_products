@@ -1,0 +1,57 @@
+PASS raw Maxwell momentum component 0
+PASS raw Maxwell momentum component 1
+PASS raw electric Legendre transform equals -N W/(2 b^2)
+PASS partial Legendre derivative for N
+PASS partial Legendre derivative for b
+PASS partial Legendre derivative for f11
+PASS partial Legendre derivative for f12
+PASS partial Legendre derivative for f22
+PASS partial Legendre derivative for theta11
+PASS partial Legendre derivative for theta12
+PASS partial Legendre derivative for theta22
+PASS raw Maxwell rigid Weyl weight at fixed E
+PASS local Weyl variation from explicit R2(N,F)
+PASS rigid Weyl variation after local derivative terms vanish
+PASS local Weyl Euler expression is angular Einstein equation
+PASS scalar Euler equation including target metric derivative
+PASS NH raw electric charge equation 0
+PASS NH raw electric charge equation 1
+PASS NH raw action Legendre transform to entropy function
+PASS NH v1 derivative gives sphere radius constraint
+PASS NH v2 derivative gives AdS2 radius constraint
+PASS NH scalar coupling derivative f11
+PASS NH scalar coupling derivative f12
+PASS NH scalar coupling derivative f22
+PASS NH scalar coupling derivative theta11
+PASS NH scalar coupling derivative theta12
+PASS NH scalar coupling derivative theta22
+PASS NH stationary entropy equals pi v2 modulo v1 equation
+PASS NH scalar-potential derivative coefficient
+PASS angular raw density under common horizon Weyl scaling
+PASS finite-gap metric projection under real map with V flip
+PASS finite-gap scalar projection including target metric and axion derivative
+PASS general matrix sum of horizon electromagnetic work
+PASS RN AdS inner horizon
+PASS RN AdS outer horizon
+PASS RN AdS zero metric average from direct integral
+PASS RN AdS nonzero second metric average vs horizon derivatives
+PASS RN AdS second integral is nonzero 39/25
+PASS RN AdS relation to integrated scalar potential
+PASS RN AdS extremal root
+PASS RN AdS extremal double root
+PASS RN AdS v1 from actual throat curvature
+PASS RN AdS extremal sphere radius equation
+PASS RN AdS extremal AdS2 radius equation
+PASS RN AdS extremal entropy function stationary in v1
+PASS RN AdS extremal entropy function stationary in v2
+PASS RN AdS extremal entropy from raw geometry
+PASS two exponential scalar weights derived by differentiating W
+PASS two exponential electric flux deformation
+PASS two exponential magnetic flux deformation
+PASS two exponential RN control inner horizon
+PASS two exponential RN control outer horizon
+PASS two exponential RN control scalar equation
+PASS two exponential exact RN AdS electric potential integral
+PASS two exponential exact RN AdS magnetic potential integral
+
+55 checks passed.

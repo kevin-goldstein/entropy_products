@@ -1,0 +1,13 @@
+{
+  "python": "3.14.3",
+  "implementation": "CPython",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.4.1",
+    "matplotlib": "3.10.8"
+  }
+}

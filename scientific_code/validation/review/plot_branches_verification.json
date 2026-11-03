@@ -1,0 +1,17 @@
+{
+  "task": "plot_branches",
+  "status": "passed",
+  "data_unchanged": true,
+  "source_sha256": "9d6686deda528b600cafdeb8cd8865c68aef1f2989fd05f64f75b9185c69a3ae",
+  "branches": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "nonzero_samples_per_branch": 45,
+  "panels": 3,
+  "description": "Top: nu and eta versus phi_plus for n=3; bottom: all five eta-versus-nu curves on common axes.",
+  "visual_check": "PNG inspected: no overlaps, clipping, or illegible labels."
+}

@@ -1,0 +1,41 @@
+{
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    "Regression: exact quartic product deficit",
+    "Regression: exact quadratic tuning coefficient",
+    "Regression: half-interval coupling",
+    "Regression: half-interval entropy product",
+    "Independent reflection and center matching",
+    "Regression: compactified exterior endpoint",
+    "Regression: normalized reference mass",
+    "Regression: normalized reference modulus",
+    "Signed two-horizon temperature identity",
+    "Positive finite physical data at B=4.20397",
+    "Positive finite physical data at B=4.20397",
+    "Positive finite physical data at B=4.44019",
+    "Positive finite physical data at B=1000",
+    "Rejects exterior extrapolation past runaway"
+  ],
+  "half_interval": {
+    "epsilon": 0.2,
+    "alpha": 4.893760362084386,
+    "nu": 2.9963474141958706,
+    "delta_nu": 0.0036525858041294157,
+    "eta": 0.9998599664742153,
+    "deficit": 0.00014003352578473294,
+    "deficit_over_epsilon4": 0.08752095361545807,
+    "delta_nu_over_epsilon2": 0.09131464510323538,
+    "bplus": 4.440192965232862,
+    "bminus": 0.45039933562136164,
+    "center_radius": 0.4098617815888578,
+    "central_phi": 4.296910049994551e-15,
+    "center_match": 1.7319479184152442e-13,
+    "symmetry_phi": 9.213463325608018e-14,
+    "symmetry_a2": 5.898059818321144e-16,
+    "cutoff": 1e-07,
+    "order": 5,
+    "rtol": 3e-14
+  },
+  "Bcrit": 4.203969175802427
+}

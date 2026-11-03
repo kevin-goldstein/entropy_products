@@ -1,0 +1,20 @@
+{
+  "x_min": 1e-10,
+  "criterion": "relative fine-cutoff change below 0.1 percent",
+  "rows": [
+    {
+      "cutoff": 1e-06,
+      "Bcrit": 4.203969175802427,
+      "M": 120404642.54864363,
+      "Tplus": 0.0007576161520499856
+    },
+    {
+      "cutoff": 1e-07,
+      "Bcrit": 4.203969175802461,
+      "M": 120404489.94976,
+      "Tplus": 0.0007576163124233478
+    }
+  ],
+  "relative_mass_change": 1.2673837187504589e-06,
+  "relative_temperature_change": 2.1168155117656795e-07
+}

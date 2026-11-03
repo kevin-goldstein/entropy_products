@@ -1,0 +1,110 @@
+{
+  "sources": [
+    {
+      "file": "figure_data/branch_trace.csv",
+      "sha256": "9d6686deda528b600cafdeb8cd8865c68aef1f2989fd05f64f75b9185c69a3ae"
+    },
+    {
+      "file": "figure_data/branch_r2_n2.csv",
+      "sha256": "9215c56d04ec708f598ba9ea900d353356f1864c5e8fb876a4ea5cd75c815d11"
+    }
+  ],
+  "new_numerical_solutions": false,
+  "generator": {
+    "file": "plot_product_branches.py",
+    "sha256": "0e7eeca9b4233dbf1386d475bc65e2b17d6dd2357e61a8b4335793cba1a157c2"
+  },
+  "export_formats": [
+    "pdf"
+  ],
+  "annotation_changes": {
+    "symmetric_direction": {
+      "branch_nodes": 3,
+      "epsilon_start": 0.7,
+      "epsilon_end": 1.2,
+      "label": "increasing epsilon"
+    },
+    "asymmetric_origin": {
+      "nu": 2.0,
+      "eta": 1.0,
+      "label": "Reissner\u2013Nordstr\u00f6m limit (nu=2)",
+      "continuous_branch_retained": true
+    }
+  },
+  "canvas_inches": [
+    7.1,
+    2.3
+  ],
+  "left": {
+    "charges": "Q1=Q2=1",
+    "slopes": "(alpha,-alpha), alpha^2=2 nu(nu+1)",
+    "nonzero_samples_per_branch": 45,
+    "nodes": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "zero_amplitude": "Analytic limits (nu,eta)=(n,1), inserted as open markers.",
+    "finite_last_samples": [
+      {
+        "n": 3,
+        "phi_plus": 6.0,
+        "nu": 2.950630993117459,
+        "eta": 0.9636697705033197
+      },
+      {
+        "n": 4,
+        "phi_plus": 6.0,
+        "nu": 3.881126785601565,
+        "eta": 0.9367927569694385
+      },
+      {
+        "n": 5,
+        "phi_plus": 6.0,
+        "nu": 4.801547553518018,
+        "eta": 0.9183242978556218
+      },
+      {
+        "n": 6,
+        "phi_plus": 6.0,
+        "nu": 5.716215787608869,
+        "eta": 0.9053666981711032
+      },
+      {
+        "n": 7,
+        "phi_plus": 6.0,
+        "nu": 6.627291543106071,
+        "eta": 0.8959789020167065
+      }
+    ]
+  },
+  "right": {
+    "charges_squared": [
+      2,
+      1
+    ],
+    "slopes": "(s,-2s)",
+    "nodes": 2,
+    "samples": 71,
+    "nonzero_numerical_samples": 70,
+    "zero_amplitude": "Analytic point (phi_plus,nu,eta)=(0,2,1).",
+    "finite_amplitude_range": [
+      -3,
+      3
+    ],
+    "fixed_example": {
+      "slopes": [
+        "sqrt(7)",
+        "-2 sqrt(7)"
+      ],
+      "phi_plus": 0.442793662273,
+      "nu": 2.192582403567252,
+      "eta": 1.0220531880189
+    }
+  },
+  "markers": "Open circles: analytic zero-amplitude limits; filled circles: finite last samples; star: independently checked fixed-slope excess example.",
+  "interpolation": "Straight line segments between retained samples; no extrapolation or fitted continuation.",
+  "endpoint_scope": "Finite sampled amplitudes are not established endpoints of complete branches."
+}

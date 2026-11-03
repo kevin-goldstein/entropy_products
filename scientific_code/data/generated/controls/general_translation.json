@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": 16,
+  "identities": [
+    "radial Jacobian y_r=j (using dimensionless y)",
+    "radius multiplier h has zero second derivative",
+    "radial quadratic transforms with j",
+    "Maxwell and scalar-force weights transform with j",
+    "radius second derivative with arbitrary target kinetic norm",
+    "Hamiltonian constraint has weight j",
+    "electric first integral including axionic charge mixing",
+    "electric flux Q with arbitrary axionic term",
+    "exterior limiting seed point",
+    "seed radial quadratic at limiting point",
+    "asymptotic metric normalization",
+    "coordinate normalization preserves radial electric component",
+    "nonzero scalar-potential mismatch is explicit",
+    "magnetic dilaton scalar endpoint flux",
+    "magnetic dilaton metric endpoint flux",
+    "leading scalar-radius singular balance"
+  ],
+  "scope": "V=0, static spherical neutral-scalar/abelian sector; exterior regularity is inherited from a regular collar. Singular endpoint identities require retaining boundary fluxes.",
+  "sympy": "1.14.0"
+}

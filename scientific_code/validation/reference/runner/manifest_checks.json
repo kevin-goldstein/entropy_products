@@ -1,0 +1,27 @@
+[
+  {
+    "check": "write",
+    "exit_code": 0,
+    "output": "Wrote checksums for 1 files."
+  },
+  {
+    "check": "unchanged",
+    "exit_code": 0,
+    "output": "Verified all 1 files; no missing, changed or unlisted files."
+  },
+  {
+    "check": "changed",
+    "exit_code": 1,
+    "output": "CHANGED a.txt"
+  },
+  {
+    "check": "unlisted",
+    "exit_code": 1,
+    "output": "UNLISTED extra.txt"
+  },
+  {
+    "check": "missing",
+    "exit_code": 1,
+    "output": "MISSING a.txt"
+  }
+]

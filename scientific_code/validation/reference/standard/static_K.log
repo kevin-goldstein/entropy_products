@@ -1,0 +1,7 @@
+D = 4 :  K_grav = (-A(r)*Derivative(dB(r), r) - dA(r)*Derivative(B(r), r)/2 + dB(r)*Derivative(A(r), r)/2)*B(r)
+  [PASS] D=4: K_grav = (D-2) Omega B^(D-3) [A' dB - B' dA - 2 A dB'] / 16 pi  (simplifies to 0)
+D = 5 :  K_grav = 3*pi*(-2*A(r)*Derivative(dB(r), r) - dA(r)*Derivative(B(r), r) + dB(r)*Derivative(A(r), r))*B(r)**2/8
+  [PASS] D=5: K_grav = (D-2) Omega B^(D-3) [A' dB - B' dA - 2 A dB'] / 16 pi  (simplifies to 0)
+D = 6 :  K_grav = 2*pi*(-2*A(r)*Derivative(dB(r), r) - dA(r)*Derivative(B(r), r) + dB(r)*Derivative(A(r), r))*B(r)**3/3
+  [PASS] D=6: K_grav = (D-2) Omega B^(D-3) [A' dB - B' dA - 2 A dB'] / 16 pi  (simplifies to 0)
+checks: 3 passed, 0 failed

@@ -1,0 +1,3 @@
+interior zeros of phi at b = [np.float64(0.829713871025928), np.float64(2.091415907771685)]  min phi = -0.19639618910629872
+branch nu range 1.7912895001450515 2.3721188646630234  eta range 0.9244916697155804 1.2103569487213146
+[PASS] Generated excess profile and coupling-product figure

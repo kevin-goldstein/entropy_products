@@ -1,0 +1,33 @@
+{
+  "order": 6,
+  "cutoff": 0.0001,
+  "tolerance": 1e-08,
+  "phi_plus": 0.4427936622764173,
+  "phi_minus": 0.44279366227625366,
+  "b_minus": 0.5812160855351034,
+  "eta": 1.0220531880176182,
+  "inner_constraint": 5.901057420487632e-12,
+  "max_scaled_collocation_residual": 5.912104139582652e-12,
+  "max_b2H": 1.7188915055827953e-11,
+  "minimum_b": 0.5828562719259563,
+  "nodes": 2,
+  "mesh_nodes": 4501,
+  "seed": "Analytic RN radius and degree-two Legendre scalar; no shooting profiles used"
+}
+{
+  "order": 8,
+  "cutoff": 3e-05,
+  "tolerance": 1e-09,
+  "phi_plus": 0.44279366227644346,
+  "phi_minus": 0.4427936622763151,
+  "b_minus": 0.5812160855351004,
+  "eta": 1.022053188017608,
+  "inner_constraint": 7.759126674500294e-12,
+  "max_scaled_collocation_residual": 5.908606937055083e-12,
+  "max_b2H": 1.734529145519591e-11,
+  "minimum_b": 0.5817090049419609,
+  "nodes": 2,
+  "mesh_nodes": 4501,
+  "seed": "Analytic RN radius and degree-two Legendre scalar; no shooting profiles used"
+}
+[PASS] Independent collocation confirms a two-node entropy excess

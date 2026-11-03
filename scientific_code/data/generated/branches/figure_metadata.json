@@ -1,0 +1,9 @@
+{
+  "source": "data/generated/branches/branch_trace.csv",
+  "sha256": "9d6686deda528b600cafdeb8cd8865c68aef1f2989fd05f64f75b9185c69a3ae",
+  "samples_per_branch": 45,
+  "upper_panels": "nu and eta versus phi_plus for n=3 only",
+  "lower_panel": "eta versus absolute nu for all n=3,...,7 on common horizontal and vertical axes",
+  "zero_amplitude": "Analytic limits, not integrated zero-amplitude data",
+  "endpoint": "Finite samples at phi_plus=6, not established endpoints"
+}

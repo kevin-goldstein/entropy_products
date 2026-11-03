@@ -1,0 +1,14 @@
+PASS: fixed-field Lagrangian coupling derivative, including electric, magnetic and axionic terms
+PASS: RN product normalization d log(C)/d mu=2/mu for Veff=mu=rp*rm
+Lambda2 = -96/143
+Lambda4 = 798872576/944518861
+d2 = 96/1001
+d4 = -38719078400/323969969323
+I2 = 2/7
+I4 = -604496/2147145
+sigma4 = -96/1001
+sigma6 = 51807744/231175945
+q = 575*z**9/52 - 2385*z**7/143 + 3885*z**5/286 - 1363*z**3/143 + 69*z/44
+gamma(-1) = -48/1001
+coefficient of [(1-eta)-(3-nu)epsilon^2]/epsilon^6 = -169421470208/1619849846615
+PASS: all exact low-order coefficients independently reproduced

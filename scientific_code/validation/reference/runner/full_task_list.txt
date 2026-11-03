@@ -1,0 +1,41 @@
+scripts/test_checklib_regressions.py
+scripts/test_inner_regularity_validation.py
+scripts/test_exact_dilaton_integration.py
+scripts/cold_from_hot_check.py
+scripts/static_K.py
+scripts/check_K_conservation.py
+scripts/check_K_dyonic4d.py
+scripts/reduced_equations_check.py
+scripts/ddim_identity.py
+scripts/dilaton_exact.py
+scripts/dilaton_thermo.py
+scripts/agm_checks.py
+scripts/smooth_representative_check.py
+scripts/complex_horizons.py
+scripts/btz_check.py
+scripts/subtracted_rn.py
+scripts/test_eom_num.py
+scripts/kerr_newman_check.py
+scripts/kerr_sen_fields.py  [potentially long]
+scripts/kerr_sen_check.py  [potentially long]
+scripts/kerr_sen_eom_grid.py
+scripts/region2_rotating.py  [potentially long]
+scripts/rotating_attractor_limit.py  [potentially long]
+scripts/c3_exact.py
+scripts/inner_regularity_physical.py  [potentially long]
+scripts/fig_inner_regularity.py  [potentially long]
+scripts/tuned_branch_bvp.py
+scripts/test_tuned_branch_bvp.py
+scripts/complex_horizons_symbolic.py
+scripts/toda_exact.py
+scripts/klr_continuation.py  [potentially long]
+scripts/continued_bvp.py  [potentially long]
+calculations/quartic.py
+calculations/half_interval_scan.py
+calculations/orbit_scan.py
+calculations/validate_core.py
+calculations/plot_orbit.py
+controls/check_static_virial.py
+controls/rotating_exact_controls.py
+controls/complex_validation.py
+controls/second_variation_control.py

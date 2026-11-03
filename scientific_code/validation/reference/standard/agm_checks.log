@@ -1,0 +1,61 @@
+(1) leading asymptotic equations:  (red1) at O(r^-3): Sigma**2*g0 + 2*beta1 = 0 ;  (tt) at O(r^-2): -2*M*b0 - V0 + alpha2 = 0
+    => beta1 = -Sigma**2*g0/2 , alpha2 = 2*M*b0 + V0 ;  constraint (red4) at O(r^0), O(r^-1), O(r^-2): [0, 0, 0]
+  [PASS] (1) the constraint (red4) holds at O(r^0), O(r^-1), O(r^-2)
+    C = F'^2/4 - F at infinity: M**2 + Sigma**2*g0 - V0 ;  C - (M^2 + g Sigma^2 - Veff(phi_inf)) = 0 (independent of the shift b0)
+  [PASS] (1) F'^2/4 - F at infinity = M^2 + g Sigma^2 - Veff(phi_inf), for any shift b0  (simplifies to 0)
+
+(2) exact dilaton family (AGM solution Ia), M, phi_inf, Q1, Q2 = [1.3, 0.2, 0.7, 0.9]
+    + horizon: 4 T^2 S^2 - (M^2 + Sigma^2 - Veff(phi_inf)) = -9.86e-32 ;  Sigma - (Phi2 Q2 - Phi1 Q1) = 6.16e-32
+  [PASS] (2) AGM (30) at the + horizon: 4 T^2 S^2 = M^2 + Sigma^2 - Veff(phi_inf)  (|value| = 9.86e-32, tolerance 1e-25)
+  [PASS] (2) shift-symmetry identity at the + horizon: Sigma = Phi2 Q2 - Phi1 Q1  (|value| = 6.16e-32, tolerance 1e-25)
+    - horizon: 4 T^2 S^2 - (M^2 + Sigma^2 - Veff(phi_inf)) = 0.00e+00 ;  Sigma - (Phi2 Q2 - Phi1 Q1) = 2.59e-31
+  [PASS] (2) AGM (30) at the - horizon: 4 T^2 S^2 = M^2 + Sigma^2 - Veff(phi_inf)  (|value| = 0.00e+00, tolerance 1e-25)
+  [PASS] (2) shift-symmetry identity at the - horizon: Sigma = Phi2 Q2 - Phi1 Q1  (|value| = 2.59e-31, tolerance 1e-25)
+    dressed first law at the + horizon, residuals for d/d(M, phi_inf, Q1, Q2): 2.0e-31, 9.9e-32, 3.0e-31, 4.9e-32
+  [PASS] (2) AGM (67) dressed first law at the + horizon, all four variations  (|value| = 2.96e-31, tolerance 1e-25)
+    dressed first law at the - horizon, residuals for d/d(M, phi_inf, Q1, Q2): 3.9e-31, 2.0e-31, 5.9e-31, 0.0e+00
+  [PASS] (2) AGM (67) dressed first law at the - horizon, all four variations  (|value| = 5.92e-31, tolerance 1e-25)
+    fixed S_+: dM/dphi_inf = 0.072321101752059 (implicit 0.072321101752059) ;  -Sigma = 0.072321101752059
+  [PASS] (2) at fixed S_+ and charges: dM/dphi_inf = -Sigma  (difference 3.70e-32, tolerance 1e-20)
+    fixed S_-: dM/dphi_inf = 0.072321101752059 (implicit 0.072321101752059) ;  -Sigma = 0.072321101752059
+  [PASS] (2) at fixed S_- and charges: dM/dphi_inf = -Sigma  (difference 3.70e-32, tolerance 1e-20)
+    phi_inf - phi_* = 1e-06: (phi_+ - phi_*)/(phi_inf - phi_*) * z_inf = 1.0000000000, (phi_- - phi_*)/(phi_inf - phi_*) * z_inf = -1.0000000000   [P_1(+-1) = +-1]
+  [PASS] (2) linear theory, phi_inf - phi_* = 1e-06: horizon values follow P_1(+1) = +1  (difference 4.97e-13, tolerance 1e-05)
+  [PASS] (2) linear theory, phi_inf - phi_* = 1e-06: horizon values follow P_1(-1) = -1  (difference 4.97e-13, tolerance 1e-05)
+    phi_inf - phi_* = 1e-09: (phi_+ - phi_*)/(phi_inf - phi_*) * z_inf = 1.0000000000, (phi_- - phi_*)/(phi_inf - phi_*) * z_inf = -1.0000000000   [P_1(+-1) = +-1]
+  [PASS] (2) linear theory, phi_inf - phi_* = 1e-09: horizon values follow P_1(+1) = +1  (difference 4.97e-19, tolerance 1e-08)
+  [PASS] (2) linear theory, phi_inf - phi_* = 1e-09: horizon values follow P_1(-1) = -1  (difference 4.97e-19, tolerance 1e-08)
+
+(3) GY model: m'(r) - r^2 L_F/4 = 0 ;  (a^2 b^2)'' - 2 - 2 r^2 (s L_F' - L_F) = 0
+  [PASS] (3) GY solution solves the field equation m' = r^2 L_F/4  (simplifies to 0)
+  [PASS] (3) GY: (a^2 b^2)'' - 2 = 2 b^2 (s L_F' - L_F)  (simplifies to 0)
+    regular non-extremal black holes (M = M0): lam/P = 0.1: r_pm = 2.807600, 0.178798, T+S+ + T-S- = 0.505032; lam/P = 0.2: r_pm = 1.641511, 0.373279, T+S+ + T-S- = 0.157223; lam/P = 0.25: r_pm = 1.227707, 0.535719, T+S+ + T-S- = 0.051071; 
+  [PASS] (3) GY regular black hole lam/P = 0.1: T+S+ + T-S- is nonzero  (|value| = 5.05e-01, must exceed 1e-02)
+  [PASS] (3) GY regular black hole lam/P = 0.2: T+S+ + T-S- is nonzero  (|value| = 1.57e-01, must exceed 1e-02)
+  [PASS] (3) GY regular black hole lam/P = 0.25: T+S+ + T-S- is nonzero  (|value| = 5.11e-02, must exceed 1e-02)
+    lam/P = W0(1/e) = 0.278464542761, M0 = P^2/2k = 0.947512727707; extremal: a^2(r0) = 2.0e-31 at r0 = 0.825517453653, S_ext = pi r0^2 = 2.140929628216, GY (2.19) 4 pi w0 P^2/(1+w0)^2 = 2.140929628216
+  [PASS] (3) GY extremal horizon: a^2(r0) = 0 at M = M0  (|value| = 1.97e-31, tolerance 1e-25)
+  [PASS] (3) GY extremal entropy = GY (2.19)  (difference 0.00e+00, tolerance 1e-25)
+    M/M0      r_+          r_-          T+S+ + T-S-     S+S-        I_II + (T+S+ - T-S-)   I_II/(k+ - k-)   -2 pi I_II/(k+ - k-)
+    1+0.05    1.214666703  0.492169695  +6.461188e-02   3.527310858   4.9e-32               -0.270923381     1.702261804
+  [PASS] (3) GY, M/M0 = 1 + 0.05: region-II Komar relation I_II = -(T+S+ - T-S-)  (|value| = 4.93e-32, tolerance 1e-25)
+  [PASS] (3) GY, M/M0 = 1 + 0.05: T+S+ + T-S- is nonzero (no harmonic area product)  (|value| = 6.46e-02, must exceed 3e-02)
+    1+0.01    0.989039031  0.674406955  +1.122149e-02   4.391073305   1.2e-32               -0.323991593     2.035699216
+  [PASS] (3) GY, M/M0 = 1 + 0.01: region-II Komar relation I_II = -(T+S+ - T-S-)  (|value| = 1.23e-32, tolerance 1e-25)
+  [PASS] (3) GY, M/M0 = 1 + 0.01: T+S+ + T-S- is nonzero (no harmonic area product)  (|value| = 1.12e-02, must exceed 5e-03)
+    1+0.001   0.875645069  0.776651073  +1.090819e-03   4.564653877   0.0e+00               -0.339001574     2.130009710
+  [PASS] (3) GY, M/M0 = 1 + 0.001: region-II Komar relation I_II = -(T+S+ - T-S-)  (|value| = 0.00e+00, tolerance 1e-25)
+  [PASS] (3) GY, M/M0 = 1 + 0.001: T+S+ + T-S- is nonzero (no harmonic area product)  (|value| = 1.09e-03, must exceed 5e-04)
+    1+0.0001  0.841225230  0.809935991  +1.087787e-04   4.581690208   0.0e+00               -0.340565095     2.139833601
+  [PASS] (3) GY, M/M0 = 1 + 0.0001: region-II Komar relation I_II = -(T+S+ - T-S-)  (|value| = 0.00e+00, tolerance 1e-25)
+  [PASS] (3) GY, M/M0 = 1 + 0.0001: T+S+ + T-S- is nonzero (no harmonic area product)  (|value| = 1.09e-04, must exceed 5e-05)
+    1+1.0e-5  0.830470790  0.820576750  +1.087485e-05   4.583390758   3.9e-34               -0.340722083     2.140819985
+  [PASS] (3) GY, M/M0 = 1 + 1.0e-5: region-II Komar relation I_II = -(T+S+ - T-S-)  (|value| = 3.85e-34, tolerance 1e-25)
+  [PASS] (3) GY, M/M0 = 1 + 1.0e-5: T+S+ + T-S- is nonzero (no harmonic area product)  (|value| = 1.09e-05, must exceed 5e-06)
+  [PASS] (3) GY: -2 pi I_II/(k+ - k-) approaches S_ext monotonically as M -> M0  (deviations 4.4e-01, 1.1e-01, 1.1e-02, 1.1e-03, 1.1e-04)
+  [PASS] (3) GY: -2 pi I_II/(k+ - k-) - S_ext at M/M0 = 1 + 1e-5  (|value| = 1.10e-04, tolerance 2e-04)
+    near horizon: v1 = 1.066089897, v2 = 0.681479066, f = -0.340739533, -2 pi f = 2.140929628216 = S_ext
+  [PASS] (3) GY entropy function at the AdS2 x S2 extremum: -2 pi f = S_ext  (difference 7.89e-31, tolerance 1e-20)
+    for M < M0 (repulsive singular centre): M/M0 = 0.999: no horizon; M/M0 = 0.990: no horizon; 
+  [PASS] (3) GY with lam/P = W0(1/e): no horizon for M < M0 (M/M0 = 0.999, 0.99)
+checks: 35 passed, 0 failed

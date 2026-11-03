@@ -1,0 +1,147 @@
+  [PASS] order4_coarse: successful complete collocation
+  [PASS] order4_coarse: requested relative collocation residual  (|value| = 9.99e-09, tolerance 1e-08)
+  [PASS] order4_coarse: both Taylor boundary matches  (|value| = 8.88e-16, tolerance 1e-10)
+  [PASS] order4_coarse: ODE residual at independent off-mesh points  (|value| = 8.36e-08, tolerance 1e-06)
+  [PASS] order4_coarse: Hamiltonian first integral b²H  (|value| = 3.46e-10, tolerance 1e-07)
+  [PASS] order4_coarse: both horizon Hamiltonian limits  (|value| = 1.83e-09, tolerance 1e-08)
+  [PASS] order4_coarse: independently differentiated Ricci equation  (|value| = 3.11e-08, tolerance 2e-06)
+  [PASS] order4_coarse: positive b and finite horizon curvature
+  [PASS] order4_coarse: nontrivial three-node branch retained
+  [PASS] order6_medium: successful complete collocation
+  [PASS] order6_medium: requested relative collocation residual  (|value| = 1.00e-09, tolerance 1e-09)
+  [PASS] order6_medium: both Taylor boundary matches  (|value| = 1.78e-15, tolerance 1e-10)
+  [PASS] order6_medium: ODE residual at independent off-mesh points  (|value| = 9.55e-09, tolerance 1e-06)
+  [PASS] order6_medium: Hamiltonian first integral b²H  (|value| = 1.56e-11, tolerance 1e-07)
+  [PASS] order6_medium: both horizon Hamiltonian limits  (|value| = 2.44e-11, tolerance 1e-08)
+  [PASS] order6_medium: independently differentiated Ricci equation  (|value| = 3.18e-09, tolerance 2e-06)
+  [PASS] order6_medium: positive b and finite horizon curvature
+  [PASS] order6_medium: nontrivial three-node branch retained
+  [PASS] order6_fine: successful complete collocation
+  [PASS] order6_fine: requested relative collocation residual  (|value| = 1.00e-10, tolerance 1e-10)
+  [PASS] order6_fine: both Taylor boundary matches  (|value| = 1.30e-18, tolerance 1e-10)
+  [PASS] order6_fine: ODE residual at independent off-mesh points  (|value| = 4.64e-10, tolerance 1e-08)
+  [PASS] order6_fine: Hamiltonian first integral b²H  (|value| = 5.17e-13, tolerance 1e-09)
+  [PASS] order6_fine: both horizon Hamiltonian limits  (|value| = 4.29e-11, tolerance 1e-08)
+  [PASS] order6_fine: independently differentiated Ricci equation  (|value| = 2.19e-10, tolerance 2e-08)
+  [PASS] order6_fine: positive b and finite horizon curvature
+  [PASS] order6_fine: nontrivial three-node branch retained
+  [PASS] order8_larger_cutoff: successful complete collocation
+  [PASS] order8_larger_cutoff: requested relative collocation residual  (|value| = 1.00e-10, tolerance 1e-10)
+  [PASS] order8_larger_cutoff: both Taylor boundary matches  (|value| = 2.78e-17, tolerance 1e-10)
+  [PASS] order8_larger_cutoff: ODE residual at independent off-mesh points  (|value| = 2.48e-09, tolerance 1e-08)
+  [PASS] order8_larger_cutoff: Hamiltonian first integral b²H  (|value| = 8.32e-13, tolerance 1e-09)
+  [PASS] order8_larger_cutoff: both horizon Hamiltonian limits  (|value| = 4.35e-11, tolerance 1e-08)
+  [PASS] order8_larger_cutoff: independently differentiated Ricci equation  (|value| = 3.17e-10, tolerance 2e-08)
+  [PASS] order8_larger_cutoff: positive b and finite horizon curvature
+  [PASS] order8_larger_cutoff: nontrivial three-node branch retained
+  [PASS] order8_fine: successful complete collocation
+  [PASS] order8_fine: requested relative collocation residual  (|value| = 9.99e-11, tolerance 1e-10)
+  [PASS] order8_fine: both Taylor boundary matches  (|value| = 1.78e-15, tolerance 1e-10)
+  [PASS] order8_fine: ODE residual at independent off-mesh points  (|value| = 8.02e-10, tolerance 1e-08)
+  [PASS] order8_fine: Hamiltonian first integral b²H  (|value| = 6.62e-13, tolerance 1e-09)
+  [PASS] order8_fine: both horizon Hamiltonian limits  (|value| = 1.02e-12, tolerance 1e-08)
+  [PASS] order8_fine: independently differentiated Ricci equation  (|value| = 3.12e-10, tolerance 2e-08)
+  [PASS] order8_fine: positive b and finite horizon curvature
+  [PASS] order8_fine: nontrivial three-node branch retained
+  [PASS] order4_coarse: alpha convergence  (|value| = 1.18e-10, tolerance 1e-08)
+  [PASS] order4_coarse: area-product convergence  (|value| = 8.40e-11, tolerance 1e-08)
+  [PASS] order4_coarse: all four fields converge including horizon derivatives  (|value| = 4.38e-10, tolerance 1e-07)
+  [PASS] order4_coarse: horizon curvature convergence  (|value| = 3.05e-10, tolerance 1e-07)
+  [PASS] order6_medium: alpha convergence  (|value| = 5.43e-12, tolerance 1e-08)
+  [PASS] order6_medium: area-product convergence  (|value| = 4.02e-12, tolerance 1e-08)
+  [PASS] order6_medium: all four fields converge including horizon derivatives  (|value| = 1.97e-11, tolerance 1e-07)
+  [PASS] order6_medium: horizon curvature convergence  (|value| = 1.21e-11, tolerance 1e-07)
+  [PASS] order6_fine: alpha convergence  (|value| = 2.72e-13, tolerance 1e-08)
+  [PASS] order6_fine: area-product convergence  (|value| = 4.12e-14, tolerance 1e-08)
+  [PASS] order6_fine: all four fields converge including horizon derivatives  (|value| = 5.46e-12, tolerance 1e-07)
+  [PASS] order6_fine: horizon curvature convergence  (|value| = 5.49e-13, tolerance 1e-07)
+  [PASS] order8_larger_cutoff: alpha convergence  (|value| = 6.87e-13, tolerance 1e-08)
+  [PASS] order8_larger_cutoff: area-product convergence  (|value| = 2.94e-14, tolerance 1e-08)
+  [PASS] order8_larger_cutoff: all four fields converge including horizon derivatives  (|value| = 7.10e-12, tolerance 1e-07)
+  [PASS] order8_larger_cutoff: horizon curvature convergence  (|value| = 8.26e-13, tolerance 1e-07)
+  [PASS] order8_fine: alpha convergence  (|value| = 0.00e+00, tolerance 1e-08)
+  [PASS] order8_fine: area-product convergence  (|value| = 0.00e+00, tolerance 1e-08)
+  [PASS] order8_fine: all four fields converge including horizon derivatives  (|value| = 0.00e+00, tolerance 1e-07)
+  [PASS] order8_fine: horizon curvature convergence  (|value| = 0.00e+00, tolerance 1e-07)
+  [PASS] three strict settings: coupling spread  (|value| = 6.87e-13, tolerance 2e-10)
+  [PASS] three strict settings: product spread  (|value| = 4.12e-14, tolerance 2e-10)
+  [PASS] resolved sub-attractor area-product deficit  (|value| = 1.40e-04, must exceed 1e-04)
+  [PASS] deficit is much larger than empirical convergence spread
+  [PASS] regression: root agrees with reference inward result  (difference 5.47e-11, tolerance 1e-08)
+  [PASS] fixed_alpha_kb2.5: successful complete collocation
+  [PASS] fixed_alpha_kb2.5: requested relative collocation residual  (|value| = 1.00e-10, tolerance 1e-10)
+  [PASS] fixed_alpha_kb2.5: both Taylor boundary matches  (|value| = 2.78e-17, tolerance 1e-10)
+  [PASS] fixed_alpha_kb2.5: ODE residual at independent off-mesh points  (|value| = 4.67e-10, tolerance 1e-08)
+  [PASS] fixed_alpha_kb2.5: Hamiltonian first integral b²H  (|value| = 5.19e-13, tolerance 1e-09)
+  [PASS] fixed_alpha_kb2.5: both horizon Hamiltonian limits  (|value| = 7.99e-13, tolerance 1e-08)
+  [PASS] fixed_alpha_kb2.5: independently differentiated Ricci equation  (|value| = 2.19e-10, tolerance 2e-08)
+  [PASS] fixed_alpha_kb2.5: positive b and finite horizon curvature
+  [PASS] fixed_alpha_kb2.5: nontrivial three-node branch retained
+  [PASS] fixed_alpha_kb2.5: coupling held exactly fixed
+  [PASS] fixed_alpha_kb2.5: solved outer scalar remains 0.2  (difference 1.74e-12, tolerance 1e-08)
+  [PASS] fixed_alpha_kb2.5: same normalized product  (difference 4.04e-14, tolerance 1e-09)
+  [PASS] fixed_alpha_kb2.5: positive outer slope and asymptotically flat exterior diagnostics
+  [PASS] fixed_alpha_kb2.5: exterior Hamiltonian  (|value| = 2.60e-16, tolerance 1e-08)
+  [PASS] fixed_alpha_kb2.5: exterior slope stabilizes between r=1e4 and 1e5  (|value| = 9.24e-08, tolerance 1e-06)
+  [PASS] fixed_alpha_kb2.5: r phi-prime decays in the far exterior
+  [PASS] fixed_alpha_kb2.5: strict field-equation entropy-gap bound respected
+  [PASS] fixed_alpha_kb3: successful complete collocation
+  [PASS] fixed_alpha_kb3: requested relative collocation residual  (|value| = 1.00e-10, tolerance 1e-10)
+  [PASS] fixed_alpha_kb3: both Taylor boundary matches  (|value| = 1.78e-15, tolerance 1e-10)
+  [PASS] fixed_alpha_kb3: ODE residual at independent off-mesh points  (|value| = 1.11e-09, tolerance 1e-08)
+  [PASS] fixed_alpha_kb3: Hamiltonian first integral b²H  (|value| = 8.61e-13, tolerance 1e-09)
+  [PASS] fixed_alpha_kb3: both horizon Hamiltonian limits  (|value| = 1.88e-12, tolerance 1e-08)
+  [PASS] fixed_alpha_kb3: independently differentiated Ricci equation  (|value| = 3.15e-10, tolerance 2e-08)
+  [PASS] fixed_alpha_kb3: positive b and finite horizon curvature
+  [PASS] fixed_alpha_kb3: nontrivial three-node branch retained
+  [PASS] fixed_alpha_kb3: coupling held exactly fixed
+  [PASS] fixed_alpha_kb3: solved outer scalar remains 0.2  (difference 1.26e-12, tolerance 1e-08)
+  [PASS] fixed_alpha_kb3: same normalized product  (difference 7.61e-14, tolerance 1e-09)
+  [PASS] fixed_alpha_kb3: positive outer slope and asymptotically flat exterior diagnostics
+  [PASS] fixed_alpha_kb3: exterior Hamiltonian  (|value| = 2.44e-16, tolerance 1e-08)
+  [PASS] fixed_alpha_kb3: exterior slope stabilizes between r=1e4 and 1e5  (|value| = 4.73e-09, tolerance 1e-06)
+  [PASS] fixed_alpha_kb3: r phi-prime decays in the far exterior
+  [PASS] fixed_alpha_kb3: strict field-equation entropy-gap bound respected
+  [PASS] fixed_alpha_kb4: successful complete collocation
+  [PASS] fixed_alpha_kb4: requested relative collocation residual  (|value| = 1.00e-10, tolerance 1e-10)
+  [PASS] fixed_alpha_kb4: both Taylor boundary matches  (|value| = 3.55e-15, tolerance 1e-10)
+  [PASS] fixed_alpha_kb4: ODE residual at independent off-mesh points  (|value| = 3.01e-09, tolerance 1e-08)
+  [PASS] fixed_alpha_kb4: Hamiltonian first integral b²H  (|value| = 1.75e-12, tolerance 1e-09)
+  [PASS] fixed_alpha_kb4: both horizon Hamiltonian limits  (|value| = 2.86e-11, tolerance 1e-08)
+  [PASS] fixed_alpha_kb4: independently differentiated Ricci equation  (|value| = 6.06e-10, tolerance 2e-08)
+  [PASS] fixed_alpha_kb4: positive b and finite horizon curvature
+  [PASS] fixed_alpha_kb4: nontrivial three-node branch retained
+  [PASS] fixed_alpha_kb4: coupling held exactly fixed
+  [PASS] fixed_alpha_kb4: solved outer scalar remains 0.2  (difference 2.23e-12, tolerance 1e-08)
+  [PASS] fixed_alpha_kb4: same normalized product  (difference 2.51e-13, tolerance 1e-09)
+  [PASS] fixed_alpha_kb4: positive outer slope and asymptotically flat exterior diagnostics
+  [PASS] fixed_alpha_kb4: exterior Hamiltonian  (|value| = 2.12e-16, tolerance 1e-08)
+  [PASS] fixed_alpha_kb4: exterior slope stabilizes between r=1e4 and 1e5  (|value| = 6.94e-10, tolerance 1e-06)
+  [PASS] fixed_alpha_kb4: r phi-prime decays in the far exterior
+  [PASS] fixed_alpha_kb4: strict field-equation entropy-gap bound respected
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: collocation succeeds
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: recovered coupling  (difference 9.81e-14, tolerance 1e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: full profile including both horizons b  (|value| = 5.55e-14, tolerance 2e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: full profile including both horizons bprime  (|value| = 1.44e-15, tolerance 2e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: full profile including both horizons phi  (|value| = 2.39e-15, tolerance 2e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: full profile including both horizons phiprime  (|value| = 2.11e-12, tolerance 2e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: full curvature profile  (|value| = 3.26e-13, tolerance 5e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: unit area product  (difference 8.85e-14, tolerance 1e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: Hamiltonian first integral  (|value| = 6.24e-13, tolerance 1e-09)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: independent off-mesh ODE residual  (|value| = 1.98e-10, tolerance 1e-08)
+  [PASS] exact alpha=2 M=1.6 phi_inf=0.2: rejects reversed scalar charge  (|value| = 5.74e-01, must exceed 1e-03)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: collocation succeeds
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: recovered coupling  (difference 2.33e-13, tolerance 1e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: full profile including both horizons b  (|value| = 1.53e-13, tolerance 2e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: full profile including both horizons bprime  (|value| = 6.35e-14, tolerance 2e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: full profile including both horizons phi  (|value| = 4.81e-14, tolerance 2e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: full profile including both horizons phiprime  (|value| = 5.87e-12, tolerance 2e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: full curvature profile  (|value| = 1.33e-12, tolerance 5e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: unit area product  (difference 4.09e-13, tolerance 1e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: Hamiltonian first integral  (|value| = 8.58e-13, tolerance 1e-09)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: independent off-mesh ODE residual  (|value| = 2.32e-10, tolerance 1e-08)
+  [PASS] exact alpha=2 M=3 phi_inf=-0.45: rejects reversed scalar charge  (|value| = 1.68e+00, must exceed 1e-03)
+
+Independent two-horizon collocation: alpha=4.893760362084041, product=0.999859966473997, deficit=0.000140033526003
+Raw convergence, constraints, derivatives, curvature and profiles: data/generated/bvp
+checks: 143 passed, 0 failed

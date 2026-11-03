@@ -1,0 +1,5 @@
+[PASS] n=3: 45 samples; epsilon=6 nu=2.950630993117, eta=0.963669770503
+[PASS] n=4: 45 samples; epsilon=6 nu=3.881126785602, eta=0.936792756969
+[PASS] n=5: 45 samples; epsilon=6 nu=4.801547553518, eta=0.918324297856
+[PASS] n=6: 45 samples; epsilon=6 nu=5.716215787609, eta=0.905366698171
+[PASS] n=7: 45 samples; epsilon=6 nu=6.627291543106, eta=0.895978902017

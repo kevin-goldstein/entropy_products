@@ -1,0 +1,70 @@
+--- M=3.0 phi0=0.2 Q1=1.0 Q2=2.0 : r+=5.2059454 r-=0.79405457 Sigma=0.19824258
+   first law at r+, variation M   : residual = 1.2328e-31
+  [PASS] first law at r+, d/dM  (|value| = 1.23e-31, tolerance 1e-25)
+   first law at r-, variation M   : residual = 1.1614e-31
+  [PASS] first law at r-, d/dM  (|value| = 1.16e-31, tolerance 1e-25)
+   first law at r+, variation phi0: residual = -1.3601e-31
+  [PASS] first law at r+, d/dphi0  (|value| = 1.36e-31, tolerance 1e-25)
+  [PASS] negative control: first law at r+ without the scalar-charge term, d/dphi0  (|value| = 1.98e-01, must exceed 1e-02)
+   first law at r-, variation phi0: residual = -2.749e-31
+  [PASS] first law at r-, d/dphi0  (|value| = 2.75e-31, tolerance 1e-25)
+   first law at r+, variation Q1  : residual = 2.3723e-31
+  [PASS] first law at r+, d/dQ1  (|value| = 2.37e-31, tolerance 1e-25)
+   first law at r-, variation Q1  : residual = 3.4621e-31
+  [PASS] first law at r-, d/dQ1  (|value| = 3.46e-31, tolerance 1e-25)
+   first law at r+, variation Q2  : residual = 7.5658e-32
+  [PASS] first law at r+, d/dQ2  (|value| = 7.57e-32, tolerance 1e-25)
+   first law at r-, variation Q2  : residual = -6.8805e-33
+  [PASS] first law at r-, d/dQ2  (|value| = 6.88e-33, tolerance 1e-25)
+   T+S+ + T-S- = 0.0 ;  T+S+ - Delta/2 = 0.0
+   S+S- - (2 pi Q1 Q2)^2 = -3.4211e-49
+  [PASS] T+S+ + T-S- = 0  (|value| = 0.00e+00, tolerance 1e-40)
+  [PASS] T+S+ = Delta/2  (|value| = 0.00e+00, tolerance 1e-40)
+  [PASS] S+S- = (2 pi Q1 Q2)^2  (|value| = 3.42e-49, tolerance 1e-40)
+   Smarr at r+: M - 2TS - Phi.Q = -6.6819e-52
+  [PASS] Smarr relation at r+  (|value| = 6.68e-52, tolerance 1e-40)
+   Smarr at r-: M - 2TS - Phi.Q = -5.3455e-51
+  [PASS] Smarr relation at r-  (|value| = 5.35e-51, tolerance 1e-40)
+   int (Veff/B^2 - 1) = 2.1759e-51 ;  int dVeff/B^2 = 7.1036e-51 ;  Komar: T+S+ - T-S- - int Veff/2B^2 = 0.0
+  [PASS] averaged equation int (Veff/B^2 - 1) = 0  (|value| = 2.18e-51, tolerance 1e-40)
+  [PASS] averaged equation int dVeff/B^2 = 0  (|value| = 7.10e-51, tolerance 1e-40)
+  [PASS] region-II Komar relation  (|value| = 0.00e+00, tolerance 1e-40)
+--- M=2.5 phi0=-0.7 Q1=0.6 Q2=1.3 : r+=3.5669033 r-=1.4330967 Sigma=1.3529026
+   first law at r+, variation M   : residual = -1.0694e-31
+  [PASS] first law at r+, d/dM  (|value| = 1.07e-31, tolerance 1e-25)
+   first law at r-, variation M   : residual = -2.0347e-30
+  [PASS] first law at r-, d/dM  (|value| = 2.03e-30, tolerance 1e-25)
+   first law at r+, variation phi0: residual = 2.914e-31
+  [PASS] first law at r+, d/dphi0  (|value| = 2.91e-31, tolerance 1e-25)
+  [PASS] negative control: first law at r+ without the scalar-charge term, d/dphi0  (|value| = 1.35e+00, must exceed 1e-02)
+   first law at r-, variation phi0: residual = 5.0111e-30
+  [PASS] first law at r-, d/dphi0  (|value| = 5.01e-30, tolerance 1e-25)
+   first law at r+, variation Q1  : residual = -1.8237e-31
+  [PASS] first law at r+, d/dQ1  (|value| = 1.82e-31, tolerance 1e-25)
+   first law at r-, variation Q1  : residual = -3.1828e-30
+  [PASS] first law at r-, d/dQ1  (|value| = 3.18e-30, tolerance 1e-25)
+   first law at r+, variation Q2  : residual = 8.1409e-32
+  [PASS] first law at r+, d/dQ2  (|value| = 8.14e-32, tolerance 1e-25)
+   first law at r-, variation Q2  : residual = 9.266e-31
+  [PASS] first law at r-, d/dQ2  (|value| = 9.27e-31, tolerance 1e-25)
+   T+S+ + T-S- = 1.3364e-51 ;  T+S+ - Delta/2 = 0.0
+   S+S- - (2 pi Q1 Q2)^2 = 6.4146e-49
+  [PASS] T+S+ + T-S- = 0  (|value| = 1.34e-51, tolerance 1e-40)
+  [PASS] T+S+ = Delta/2  (|value| = 0.00e+00, tolerance 1e-40)
+  [PASS] S+S- = (2 pi Q1 Q2)^2  (|value| = 6.41e-49, tolerance 1e-40)
+   Smarr at r+: M - 2TS - Phi.Q = 0.0
+  [PASS] Smarr relation at r+  (|value| = 0.00e+00, tolerance 1e-40)
+   Smarr at r-: M - 2TS - Phi.Q = 2.6728e-50
+  [PASS] Smarr relation at r-  (|value| = 2.67e-50, tolerance 1e-40)
+   int (Veff/B^2 - 1) = -3.1403e-50 ;  int dVeff/B^2 = -6.5864e-50 ;  Komar: T+S+ - T-S- - int Veff/2B^2 = 1.3364e-50
+  [PASS] averaged equation int (Veff/B^2 - 1) = 0  (|value| = 3.14e-50, tolerance 1e-40)
+  [PASS] averaged equation int dVeff/B^2 = 0  (|value| = 6.59e-50, tolerance 1e-40)
+  [PASS] region-II Komar relation  (|value| = 1.34e-50, tolerance 1e-40)
+--- Prop. 4.1(3): mixed boundary condition Sigma = dW/dphi_inf, first law d(M+W) = T+ dS+ at fixed charges
+   mixed b.c. W = 0.30 phi^2/2 at phi_inf = 0.1 (M = 34.2253, Delta = 34.1596): d(M+W) - T+ dS+ = 7.17e-26 ;  Sigma - W' = 0.0
+  [PASS] mixed b.c. at phi_inf = 0.1: d(M+W) = T+ dS+  (|value| = 7.17e-26, tolerance 1e-20)
+  [PASS] mixed b.c. at phi_inf = 0.1: on the slice Sigma = W'  (|value| = 0.00e+00, tolerance 1e-40)
+   mixed b.c. W = 0.30 phi^2/2 at phi_inf = 0.2 (M = 9.91213, Delta = 9.69953): d(M+W) - T+ dS+ = 7.4e-27 ;  Sigma - W' = 0.0
+  [PASS] mixed b.c. at phi_inf = 0.2: d(M+W) = T+ dS+  (|value| = 7.40e-27, tolerance 1e-20)
+  [PASS] mixed b.c. at phi_inf = 0.2: on the slice Sigma = W'  (|value| = 0.00e+00, tolerance 1e-40)
+checks: 38 passed, 0 failed

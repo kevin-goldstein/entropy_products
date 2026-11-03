@@ -1,0 +1,113 @@
+Reproducing the PRL Letter and Supplemental Material
+Package identifier: 2026.11.03-prl5
+Preserved figure revision: 2026.11.03-prl-referees
+Scientific code and reference data: 2026.11.02-r5
+
+This code-only package contains the unchanged scientific_code/ snapshot and
+separate prl_figures/ presentation scripts and inputs for the PRL figures.
+The accompanying paper is titled "Entropy products beyond the attractor";
+the manuscript and its LaTeX sources are distributed separately.
+The scientific snapshot's original MANIFEST.sha256 verifies all 266 files.
+The top-level MANIFEST.sha256 covers this complete code package.
+The package is prepared for GitHub upload; no archival DOI has been assigned.
+See LICENSE_STATUS.md for the authors' recorded license status.
+
+SETUP AND INTEGRITY
+
+Run commands from the repository root. The recorded validation environment
+uses Python 3.14.3 and the exact versions in scientific_code/requirements.txt:
+  python3.14 -m venv .venv
+  .venv/bin/python -m pip install -r scientific_code/requirements.txt
+  .venv/bin/python scientific_code/manifest.py --root .
+  .venv/bin/python scientific_code/manifest.py
+
+On Windows use the corresponding Python 3.14 interpreter and replace
+.venv/bin/python with .venv\Scripts\python.exe. Checksum verification itself
+requires only Python 3.11 or later and the standard library.
+
+The runner records versions, settings, exit codes and logs. Its default fresh
+outputs are under scientific_code/results/; supplied reference data remain
+unchanged. Run without -O or PYTHONOPTIMIZE so assertions remain active.
+Verify supplied checksums before regenerating the PRL plots: these scripts
+write into prl_figures/figures/ and may update metadata. Regenerated PDFs can
+have different checksums even when their scientific content is unchanged.
+
+FIGURES FROM SUPPLIED DATA
+
+Letter Figure 1:
+  .venv/bin/python prl_figures/plot_product_branches.py
+Output: prl_figures/figures/product_branches.pdf.
+Inputs: figure_data/branch_trace.csv and branch_r2_n2.csv, with hashes in
+figure_data/product_branches_metadata.json. The increasing-amplitude arrow
+and Reissner--Nordstrom label are presentation changes; all samples are retained.
+
+Supplement Figures S2, S3 and S4:
+  .venv/bin/python prl_figures/plot_supplement_figures.py
+Outputs: scalar_profile.pdf, amplitude_example.pdf and families.pdf in the
+same figures/ directory. Input hashes are checked before plotting.
+These scripts generate PDF figures (and may update metadata) from supplied
+data; they solve no differential equations.
+
+Supplement Figure S1:
+  .venv/bin/python scientific_code/run.py --only plot_deficit
+Output: scientific_code/results/data/figures/deficit.pdf.
+The supplied reference scientific_code/data/generated/figures/deficit.pdf
+is byte-identical to the manuscript's Figure S1. The historical scientific
+snapshot retains its original plotting exports; the manuscript package uses
+one PDF per figure.
+
+NUMERICAL RESULTS AND TABLES
+
+Symmetric branches, Table S2, fixed-coupling selection, and endpoint refinements:
+  .venv/bin/python scientific_code/run.py --only branch_trace fixed_coupling_control numerical_regime
+Stored inputs/results: scientific_code/data/generated/branches/.
+These tasks record the full 45 nonzero amplitudes on each of n=3,...,7.
+
+Table S1 collocation and independent two-sided radial shooting:
+  .venv/bin/python scientific_code/run.py --only tuned_branch_bvp test_tuned_branch_bvp
+Stored results: scientific_code/data/generated/bvp/tuned_branch_bvp.json and
+independent_double_shoot.json. The table selects order4_coarse (cutoff 3e-5,
+tolerance 1e-8), order8_fine (cutoff 1e-4, tolerance 1e-10), and the shooting
+rows at cutoffs 1e-5 and 1e-7 with relative tolerance 2e-13.
+
+Small-amplitude deficit and quartic coefficient:
+  .venv/bin/python scientific_code/run.py --only quartic half_interval_scan
+Stored results: scientific_code/data/generated/branch/.
+Exact higher-mode coefficients through n=20:
+  .venv/bin/python scientific_code/run.py --only higher_modes
+This exact task may be expensive; the verified rational table is supplied in
+scientific_code/data/generated/higher_modes/higher_modes_results.tsv.
+
+Fixed unequal-slope excess and independent constructions:
+  .venv/bin/python scientific_code/run.py --only asymmetric_excess asymmetric_branch_check asymmetric_collocation
+Stored results: scientific_code/data/generated/asymmetric/ and
+scientific_code/validation/excess/.
+The finite unequal-slope branch and scalar profiles can be regenerated with:
+  .venv/bin/python scientific_code/run.py --only plot_excess
+This task performs fresh numerical solves as well as plotting.
+
+Exterior orbit and its endpoints:
+  .venv/bin/python scientific_code/run.py --only orbit_scan
+Stored results: scientific_code/data/generated/orbit/.
+For the remaining covariant, exact-solution and near-horizon checks, see
+scientific_code/docs/REPRODUCING.md and scientific_code/docs/CLAIMS.md.
+
+RUNNER MODES AND VALIDATION SCOPE
+
+List every task without executing calculations:
+  .venv/bin/python scientific_code/run.py --mode full --list
+Default central selection:
+  .venv/bin/python scientific_code/run.py
+Broader selection, omitting designated expensive tasks:
+  .venv/bin/python scientific_code/run.py --mode standard
+Complete selection (some tasks can be expensive):
+  .venv/bin/python scientific_code/run.py --mode full
+Runner/output-path regression tests:
+  .venv/bin/python -m unittest discover -s scientific_code/tests -v
+
+This packaging step preserves all supplied calculations, data, figure scripts,
+and historical validation logs. It does not claim a fresh run of the numerical
+or symbolic suite. See PACKAGING_VALIDATION.md for the packaging checks and
+scientific_code/docs/VALIDATION.md for the original validation record.
+Numerical refinement spreads are empirical diagnostics. Finite traces do not
+determine complete window endpoints or classify all branches.

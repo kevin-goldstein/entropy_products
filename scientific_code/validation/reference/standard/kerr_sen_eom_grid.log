@@ -1,0 +1,6 @@
+params (M,a,Q,chi0) = ['1.4', '0.5', '0.8', '0.3']  r- = 0.13658  r+ = 1.8305  max residual over 12 points (incl. region II and r < r-): 1.9e-18
+  [PASS] Kerr-Sen field equations at 12 points, (M,a,Q,chi0) = ['1.4', '0.5', '0.8', '0.3']  (|value| = 1.90e-18, tolerance 1e-15)
+params (M,a,Q,chi0) = ['2.0', '0.9', '1.1', '-0.4']  r- = 0.23166  r+ = 3.4965  max residual over 12 points (incl. region II and r < r-): 4.01e-18
+  [PASS] Kerr-Sen field equations at 12 points, (M,a,Q,chi0) = ['2.0', '0.9', '1.1', '-0.4']  (|value| = 4.01e-18, tolerance 1e-15)
+  [PASS] negative control: A -> 1.1 A violates the field equations  (|value| = 1.75e-02, must exceed 1e-04)
+checks: 3 passed, 0 failed

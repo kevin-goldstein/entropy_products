@@ -1,0 +1,430 @@
+{
+  "new_ODE_solves": false,
+  "sources": [
+    {
+      "path": "data/generated/branches/branch_trace.csv",
+      "sha256": "9d6686deda528b600cafdeb8cd8865c68aef1f2989fd05f64f75b9185c69a3ae"
+    },
+    {
+      "path": "data/generated/branch/amplitude_scan.csv",
+      "sha256": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60"
+    }
+  ],
+  "samples": [
+    {
+      "n": 3,
+      "epsilon": 0.2,
+      "nu": 2.996347414196216,
+      "alpha": 4.89376036208488,
+      "eta": 0.9998599664740677,
+      "deficit_percent": 0.014003352593228158,
+      "k": 1.518456509812124,
+      "outer_entropy_lower_bound_over_Sext": 1.518456509812124,
+      "inner_entropy_upper_bound_over_Sext": 0.6584712568407893,
+      "gap_bound_over_Sext": 0.8599852529713348
+    },
+    {
+      "n": 3,
+      "epsilon": 0.5,
+      "nu": 2.981922317816712,
+      "alpha": 4.87314744847929,
+      "eta": 0.99642722288026,
+      "deficit_percent": 0.35727771197400227,
+      "k": 5.760629104214911,
+      "outer_entropy_lower_bound_over_Sext": 5.760629104214911,
+      "inner_entropy_upper_bound_over_Sext": 0.17297194539936595,
+      "gap_bound_over_Sext": 5.587657158815545
+    },
+    {
+      "n": 3,
+      "epsilon": 1.0,
+      "nu": 2.960729269684429,
+      "alpha": 4.842860121467586,
+      "eta": 0.9808224793661644,
+      "deficit_percent": 1.9177520633835599,
+      "k": 63.41973584050985,
+      "outer_entropy_lower_bound_over_Sext": 63.41973584050985,
+      "inner_entropy_upper_bound_over_Sext": 0.015465571818728019,
+      "gap_bound_over_Sext": 63.40427026869112
+    },
+    {
+      "n": 3,
+      "epsilon": 2.0,
+      "nu": 2.951074662667154,
+      "alpha": 4.829061260183641,
+      "eta": 0.9650992850744635,
+      "deficit_percent": 3.490071492553648,
+      "k": 7824.188812426799,
+      "outer_entropy_lower_bound_over_Sext": 7824.188812426799,
+      "inner_entropy_upper_bound_over_Sext": 0.0001233481589224484,
+      "gap_bound_over_Sext": 7824.18868907864
+    },
+    {
+      "n": 3,
+      "epsilon": 3.0,
+      "nu": 2.9506439715123727,
+      "alpha": 4.828445674983758,
+      "eta": 0.963732212510587,
+      "deficit_percent": 3.626778748941295,
+      "k": 976949.1126845237,
+      "outer_entropy_lower_bound_over_Sext": 976949.1126845237,
+      "inner_entropy_upper_bound_over_Sext": 9.864712501374628e-07,
+      "gap_bound_over_Sext": 976949.1126835372
+    },
+    {
+      "n": 3,
+      "epsilon": 6.0,
+      "nu": 2.950630993117459,
+      "alpha": 4.828427124988588,
+      "eta": 0.9636697705033197,
+      "deficit_percent": 3.63302294966803,
+      "k": 1908646693405.1968,
+      "outer_entropy_lower_bound_over_Sext": 1908646693405.1968,
+      "inner_entropy_upper_bound_over_Sext": 5.048968852292125e-13,
+      "gap_bound_over_Sext": 1908646693405.1968
+    },
+    {
+      "n": 4,
+      "epsilon": 0.2,
+      "nu": 3.987842291779618,
+      "alpha": 6.307254305303653,
+      "eta": 0.9995451223131927,
+      "deficit_percent": 0.04548776868072979,
+      "k": 1.9068914393703416,
+      "outer_entropy_lower_bound_over_Sext": 1.9068914393703416,
+      "inner_entropy_upper_bound_over_Sext": 0.5241751584155436,
+      "gap_bound_over_Sext": 1.382716280954798
+    },
+    {
+      "n": 4,
+      "epsilon": 0.5,
+      "nu": 3.9459724440231643,
+      "alpha": 6.247666920221229,
+      "eta": 0.9904072762364936,
+      "deficit_percent": 0.9592723763506394,
+      "k": 11.388674232862305,
+      "outer_entropy_lower_bound_over_Sext": 11.388674232862305,
+      "inner_entropy_upper_bound_over_Sext": 0.08696422919699016,
+      "gap_bound_over_Sext": 11.301710003665315
+    },
+    {
+      "n": 4,
+      "epsilon": 1.0,
+      "nu": 3.8981193513059043,
+      "alpha": 6.179555619675491,
+      "eta": 0.960184980759921,
+      "deficit_percent": 3.981501924007902,
+      "k": 241.38972163034285,
+      "outer_entropy_lower_bound_over_Sext": 241.38972163034285,
+      "inner_entropy_upper_bound_over_Sext": 0.003977737636361834,
+      "gap_bound_over_Sext": 241.38574389270647
+    },
+    {
+      "n": 4,
+      "epsilon": 2.0,
+      "nu": 3.8816995293509806,
+      "alpha": 6.156182382859463,
+      "eta": 0.938280826028486,
+      "deficit_percent": 6.171917397151406,
+      "k": 111214.67095882703,
+      "outer_entropy_lower_bound_over_Sext": 111214.67095882703,
+      "inner_entropy_upper_bound_over_Sext": 8.436664137376699e-06,
+      "gap_bound_over_Sext": 111214.67095039037
+    },
+    {
+      "n": 4,
+      "epsilon": 3.0,
+      "nu": 3.8811413236883268,
+      "alpha": 6.155387769772024,
+      "eta": 0.9368488759241822,
+      "deficit_percent": 6.31511240758178,
+      "k": 52326637.92684396,
+      "outer_entropy_lower_bound_over_Sext": 52326637.92684396,
+      "inner_entropy_upper_bound_over_Sext": 1.7903861456452785e-08,
+      "gap_bound_over_Sext": 52326637.92684395
+    },
+    {
+      "n": 4,
+      "epsilon": 6.0,
+      "nu": 3.881126785601565,
+      "alpha": 6.155367074596852,
+      "eta": 0.9367927569694385,
+      "deficit_percent": 6.320724303056147,
+      "k": 5475474135862280.0,
+      "outer_entropy_lower_bound_over_Sext": 5475474135862280.0,
+      "inner_entropy_upper_bound_over_Sext": 1.7108888357883039e-16,
+      "gap_bound_over_Sext": 5475474135862280.0
+    },
+    {
+      "n": 5,
+      "epsilon": 0.2,
+      "nu": 4.974063290498053,
+      "alpha": 7.70913340244912,
+      "eta": 0.9990571603231048,
+      "deficit_percent": 0.09428396768952352,
+      "k": 2.443554313593024,
+      "outer_entropy_lower_bound_over_Sext": 2.443554313593024,
+      "inner_entropy_upper_bound_over_Sext": 0.40885408389146144,
+      "gap_bound_over_Sext": 2.0347002297015626
+    },
+    {
+      "n": 5,
+      "epsilon": 0.5,
+      "nu": 4.896046359000947,
+      "alpha": 7.598330909941654,
+      "eta": 0.9834593423269257,
+      "deficit_percent": 1.6540657673074333,
+      "k": 22.343142176566865,
+      "outer_entropy_lower_bound_over_Sext": 22.343142176566865,
+      "inner_entropy_upper_bound_over_Sext": 0.04401616095691153,
+      "gap_bound_over_Sext": 22.299126015609954
+    },
+    {
+      "n": 5,
+      "epsilon": 1.0,
+      "nu": 4.823043017487486,
+      "alpha": 7.4946363442160795,
+      "eta": 0.9432633426783713,
+      "deficit_percent": 5.673665732162869,
+      "k": 899.1856072665512,
+      "outer_entropy_lower_bound_over_Sext": 899.1856072665512,
+      "inner_entropy_upper_bound_over_Sext": 0.0010490196184810084,
+      "gap_bound_over_Sext": 899.1845582469327
+    },
+    {
+      "n": 5,
+      "epsilon": 2.0,
+      "nu": 4.802182339397893,
+      "alpha": 7.465003357028436,
+      "eta": 0.9197051536046738,
+      "deficit_percent": 8.029484639532624,
+      "k": 1524016.0299252025,
+      "outer_entropy_lower_bound_over_Sext": 1524016.0299252025,
+      "inner_entropy_upper_bound_over_Sext": 6.034747243766276e-07,
+      "gap_bound_over_Sext": 1524016.029924599
+    },
+    {
+      "n": 5,
+      "epsilon": 3.0,
+      "nu": 4.801562808347438,
+      "alpha": 7.464123285537663,
+      "eta": 0.918373366516255,
+      "deficit_percent": 8.1626633483745,
+      "k": 2653705165.4617066,
+      "outer_entropy_lower_bound_over_Sext": 2653705165.4617066,
+      "inner_entropy_upper_bound_over_Sext": 3.4607211775784114e-10,
+      "gap_bound_over_Sext": 2653705165.4617066
+    },
+    {
+      "n": 5,
+      "epsilon": 6.0,
+      "nu": 4.801547553518018,
+      "alpha": 7.464101615360402,
+      "eta": 0.9183242978556218,
+      "deficit_percent": 8.167570214437825,
+      "k": 1.4082471073489127e+19,
+      "outer_entropy_lower_bound_over_Sext": 1.4082471073489127e+19,
+      "inner_entropy_upper_bound_over_Sext": 6.521045156516655e-20,
+      "gap_bound_over_Sext": 1.4082471073489127e+19
+    },
+    {
+      "n": 6,
+      "epsilon": 0.2,
+      "nu": 5.955020615228916,
+      "alpha": 9.101350574835616,
+      "eta": 0.9984171474672876,
+      "deficit_percent": 0.15828525327123977,
+      "k": 3.1677538888329,
+      "outer_entropy_lower_bound_over_Sext": 3.1677538888329,
+      "inner_entropy_upper_bound_over_Sext": 0.315181413236347,
+      "gap_bound_over_Sext": 2.852572475596553
+    },
+    {
+      "n": 6,
+      "epsilon": 0.5,
+      "nu": 5.836057345347783,
+      "alpha": 8.932594548454059,
+      "eta": 0.97658095290677,
+      "deficit_percent": 2.341904709322995,
+      "k": 43.52267645203913,
+      "outer_entropy_lower_bound_over_Sext": 43.52267645203913,
+      "inner_entropy_upper_bound_over_Sext": 0.02243843974032565,
+      "gap_bound_over_Sext": 43.5002380122988
+    },
+    {
+      "n": 6,
+      "epsilon": 1.0,
+      "nu": 5.7410294807698365,
+      "alpha": 8.797778012639125,
+      "eta": 0.9302817789909913,
+      "deficit_percent": 6.971822100900871,
+      "k": 3309.7596581395205,
+      "outer_entropy_lower_bound_over_Sext": 3309.7596581395205,
+      "inner_entropy_upper_bound_over_Sext": 0.00028107230587066874,
+      "gap_bound_over_Sext": 3309.7593770672147
+    },
+    {
+      "n": 6,
+      "epsilon": 2.0,
+      "nu": 5.716900407905841,
+      "alpha": 8.763543881537858,
+      "eta": 0.9066471224357415,
+      "deficit_percent": 9.335287756425847,
+      "k": 20459146.099832527,
+      "outer_entropy_lower_bound_over_Sext": 20459146.099832527,
+      "inner_entropy_upper_bound_over_Sext": 4.431500308036625e-08,
+      "gap_bound_over_Sext": 20459146.099832483
+    },
+    {
+      "n": 6,
+      "epsilon": 3.0,
+      "nu": 5.716231780046804,
+      "alpha": 8.762595225532657,
+      "eta": 0.905410758616241,
+      "deficit_percent": 9.458924138375902,
+      "k": 130499925918.93797,
+      "outer_entropy_lower_bound_over_Sext": 130499925918.93797,
+      "inner_entropy_upper_bound_over_Sext": 6.93801741449762e-12,
+      "gap_bound_over_Sext": 130499925918.93797
+    },
+    {
+      "n": 6,
+      "epsilon": 6.0,
+      "nu": 5.716215787608869,
+      "alpha": 8.762572535290964,
+      "eta": 0.9053666981711032,
+      "deficit_percent": 9.463330182889685,
+      "k": 3.4055824604730583e+22,
+      "outer_entropy_lower_bound_over_Sext": 3.4055824604730583e+22,
+      "inner_entropy_upper_bound_over_Sext": 2.658478274066932e-23,
+      "gap_bound_over_Sext": 3.4055824604730583e+22
+    },
+    {
+      "n": 7,
+      "epsilon": 0.2,
+      "nu": 6.930980695314927,
+      "alpha": 10.48517754681752,
+      "eta": 0.997655422845646,
+      "deficit_percent": 0.23445771543539884,
+      "k": 4.132408606843231,
+      "outer_entropy_lower_bound_over_Sext": 4.132408606843231,
+      "inner_entropy_upper_bound_over_Sext": 0.24142225945264412,
+      "gap_bound_over_Sext": 3.8909863473905864
+    },
+    {
+      "n": 7,
+      "epsilon": 0.5,
+      "nu": 6.769046736446442,
+      "alpha": 10.255636543544497,
+      "eta": 0.9702628650650997,
+      "deficit_percent": 2.9737134934900267,
+      "k": 84.3273500367481,
+      "outer_entropy_lower_bound_over_Sext": 84.3273500367481,
+      "inner_entropy_upper_bound_over_Sext": 0.01150590958499561,
+      "gap_bound_over_Sext": 84.3158441271631
+    },
+    {
+      "n": 7,
+      "epsilon": 1.0,
+      "nu": 6.654879265193286,
+      "alpha": 10.093789902657258,
+      "eta": 0.9204129509929216,
+      "deficit_percent": 7.958704900707836,
+      "k": 12096.1527176406,
+      "outer_entropy_lower_bound_over_Sext": 12096.1527176406,
+      "inner_entropy_upper_bound_over_Sext": 7.609137983605515e-05,
+      "gap_bound_over_Sext": 12096.15264154922
+    },
+    {
+      "n": 7,
+      "epsilon": 2.0,
+      "nu": 6.628024309544675,
+      "alpha": 10.055717831906367,
+      "eta": 0.8971807156026661,
+      "deficit_percent": 10.28192843973339,
+      "k": 271178676.1714465,
+      "outer_entropy_lower_bound_over_Sext": 271178676.1714465,
+      "inner_entropy_upper_bound_over_Sext": 3.3084486150210578e-09,
+      "gap_bound_over_Sext": 271178676.1714465
+    },
+    {
+      "n": 7,
+      "epsilon": 3.0,
+      "nu": 6.62730837161561,
+      "alpha": 10.05470284236207,
+      "eta": 0.8960194430523667,
+      "deficit_percent": 10.39805569476333,
+      "k": 6296161931944.956,
+      "outer_entropy_lower_bound_over_Sext": 6296161931944.956,
+      "inner_entropy_upper_bound_over_Sext": 1.4231200733675796e-13,
+      "gap_bound_over_Sext": 6296161931944.956
+    },
+    {
+      "n": 7,
+      "epsilon": 6.0,
+      "nu": 6.627291543106071,
+      "alpha": 10.054678984475965,
+      "eta": 0.8959789020167065,
+      "deficit_percent": 10.40210979832935,
+      "k": 7.927196176570879e+25,
+      "outer_entropy_lower_bound_over_Sext": 7.927196176570879e+25,
+      "inner_entropy_upper_bound_over_Sext": 1.1302595294220234e-26,
+      "gap_bound_over_Sext": 7.927196176570879e+25
+    }
+  ],
+  "cross_method_overlap": {
+    "samples": [
+      {
+        "epsilon": 0.05,
+        "abs_alpha_difference": 4.2454928461665986e-13,
+        "abs_eta_difference": 2.098321516541546e-14
+      },
+      {
+        "epsilon": 0.1,
+        "abs_alpha_difference": 5.790923296444817e-13,
+        "abs_eta_difference": 6.0285110237146e-14
+      },
+      {
+        "epsilon": 0.15,
+        "abs_alpha_difference": 5.906386491005833e-13,
+        "abs_eta_difference": 7.505107646466058e-14
+      },
+      {
+        "epsilon": 0.2,
+        "abs_alpha_difference": 4.1655567883935873e-13,
+        "abs_eta_difference": 1.8418599978531347e-13
+      },
+      {
+        "epsilon": 0.25,
+        "abs_alpha_difference": 4.2099657093785936e-13,
+        "abs_eta_difference": 3.1019631308026874e-13
+      },
+      {
+        "epsilon": 0.3,
+        "abs_alpha_difference": 1.2079226507921703e-13,
+        "abs_eta_difference": 4.50417481090426e-13
+      },
+      {
+        "epsilon": 0.35,
+        "abs_alpha_difference": 1.5827339439056232e-12,
+        "abs_eta_difference": 4.3576253716537394e-13
+      }
+    ],
+    "max_alpha_difference": 1.5827339439056232e-12,
+    "max_eta_difference": 4.50417481090426e-13,
+    "scope": "Comparison of stored independent radial and scaled autonomous implementations only at overlapping amplitudes."
+  },
+  "balanced_horizon_layer": {
+    "dphi_d_fractional_radial_distance_magnitude": 4693935436693.586,
+    "fraction_for_linear_scalar_change_0p1": 2.1304085100591016e-14,
+    "fraction_for_linear_potential_exponent_change_1": 4.4122204910861866e-14,
+    "scope": "Leading horizon Taylor derivative: a scale diagnostic, not a resolved nonlinear transition location."
+  },
+  "gap_bound": {
+    "expression": "(k-eta/k)*Sext",
+    "k": "cosh(alpha*epsilon)",
+    "three_node_leading_term": "24*epsilon**2+O(epsilon**4)",
+    "assumptions": "Positive outer radius slope; Veff_min = Sext/pi; fixed outer horizon scalar on an orbit."
+  },
+  "scope": "Finite sampled values only. Independent radial constructions are not claimed at large amplitudes."
+}

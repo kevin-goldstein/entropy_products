@@ -1,0 +1,57 @@
+  [PASS] outer B+: background g = -dU dV + R^2 dphit^2 in Kruskal coordinates  (simplifies to 0)
+outer B+, no smoothing vector                                 components in (U, V, phit):
+      h_UU = V*delta_kappa/(2*U*kappa)
+      h_UV = -delta_kappa/(2*kappa)
+      h_VV = U*delta_kappa/(2*V*kappa)
+      h_Up = R**2*delta_Omega/(2*U*kappa)
+      h_Vp = -R**2*delta_Omega/(2*V*kappa)
+      h_pp = 2*R*delta_R
+  [PASS] outer B+, no smoothing vector: delta g + L_X g is NOT smooth at the bifurcation surface
+outer B+, negative control: -(dk/k) t d_t - dOmega t d_phi    components in (U, V, phit):
+      h_UU = 0
+      h_UV = 0
+      h_VV = 0
+      h_Up = R**2*(-Omega*delta_kappa/2 + delta_Omega*kappa)/(U*kappa**2)
+      h_Vp = R**2*(Omega*delta_kappa/2 - delta_Omega*kappa)/(V*kappa**2)
+      h_pp = 2*R*delta_R
+  [PASS] outer B+, negative control: -(dk/k) t d_t - dOmega t d_phi: delta g + L_X g is NOT smooth at the bifurcation surface
+outer B+, smooth: -(dk/k) t xi + dOmega t d_phi               components in (U, V, phit):
+      h_UU = 0
+      h_UV = 0
+      h_VV = 0
+      h_Up = 0
+      h_Vp = 0
+      h_pp = 2*R*delta_R
+  [PASS] outer B+, smooth vector: delta g + L_X g is polynomial in (U, V), i.e. smooth at the bifurcation surface
+  [PASS] outer B+, smooth vector: the delta-Omega and delta-kappa parts cancel (only 2 R dR dphit^2 is left)  (simplifies to 0)
+  [PASS] outer B+: with delta kappa = 0 the negative-control vector doubles the singular delta-Omega terms  (simplifies to 0)
+  [PASS] outer B+: [xi, X] = -(dk/k) xi + dOmega d_phi, a combination of the Killing vectors d_t, d_phi  (simplifies to 0)
+  [PASS] inner B-: background g = -dU dV + R^2 dphit^2 in Kruskal coordinates  (simplifies to 0)
+inner B-, no smoothing vector                                 components in (U, V, phit):
+      h_UU = V*delta_kappa/(2*U*kappa)
+      h_UV = -delta_kappa/(2*kappa)
+      h_VV = U*delta_kappa/(2*V*kappa)
+      h_Up = R**2*delta_Omega/(2*U*kappa)
+      h_Vp = -R**2*delta_Omega/(2*V*kappa)
+      h_pp = 2*R*delta_R
+  [PASS] inner B-, no smoothing vector: delta g + L_X g is NOT smooth at the bifurcation surface
+inner B-, negative control: -(dk/k) t d_t - dOmega t d_phi    components in (U, V, phit):
+      h_UU = 0
+      h_UV = 0
+      h_VV = 0
+      h_Up = R**2*(-Omega*delta_kappa/2 + delta_Omega*kappa)/(U*kappa**2)
+      h_Vp = R**2*(Omega*delta_kappa/2 - delta_Omega*kappa)/(V*kappa**2)
+      h_pp = 2*R*delta_R
+  [PASS] inner B-, negative control: -(dk/k) t d_t - dOmega t d_phi: delta g + L_X g is NOT smooth at the bifurcation surface
+inner B-, smooth: -(dk/k) t xi + dOmega t d_phi               components in (U, V, phit):
+      h_UU = 0
+      h_UV = 0
+      h_VV = 0
+      h_Up = 0
+      h_Vp = 0
+      h_pp = 2*R*delta_R
+  [PASS] inner B-, smooth vector: delta g + L_X g is polynomial in (U, V), i.e. smooth at the bifurcation surface
+  [PASS] inner B-, smooth vector: the delta-Omega and delta-kappa parts cancel (only 2 R dR dphit^2 is left)  (simplifies to 0)
+  [PASS] inner B-: with delta kappa = 0 the negative-control vector doubles the singular delta-Omega terms  (simplifies to 0)
+  [PASS] inner B-: [xi, X] = -(dk/k) xi + dOmega d_phi, a combination of the Killing vectors d_t, d_phi  (simplifies to 0)
+checks: 14 passed, 0 failed

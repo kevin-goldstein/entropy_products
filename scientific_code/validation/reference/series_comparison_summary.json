@@ -1,0 +1,183 @@
+{
+  "scope": "Targeted minor-comment revision: exact powers 28/34 against packaged and independently regenerated half-interval scans in the recorded macOS environment. No new Linux run or full-suite run is claimed.",
+  "source_archive": "hot_attractors_code_new_report.zip",
+  "source_archive_sha256": "b64298648a99ba3ed468824b23959206ab7fbf95e57d97bc3eaaf5f36b4bf6af",
+  "manuscript_check": {
+    "series_power": 34,
+    "alpha_tolerance": "3e-13",
+    "eta_tolerance": "1e-13",
+    "amplitudes": [
+      "0.025",
+      "0.05",
+      "0.1",
+      "0.15",
+      "0.2",
+      "0.3"
+    ],
+    "interpretation": "Empirical agreement thresholds, not certified solver accuracy or series truncation bounds."
+  },
+  "environment": {
+    "python": "3.14.3",
+    "implementation": "CPython",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.4.4",
+      "scipy": "1.17.1",
+      "sympy": "1.14.0",
+      "mpmath": "1.4.1",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "packaged_scan_sha256": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60",
+  "regenerated_scan_sha256": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60",
+  "scans_byte_identical": true,
+  "comparisons": {
+    "packaged": {
+      "csv_path": "validation/reference/series_packaged/data/controls/series_comparison.csv",
+      "csv_sha256": "59b6b73b7e10cca2958006b2ba289c6b96fa326943938e12562cbb58e20aec47",
+      "maxima_by_series_power": {
+        "28": {
+          "alpha": {
+            "absolute_difference": "2.3419508406356008830148468020463036787976243471E-13",
+            "epsilon": "0.3"
+          },
+          "eta": {
+            "absolute_difference": "4.4411963162520461311107301779761624206762263953E-14",
+            "epsilon": "0.3"
+          }
+        },
+        "34": {
+          "alpha": {
+            "absolute_difference": "2.0416135449275098884751384350257045116552715116E-13",
+            "epsilon": "0.05"
+          },
+          "eta": {
+            "absolute_difference": "6.0288389700007667392521586340392464949385993818E-14",
+            "epsilon": "0.3"
+          }
+        }
+      }
+    },
+    "regenerated": {
+      "csv_path": "validation/reference/series_regenerated/data/controls/series_comparison.csv",
+      "csv_sha256": "59b6b73b7e10cca2958006b2ba289c6b96fa326943938e12562cbb58e20aec47",
+      "maxima_by_series_power": {
+        "28": {
+          "alpha": {
+            "absolute_difference": "2.3419508406356008830148468020463036787976243471E-13",
+            "epsilon": "0.3"
+          },
+          "eta": {
+            "absolute_difference": "4.4411963162520461311107301779761624206762263953E-14",
+            "epsilon": "0.3"
+          }
+        },
+        "34": {
+          "alpha": {
+            "absolute_difference": "2.0416135449275098884751384350257045116552715116E-13",
+            "epsilon": "0.05"
+          },
+          "eta": {
+            "absolute_difference": "6.0288389700007667392521586340392464949385993818E-14",
+            "epsilon": "0.3"
+          }
+        }
+      }
+    }
+  },
+  "order_34_minus_order_28_by_amplitude": {
+    "0.025": {
+      "alpha_34_minus_28": "7.2082143391185E-46",
+      "eta_34_minus_28": "-5.36384083005518E-46"
+    },
+    "0.05": {
+      "alpha_34_minus_28": "7.7076833643107789176117E-37",
+      "eta_34_minus_28": "-5.73177307990751050590148E-37"
+    },
+    "0.075": {
+      "alpha_34_minus_28": "1.4678204074392795607055097497E-31",
+      "eta_34_minus_28": "-1.09036280469607395432708118862E-31"
+    },
+    "0.1": {
+      "alpha_34_minus_28": "8.1412012660108042530440020405443E-28",
+      "eta_34_minus_28": "-6.03869692468356968431917669010655E-28"
+    },
+    "0.15": {
+      "alpha_34_minus_28": "1.5199723505012543224608507358654721157E-22",
+      "eta_34_minus_28": "-1.12286087781127446938186639997446040918E-22"
+    },
+    "0.2": {
+      "alpha_34_minus_28": "8.2124579998586203614129033111571519733324E-19",
+      "eta_34_minus_28": "-6.03539020304251788650438906018111831783745E-19"
+    },
+    "0.25": {
+      "alpha_34_minus_28": "6.3560592282049918826286326957391743578773427E-16",
+      "eta_34_minus_28": "-4.64471488535021908622050129816242750750852810E-16"
+    },
+    "0.3": {
+      "alpha_34_minus_28": "1.4399672016373954952624066340445522005325173277E-13",
+      "eta_34_minus_28": "-1.04700352862528128703628888120154089156148257771E-13"
+    },
+    "0.35": {
+      "alpha_34_minus_28": "1.402330687660722827967467539353635995466532727695E-11",
+      "eta_34_minus_28": "-1.0169796118154177370231526697733962907490196206591E-11"
+    }
+  },
+  "maximum_order_change_for_epsilon_at_most_0_2": {
+    "alpha": "8.2124579998586203614129033111571519733324E-19",
+    "eta": "6.03539020304251788650438906018111831783745E-19"
+  },
+  "regenerated_minus_packaged_by_amplitude": [
+    {
+      "epsilon": "0.025",
+      "alpha_regenerated_minus_packaged": "0E-15",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.05",
+      "alpha_regenerated_minus_packaged": "0E-15",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.075",
+      "alpha_regenerated_minus_packaged": "0E-15",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.1",
+      "alpha_regenerated_minus_packaged": "0E-15",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.15",
+      "alpha_regenerated_minus_packaged": "0E-16",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.2",
+      "alpha_regenerated_minus_packaged": "0E-15",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.25",
+      "alpha_regenerated_minus_packaged": "0E-15",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.3",
+      "alpha_regenerated_minus_packaged": "0E-14",
+      "eta_regenerated_minus_packaged": "0E-16"
+    },
+    {
+      "epsilon": "0.35",
+      "alpha_regenerated_minus_packaged": "0E-16",
+      "eta_regenerated_minus_packaged": "0E-16"
+    }
+  ],
+  "epsilon_0_3_cancellation": {
+    "eta_order_28_minus_packaged_shooting": "4.4411963162520461311107301779761624206762263953E-14",
+    "eta_order_34_minus_packaged_shooting": "-6.0288389700007667392521586340392464949385993818E-14"
+  },
+  "platform_note": "A separate Linux x86-64 validation report with a different regenerated scan. Those Linux values were not independently rerun here. The old order-28 eta threshold can be crossed by floating-point solver variation, whereas the power-34 comparisons in the supplied report meet the revised thresholds."
+}

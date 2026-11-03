@@ -1,0 +1,11 @@
+test_assertions_remain_active (__main__.RunnerTests.test_assertions_remain_active) ... ok
+test_fail_marker_is_failure_even_with_zero_exit (__main__.RunnerTests.test_fail_marker_is_failure_even_with_zero_exit) ... ok
+test_list_does_not_execute_program (__main__.RunnerTests.test_list_does_not_execute_program) ... ok
+test_nonzero_exit_is_failure (__main__.RunnerTests.test_nonzero_exit_is_failure) ... ok
+test_success_and_output_routing (__main__.RunnerTests.test_success_and_output_routing) ... ok
+test_timeout_is_failure (__main__.RunnerTests.test_timeout_is_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.268s
+
+OK

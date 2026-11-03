@@ -1,0 +1,36 @@
+{
+  "mode": "selected",
+  "utc_started": "2026-11-02T18:47:39Z",
+  "environment": {
+    "python": "3.14.3",
+    "implementation": "CPython",
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.4.4",
+      "scipy": "1.17.1",
+      "sympy": "1.14.0",
+      "mpmath": "1.4.1",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "tasks": [
+    {
+      "task": "plot_branches",
+      "script": "calculations/plot_branches.py",
+      "exit_code": 0,
+      "seconds": 14.324,
+      "pass_markers": 1,
+      "fail_markers": 0,
+      "timed_out": false,
+      "passed": true,
+      "log": "plot_branches.log"
+    }
+  ],
+  "scope": "Only listed tasks were executed; no claim is made for omitted tasks.",
+  "total_seconds": 14.327,
+  "tasks_passed": 1,
+  "tasks_failed": 0,
+  "pass_markers": 1,
+  "fail_markers": 0
+}

@@ -1,0 +1,8 @@
+D = 4 :  dK/dr on-shell = 0
+  [PASS] D=4: dK/dr = 0 on shell  (simplifies to 0)
+D = 5 :  dK/dr on-shell = 0
+  [PASS] D=5: dK/dr = 0 on shell  (simplifies to 0)
+D = 6 :  dK/dr on-shell = 0
+  [PASS] D=6: dK/dr = 0 on shell  (simplifies to 0)
+  [PASS] negative control: without the -A_t dQ term dK/dr is not zero (D=4)  (dK/dr = Q*dQ/(B(r)**2*f(phi(r))))
+checks: 4 passed, 0 failed

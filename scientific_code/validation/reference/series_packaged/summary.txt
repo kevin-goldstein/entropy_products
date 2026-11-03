@@ -1,0 +1,4 @@
+task                                status      seconds   PASS   FAIL
+series_fraction_comparison          PASS        46.642      0      0
+1 tasks passed, 0 failed; 46.643 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

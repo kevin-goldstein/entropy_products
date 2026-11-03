@@ -1,0 +1,25 @@
+d/dM  K_t(r) = Abs(r)/r
+  [PASS] BTZ: d/dM K_t = 1 for all r > 0  (simplifies to 0)
+d/dM  K_phi(r) = 0
+  [PASS] BTZ: d/dM K_phi = 0 for all r > 0  (simplifies to 0)
+d/dJ  K_t(r) = 0
+  [PASS] BTZ: d/dJ K_t = 0 for all r > 0  (simplifies to 0)
+d/dJ  K_phi(r) = -Abs(r)/r
+  [PASS] BTZ: d/dJ K_phi = -1 for all r > 0  (simplifies to 0)
+first law at r+ for d/dM: residual = 0.e-125
+  [PASS] BTZ: first law at r+ for d/dM  (|value| = 5.61e-191, tolerance 1e-50)
+first law at r+ for d/dJ: residual = 0.e-126
+  [PASS] BTZ: first law at r+ for d/dJ  (|value| = 3.51e-192, tolerance 1e-50)
+first law at r- for d/dM: residual = 0.e-125
+  [PASS] BTZ: first law at r- for d/dM  (|value| = 5.61e-191, tolerance 1e-50)
+first law at r- for d/dJ: residual = 0.e-124
+  [PASS] BTZ: first law at r- for d/dJ  (|value| = 2.24e-190, tolerance 1e-50)
+Cardy S+ : 2.24441277338460e-190
+Cardy S- : 2.80551596673076e-191
+S+S- - pi^2 l J : 2.24441277338460e-190
+T+S+ + T-S- : 0   (signed T_- = -(r+^2-r-^2)/(2 pi l^2 r-))
+  [PASS] BTZ: Cardy form of S+  (|value| = 2.24e-190, tolerance 1e-50)
+  [PASS] BTZ: Cardy form of S-  (|value| = 2.81e-191, tolerance 1e-50)
+  [PASS] BTZ: S+S- = pi^2 l J  (|value| = 2.24e-190, tolerance 1e-50)
+  [PASS] BTZ: T+S+ + T-S- = 0  (|value| = 0.00e+00, tolerance 1e-50)
+checks: 12 passed, 0 failed

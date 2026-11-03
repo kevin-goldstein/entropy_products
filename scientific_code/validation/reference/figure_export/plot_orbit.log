@@ -1,0 +1,11 @@
+
+Fontconfig error: No writable cache directories
+	/opt/local/var/cache/fontconfig
+	[validation-host]/.cache/fontconfig
+	[validation-host]/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/local/var/cache/fontconfig
+	[validation-host]/.cache/fontconfig
+	[validation-host]/.fontconfig
+Matplotlib is building the font cache; this may take a moment.

@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "equations": "bsecond=-b phiprime^2; (P phiprime)prime=alpha sinh(alpha phi)/b^2; W=2cosh(alpha phi)",
+  "horizons": {
+    "r_plus": 1.0,
+    "r_minus": 0.35
+  },
+  "charges": [
+    1.0,
+    1.0
+  ],
+  "seed_provenance": "analytic RN and Legendre data only; no inward-shooting import or numerical seed",
+  "convergence": [
+    {
+      "alpha": 4.893760361966536,
+      "nu": 2.996347414113395,
+      "b_plus": 4.440192965232862,
+      "b_minus": 0.45039933560238543,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999981125,
+      "b_prime_plus": 5.778820418054496,
+      "b_prime_minus": 9.68048107331925,
+      "scalar_prime_minus": 42.40892399941079,
+      "scalar_prime_plus": 0.4363641337377116,
+      "normalized_product": 0.999859966389963,
+      "product_deficit": 0.00014003361003700476,
+      "entropy_gap_lower_over_Sstar": 0.00014003361003700476,
+      "entropy_gap_actual_over_Sstar": 9.756227003496164,
+      "collocation_nodes": 1374,
+      "collocation_max_rms": 9.985687893634672e-09,
+      "boundary_max_abs": 8.881784197001252e-16,
+      "off_grid_scaled_ode_max": 8.355874108610801e-08,
+      "off_grid_ode_by_field": [
+        1.6339452227623058e-08,
+        8.355874108610801e-08,
+        2.933604216992885e-09,
+        2.3316221287039696e-08
+      ],
+      "hamiltonian_max_abs": 7.232078269581166e-10,
+      "hamiltonian_constant_max_abs": 3.457068720578075e-10,
+      "hamiltonian_constant_spread": 3.4227817197390786e-10,
+      "horizon_hamiltonian": [
+        -1.8259989076341299e-09,
+        8.326672684688674e-17
+      ],
+      "ricci_scaled_equation_error": 3.111098034747073e-08,
+      "kretschmann_horizons": [
+        100482.02853925782,
+        0.022582407672744352
+      ],
+      "kretschmann_interior_max": 98237.66391922421,
+      "minimum_b": 0.4508768309055668,
+      "cutoff": 3e-05,
+      "series_order": 4,
+      "tolerance": 1e-08,
+      "initial_nodes": 151,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "order4_coarse",
+      "seed": "analytic RN plus Legendre P3; fresh solve",
+      "profile_file": "profiles/order4_coarse.json",
+      "profile_difference_from_finest": [
+        2.916286776727665e-11,
+        1.5918650955995517e-10,
+        6.5100841384335695e-12,
+        4.3784442738115104e-10
+      ],
+      "horizon_curvature_difference_from_finest": [
+        3.0487500663350156e-10,
+        1.2502499036060044e-13
+      ]
+    },
+    {
+      "alpha": 4.893760362078611,
+      "nu": 2.996347414191829,
+      "b_plus": 4.440192965232862,
+      "b_minus": 0.45039933562040596,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999963403,
+      "b_prime_plus": 5.778820418036747,
+      "b_prime_minus": 9.6804810717963,
+      "scalar_prime_minus": 42.40892399820279,
+      "scalar_prime_plus": 0.4363641337607027,
+      "normalized_product": 0.9998599664699721,
+      "product_deficit": 0.00014003353002789432,
+      "entropy_gap_lower_over_Sstar": 0.00014003353002789432,
+      "entropy_gap_actual_over_Sstar": 9.756227003488046,
+      "collocation_nodes": 2810,
+      "collocation_max_rms": 9.997784686580364e-10,
+      "boundary_max_abs": 1.7763568394002505e-15,
+      "off_grid_scaled_ode_max": 9.553004419313123e-09,
+      "off_grid_ode_by_field": [
+        1.675392208130693e-09,
+        9.553004419313123e-09,
+        3.0645806482558396e-10,
+        2.9871591866736935e-09
+      ],
+      "hamiltonian_max_abs": 3.20790061181242e-11,
+      "hamiltonian_constant_max_abs": 1.560265021279832e-11,
+      "hamiltonian_constant_spread": 1.529811020720988e-11,
+      "horizon_hamiltonian": [
+        -2.4368063122892636e-11,
+        0.0
+      ],
+      "ricci_scaled_equation_error": 3.1783475851199228e-09,
+      "kretschmann_horizons": [
+        100482.02850983424,
+        0.022582407672625104
+      ],
+      "kretschmann_interior_max": 95180.95584844082,
+      "minimum_b": 0.45154989484116426,
+      "cutoff": 0.0001,
+      "series_order": 6,
+      "tolerance": 1e-09,
+      "initial_nodes": 301,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "order6_medium",
+      "seed": "analytic RN plus Legendre P3; fresh solve",
+      "profile_file": "profiles/order6_medium.json",
+      "profile_difference_from_finest": [
+        1.485095338041546e-12,
+        1.864898492643661e-12,
+        3.658601199774125e-13,
+        1.9748758184334747e-11
+      ],
+      "horizon_curvature_difference_from_finest": [
+        1.205070634062405e-11,
+        5.776629175002768e-15
+      ]
+    },
+    {
+      "alpha": 4.893760362084313,
+      "nu": 2.9963474141958195,
+      "b_plus": 4.440192965232862,
+      "b_minus": 0.4503993356213217,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999992227,
+      "b_prime_plus": 5.778820418035844,
+      "b_prime_minus": 9.680481071806588,
+      "scalar_prime_minus": 42.40892399822352,
+      "scalar_prime_plus": 0.43636413376187244,
+      "normalized_product": 0.9998599664740377,
+      "product_deficit": 0.0001400335259622576,
+      "entropy_gap_lower_over_Sstar": 0.0001400335259622576,
+      "entropy_gap_actual_over_Sstar": 9.756227003487634,
+      "collocation_nodes": 6477,
+      "collocation_max_rms": 9.997051235140154e-11,
+      "boundary_max_abs": 1.3010426069826053e-18,
+      "off_grid_scaled_ode_max": 4.640667849997726e-10,
+      "off_grid_ode_by_field": [
+        1.4440334532286788e-10,
+        4.640667849997726e-10,
+        2.4320656599741142e-11,
+        2.782118979638426e-10
+      ],
+      "hamiltonian_max_abs": 1.3182788194399109e-12,
+      "hamiltonian_constant_max_abs": 5.174129115178388e-13,
+      "hamiltonian_constant_spread": 4.4837266528324143e-13,
+      "horizon_hamiltonian": [
+        -4.2946979306179855e-11,
+        -2.7755575615628914e-17
+      ],
+      "ricci_scaled_equation_error": 2.1869428490361997e-10,
+      "kretschmann_horizons": [
+        100482.02850856818,
+        0.02258240767261904
+      ],
+      "kretschmann_interior_max": 95180.9558476748,
+      "minimum_b": 0.45154989484208097,
+      "cutoff": 0.0001,
+      "series_order": 6,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "order6_fine",
+      "seed": "analytic RN plus Legendre P3; fresh solve",
+      "profile_file": "profiles/order6_fine.json",
+      "profile_difference_from_finest": [
+        6.017072842973773e-14,
+        2.92754015070717e-12,
+        6.078471059822732e-14,
+        5.460635575122118e-12
+      ],
+      "horizon_curvature_difference_from_finest": [
+        -5.491615104210549e-13,
+        -2.8796409701215e-16
+      ]
+    },
+    {
+      "alpha": 4.893760362084729,
+      "nu": 2.9963474141961104,
+      "b_plus": 4.440192965232862,
+      "b_minus": 0.450399335621319,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999986276,
+      "b_prime_plus": 5.778820418035778,
+      "b_prime_minus": 9.680481071805419,
+      "scalar_prime_minus": 42.408923998215904,
+      "scalar_prime_plus": 0.43636413376195776,
+      "normalized_product": 0.999859966474026,
+      "product_deficit": 0.00014003352597402596,
+      "entropy_gap_lower_over_Sstar": 0.00014003352597402596,
+      "entropy_gap_actual_over_Sstar": 9.756227003487636,
+      "collocation_nodes": 6239,
+      "collocation_max_rms": 9.997811784502213e-11,
+      "boundary_max_abs": 2.7755575615628914e-17,
+      "off_grid_scaled_ode_max": 2.4844716423055857e-09,
+      "off_grid_ode_by_field": [
+        1.5107161010249077e-10,
+        2.4844716423055857e-09,
+        4.491735503159246e-11,
+        8.641657389674151e-10
+      ],
+      "hamiltonian_max_abs": 1.4643841694805815e-12,
+      "hamiltonian_constant_max_abs": 8.321013960540979e-13,
+      "hamiltonian_constant_spread": 8.290735679020286e-13,
+      "horizon_hamiltonian": [
+        -4.3508308067430335e-11,
+        5.551115123125783e-17
+      ],
+      "ricci_scaled_equation_error": 3.169762027516315e-10,
+      "kretschmann_horizons": [
+        100482.02850854033,
+        0.022582407672618595
+      ],
+      "kretschmann_interior_max": 87174.17226914874,
+      "minimum_b": 0.45345206575715996,
+      "cutoff": 0.0003,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 151,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "order8_larger_cutoff",
+      "seed": "analytic RN plus Legendre P3; fresh solve",
+      "profile_file": "profiles/order8_larger_cutoff.json",
+      "profile_difference_from_finest": [
+        5.681139970713266e-14,
+        2.8555626249224158e-12,
+        1.202926647181357e-13,
+        7.097043399641582e-12
+      ],
+      "horizon_curvature_difference_from_finest": [
+        -8.263490449532012e-13,
+        -7.320533068622126e-16
+      ]
+    },
+    {
+      "alpha": 4.893760362084041,
+      "nu": 2.996347414195629,
+      "b_plus": 4.440192965232862,
+      "b_minus": 0.4503993356213124,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999998305,
+      "b_prime_plus": 5.778820418035886,
+      "b_prime_minus": 9.680481071778248,
+      "scalar_prime_minus": 42.40892399823661,
+      "scalar_prime_plus": 0.43636413376181665,
+      "normalized_product": 0.9998599664739966,
+      "product_deficit": 0.00014003352600344687,
+      "entropy_gap_lower_over_Sstar": 0.00014003352600344687,
+      "entropy_gap_actual_over_Sstar": 9.75622700348764,
+      "collocation_nodes": 5766,
+      "collocation_max_rms": 9.99180465096817e-11,
+      "boundary_max_abs": 1.7763568394002505e-15,
+      "off_grid_scaled_ode_max": 8.023431086190413e-10,
+      "off_grid_ode_by_field": [
+        1.7320195152888003e-10,
+        8.023431086190413e-10,
+        2.4912072404958963e-11,
+        2.777723606683935e-10
+      ],
+      "hamiltonian_max_abs": 1.5292211941186906e-12,
+      "hamiltonian_constant_max_abs": 6.624714204345313e-13,
+      "hamiltonian_constant_spread": 6.362608462669953e-13,
+      "horizon_hamiltonian": [
+        1.0231815394945443e-12,
+        -2.7755575615628914e-17
+      ],
+      "ricci_scaled_equation_error": 3.1224056673551104e-10,
+      "kretschmann_horizons": [
+        100482.02850862336,
+        0.022582407672619327
+      ],
+      "kretschmann_interior_max": 95180.95584768405,
+      "minimum_b": 0.45154989484206937,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 601,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "order8_fine",
+      "seed": "analytic RN plus Legendre P3; fresh solve",
+      "profile_file": "profiles/order8_fine.json",
+      "profile_difference_from_finest": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "horizon_curvature_difference_from_finest": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "strict_setting_spreads": {
+    "alpha": 6.874500968478969e-13,
+    "normalized_product": 4.118927421359331e-14
+  },
+  "fixed_alpha": 4.893760362084041,
+  "fixed_theory_rows": [
+    {
+      "alpha": 4.893760362084041,
+      "nu": 2.996347414195629,
+      "b_plus": 4.440192965232862,
+      "b_minus": 0.4503993356213215,
+      "phi_plus": 0.20000000000173537,
+      "phi_minus": -0.20000000000172832,
+      "b_prime_plus": 5.778820418029162,
+      "b_prime_minus": 9.68048107184485,
+      "scalar_prime_minus": 42.408923998716226,
+      "scalar_prime_plus": 0.4363641337667412,
+      "normalized_product": 0.999859966474037,
+      "product_deficit": 0.00014003352596303476,
+      "entropy_gap_lower_over_Sstar": 0.00014003352596303476,
+      "entropy_gap_actual_over_Sstar": 9.756227003487634,
+      "collocation_nodes": 6500,
+      "collocation_max_rms": 9.996130621557436e-11,
+      "boundary_max_abs": 2.7755575615628914e-17,
+      "off_grid_scaled_ode_max": 4.668053166234643e-10,
+      "off_grid_ode_by_field": [
+        1.4433990835588253e-10,
+        4.668053166234643e-10,
+        2.4321211711253454e-11,
+        2.7860536100376976e-10
+      ],
+      "hamiltonian_max_abs": 1.3107293028724598e-12,
+      "hamiltonian_constant_max_abs": 5.187502099266305e-13,
+      "hamiltonian_constant_spread": 4.519951826080802e-13,
+      "horizon_hamiltonian": [
+        7.993605777301127e-13,
+        -2.7755575615628914e-17
+      ],
+      "ricci_scaled_equation_error": 2.1863699739554932e-10,
+      "kretschmann_horizons": [
+        100482.0285099508,
+        0.02258240767257415
+      ],
+      "kretschmann_interior_max": 95180.95584892777,
+      "minimum_b": 0.4515498948420863,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": true,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "fixed_alpha_kb2.5",
+      "kb": 2.5,
+      "seed": "auxiliary BVP at the same b+, followed by an exactly fixed-alpha correction",
+      "profile_file": "profiles/fixed_alpha_kb2.5.json",
+      "exterior": {
+        "success": true,
+        "rmax": 100000.0,
+        "lambda_values": [
+          4.838483266655194,
+          4.838483174229798
+        ],
+        "phi_values": [
+          0.9752542364495365,
+          0.9754310438774308
+        ],
+        "b_over_r_values": [
+          4.83870809707957,
+          4.838505674078796
+        ],
+        "scaled_phi_derivative_values": [
+          0.00019640900917539065,
+          1.9649640131907687e-05
+        ],
+        "hamiltonian_max_abs": 2.599827010892941e-16,
+        "positive_asymptotic_slope": true
+      }
+    },
+    {
+      "alpha": 4.893760362084041,
+      "nu": 2.996347414195629,
+      "b_plus": 5.328231558279435,
+      "b_minus": 0.3753327796844127,
+      "phi_plus": 0.19999999999873952,
+      "phi_minus": -0.19999999999873133,
+      "b_prime_plus": 7.320407918498668,
+      "b_prime_minus": 11.870648706170849,
+      "scalar_prime_minus": 61.068850556968265,
+      "scalar_prime_plus": 0.30303064844322203,
+      "normalized_product": 0.9998599664739205,
+      "product_deficit": 0.00014003352607949715,
+      "entropy_gap_lower_over_Sstar": 0.00014003352607949715,
+      "entropy_gap_actual_over_Sstar": 14.124588421569634,
+      "collocation_nodes": 6718,
+      "collocation_max_rms": 9.996098792764891e-11,
+      "boundary_max_abs": 1.7763568394002505e-15,
+      "off_grid_scaled_ode_max": 1.1120254521899964e-09,
+      "off_grid_ode_by_field": [
+        1.618599988187921e-10,
+        1.1120254521899964e-09,
+        1.8041770389161647e-11,
+        3.5607716775132303e-10
+      ],
+      "hamiltonian_max_abs": 2.7107205369247822e-12,
+      "hamiltonian_constant_max_abs": 8.611137738584771e-13,
+      "hamiltonian_constant_spread": 6.882466226764715e-13,
+      "horizon_hamiltonian": [
+        1.8758328224066645e-12,
+        -1.3877787807814457e-17
+      ],
+      "ricci_scaled_equation_error": 3.1472452699339016e-10,
+      "kretschmann_horizons": [
+        442876.0562583001,
+        0.011987110358744349
+      ],
+      "kretschmann_interior_max": 411300.3262478676,
+      "minimum_b": 0.37667136143186103,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": true,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "fixed_alpha_kb3",
+      "kb": 3.0,
+      "seed": "auxiliary BVP at the same b+, followed by an exactly fixed-alpha correction",
+      "profile_file": "profiles/fixed_alpha_kb3.json",
+      "exterior": {
+        "success": true,
+        "rmax": 100000.0,
+        "lambda_values": [
+          7.022475346910957,
+          7.022475342176521
+        ],
+        "phi_values": [
+          0.5258288346314743,
+          0.5258620495993145
+        ],
+        "b_over_r_values": [
+          7.0223430687019315,
+          7.022462115216436
+        ],
+        "scaled_phi_derivative_values": [
+          3.6904851844738334e-05,
+          3.6906188088316228e-06
+        ],
+        "hamiltonian_max_abs": 2.4376960063930283e-16,
+        "positive_asymptotic_slope": true
+      }
+    },
+    {
+      "alpha": 4.893760362084041,
+      "nu": 2.996347414195629,
+      "b_plus": 7.10430874437258,
+      "b_minus": 0.28149958476328485,
+      "phi_plus": 0.19999999999776574,
+      "phi_minus": -0.19999999999773363,
+      "b_prime_plus": 10.272052209127134,
+      "b_prime_minus": 16.164368718155316,
+      "scalar_prime_minus": 108.56684543392487,
+      "scalar_prime_plus": 0.17045473974823294,
+      "normalized_product": 0.9998599664737452,
+      "product_deficit": 0.00014003352625480137,
+      "entropy_gap_lower_over_Sstar": 0.00014003352625480137,
+      "entropy_gap_actual_over_Sstar": 25.1959803595734,
+      "collocation_nodes": 7536,
+      "collocation_max_rms": 9.996066740735459e-11,
+      "boundary_max_abs": 3.552713678800501e-15,
+      "off_grid_scaled_ode_max": 3.009190452374355e-09,
+      "off_grid_ode_by_field": [
+        1.1763202448603366e-10,
+        3.009190452374355e-09,
+        1.7342062978807013e-11,
+        5.669635871896617e-10
+      ],
+      "hamiltonian_max_abs": 6.681322162194192e-12,
+      "hamiltonian_constant_max_abs": 1.7528779902193784e-12,
+      "hamiltonian_constant_spread": 1.7763926665892532e-12,
+      "horizon_hamiltonian": [
+        -2.8556712550198426e-11,
+        6.938893903907228e-18
+      ],
+      "ricci_scaled_equation_error": 6.061408042157268e-10,
+      "kretschmann_horizons": [
+        4533565.222925675,
+        0.004172310318727462
+      ],
+      "kretschmann_interior_max": 4006977.2772519556,
+      "minimum_b": 0.2832203840148669,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": true,
+      "success": true,
+      "status": 0,
+      "interior_scalar_nodes": 3,
+      "label": "fixed_alpha_kb4",
+      "kb": 4.0,
+      "seed": "auxiliary BVP at the same b+, followed by an exactly fixed-alpha correction",
+      "profile_file": "profiles/fixed_alpha_kb4.json",
+      "exterior": {
+        "success": true,
+        "rmax": 100000.0,
+        "lambda_values": [
+          10.181478434863777,
+          10.181478434169891
+        ],
+        "phi_values": [
+          0.34093005136745624,
+          0.3409406117743512
+        ],
+        "b_over_r_values": [
+          10.181178673406695,
+          10.181448458150346
+        ],
+        "scaled_phi_derivative_values": [
+          1.1733954915119374e-05,
+          1.1733616227493923e-06
+        ],
+        "hamiltonian_max_abs": 2.1212283265034966e-16,
+        "positive_asymptotic_slope": true
+      }
+    }
+  ],
+  "fixed_theory_seed_preparation": [
+    {
+      "alpha": 4.893760362083975,
+      "nu": 2.996347414195583,
+      "b_plus": 5.328231558279435,
+      "b_minus": 0.3753327796844117,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999999205,
+      "b_prime_plus": 7.320407918494606,
+      "b_prime_minus": 11.870648706228543,
+      "scalar_prime_minus": 61.06885055746736,
+      "scalar_prime_plus": 0.3030306484456965,
+      "normalized_product": 0.9998599664739151,
+      "product_deficit": 0.00014003352608493724,
+      "entropy_gap_lower_over_Sstar": 0.00014003352608493724,
+      "entropy_gap_actual_over_Sstar": 14.124588421569634,
+      "collocation_nodes": 6700,
+      "collocation_max_rms": 9.99595321701062e-11,
+      "boundary_max_abs": 1.3010426069826053e-18,
+      "off_grid_scaled_ode_max": 1.1120870382886304e-09,
+      "off_grid_ode_by_field": [
+        1.6179944986233916e-10,
+        1.1120870382886304e-09,
+        1.8032088442031585e-11,
+        3.5445990587135157e-10
+      ],
+      "hamiltonian_max_abs": 2.715161429023283e-12,
+      "hamiltonian_constant_max_abs": 8.623063020614677e-13,
+      "hamiltonian_constant_spread": 6.861051653213686e-13,
+      "horizon_hamiltonian": [
+        1.8971491044794675e-12,
+        -2.7755575615628914e-17
+      ],
+      "ricci_scaled_equation_error": 3.166170658985834e-10,
+      "kretschmann_horizons": [
+        442876.0562625284,
+        0.011987110358732227
+      ],
+      "kretschmann_interior_max": 411300.32625153346,
+      "minimum_b": 0.3766713614318664,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "label": "fixed_alpha_seed_kb3",
+      "seed": "fresh analytic RN plus Legendre P3; alpha free only in seed preparation"
+    },
+    {
+      "alpha": 4.893760362083931,
+      "nu": 2.996347414195552,
+      "b_plus": 7.10430874437258,
+      "b_minus": 0.2814995847632846,
+      "phi_plus": 0.2,
+      "phi_minus": -0.19999999999996868,
+      "b_prime_plus": 10.272052209121734,
+      "b_prime_minus": 16.164368718291687,
+      "scalar_prime_minus": 108.56684543549743,
+      "scalar_prime_plus": 0.1704547397507008,
+      "normalized_product": 0.9998599664737436,
+      "product_deficit": 0.00014003352625635568,
+      "entropy_gap_lower_over_Sstar": 0.00014003352625635568,
+      "entropy_gap_actual_over_Sstar": 25.1959803595734,
+      "collocation_nodes": 7522,
+      "collocation_max_rms": 9.996920134231889e-11,
+      "boundary_max_abs": 1.7763568394002505e-15,
+      "off_grid_scaled_ode_max": 2.9691928915553945e-09,
+      "off_grid_ode_by_field": [
+        1.1765943994024905e-10,
+        2.9691928915553945e-09,
+        1.731895835705621e-11,
+        5.671874081514261e-10
+      ],
+      "hamiltonian_max_abs": 6.647571382245587e-12,
+      "hamiltonian_constant_max_abs": 1.7584465493071299e-12,
+      "hamiltonian_constant_spread": 1.77373400457448e-12,
+      "horizon_hamiltonian": [
+        -2.8606450541701633e-11,
+        -6.245004513516506e-17
+      ],
+      "ricci_scaled_equation_error": 6.12824291312819e-10,
+      "kretschmann_horizons": [
+        4533565.223001358,
+        0.004172310318723274
+      ],
+      "kretschmann_interior_max": 4006977.2773115174,
+      "minimum_b": 0.2832203840148808,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 3,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "label": "fixed_alpha_seed_kb4",
+      "seed": "fresh analytic RN plus Legendre P3; alpha free only in seed preparation"
+    }
+  ],
+  "exact_controls": [
+    {
+      "alpha": 1.9999999999999019,
+      "nu": 0.9999999999999345,
+      "b_plus": 2.2665070321669023,
+      "b_minus": 0.882415087010696,
+      "phi_plus": 0.08697391277564696,
+      "phi_minus": -0.08697391277564935,
+      "b_prime_plus": 2.1087819376104724,
+      "b_prime_minus": 2.1822589293986443,
+      "scalar_prime_minus": 0.6908403965541915,
+      "scalar_prime_plus": 0.10471512914798042,
+      "normalized_product": 0.9999999999999115,
+      "product_deficit": 8.848477506262498e-14,
+      "entropy_gap_lower_over_Sstar": 8.848477506262498e-14,
+      "entropy_gap_actual_over_Sstar": 2.1791988705389627,
+      "collocation_nodes": 1112,
+      "collocation_max_rms": 9.949128915114011e-11,
+      "boundary_max_abs": 0.0,
+      "off_grid_scaled_ode_max": 1.981744379056845e-10,
+      "off_grid_ode_by_field": [
+        1.981744379056845e-10,
+        2.2756241335741834e-12,
+        9.166001291305292e-13,
+        5.522027279880604e-12
+      ],
+      "hamiltonian_max_abs": 3.130429943043467e-13,
+      "hamiltonian_constant_max_abs": 6.243254302201232e-13,
+      "hamiltonian_constant_spread": 5.667481855554894e-13,
+      "horizon_hamiltonian": [
+        1.5631940186722204e-13,
+        1.1102230246251565e-16
+      ],
+      "ricci_scaled_equation_error": 1.1939407795757973e-13,
+      "kretschmann_horizons": [
+        140.85278475089095,
+        0.2136693160005891
+      ],
+      "kretschmann_interior_max": 140.25742388878822,
+      "minimum_b": 0.8827959467010953,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 1,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "mass": 1.6,
+      "phi_infinity": 0.2,
+      "profile_errors": [
+        5.5479765193801205e-14,
+        1.438477597796629e-15,
+        2.3913163116340286e-15,
+        2.1079804568557847e-12
+      ],
+      "profile_file": "profiles/exact_M1.6_phi0.2.json"
+    },
+    {
+      "alpha": 1.9999999999997666,
+      "nu": 0.9999999999998443,
+      "b_plus": 5.489528037647222,
+      "b_minus": 0.3643300455491942,
+      "phi_plus": -0.38770847785485063,
+      "phi_minus": 0.3877084778548996,
+      "b_prime_plus": 7.707796988924225,
+      "b_prime_minus": 10.553713518750952,
+      "scalar_prime_minus": -19.830927596303013,
+      "scalar_prime_plus": -0.08735001621608998,
+      "normalized_product": 0.9999999999995909,
+      "product_deficit": 4.091171845743702e-13,
+      "entropy_gap_lower_over_Sstar": 4.091171845743702e-13,
+      "entropy_gap_actual_over_Sstar": 15.001090847012541,
+      "collocation_nodes": 3784,
+      "collocation_max_rms": 9.99746135117505e-11,
+      "boundary_max_abs": 5.551115123125783e-17,
+      "off_grid_scaled_ode_max": 2.3216576169934992e-10,
+      "off_grid_ode_by_field": [
+        2.3216576169934992e-10,
+        2.3253747278763994e-11,
+        5.253397326923963e-12,
+        8.386580261106674e-11
+      ],
+      "hamiltonian_max_abs": 3.718109153894034e-12,
+      "hamiltonian_constant_max_abs": 8.575171772811305e-13,
+      "hamiltonian_constant_spread": 7.817567908037768e-13,
+      "horizon_hamiltonian": [
+        3.1441516057384433e-12,
+        -6.938893903907228e-17
+      ],
+      "ricci_scaled_equation_error": 2.3251568949958405e-11,
+      "kretschmann_horizons": [
+        419989.298369299,
+        0.011073935826630087
+      ],
+      "kretschmann_interior_max": 405554.6717649867,
+      "minimum_b": 0.3655188688543533,
+      "cutoff": 0.0001,
+      "series_order": 8,
+      "tolerance": 1e-10,
+      "initial_nodes": 401,
+      "legendre_seed_degree": 1,
+      "fixed_alpha": false,
+      "success": true,
+      "status": 0,
+      "mass": 3.0,
+      "phi_infinity": -0.45,
+      "profile_errors": [
+        1.5287771049088406e-13,
+        6.350149399326022e-14,
+        4.8128168117500536e-14,
+        5.874558406933912e-12
+      ],
+      "profile_file": "profiles/exact_M3.0_phi-0.45.json"
+    }
+  ],
+  "limitations": [
+    "Empirical convergence errors, not rigorous interval bounds.",
+    "Regularity enforced through order-varied local Taylor expansions; not an analytic existence theorem.",
+    "Finite-radius exterior diagnostics support asymptotic flatness; they are not a global proof.",
+    "The fixed-theory sampled solutions do not by themselves prove global connectedness or maximal continuation."
+  ],
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "elapsed_seconds": 3.008427832974121
+}

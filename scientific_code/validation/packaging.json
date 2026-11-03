@@ -1,0 +1,361 @@
+{
+  "version": "2026.11.02-r3",
+  "purpose": "Verify portable execution and separation of reference files from new outputs",
+  "quick_mode": {
+    "mode": "quick",
+    "utc_started": "2026-11-02T13:02:06Z",
+    "environment": {
+      "python": "3.14.3",
+      "implementation": "CPython",
+      "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "sympy": "1.14.0",
+        "mpmath": "1.4.1",
+        "matplotlib": "3.10.8"
+      }
+    },
+    "tasks": [
+      {
+        "task": "quartic",
+        "script": "calculations/quartic.py",
+        "exit_code": 0,
+        "seconds": 0.033,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "tuned_branch_bvp",
+        "script": "scripts/tuned_branch_bvp.py",
+        "exit_code": 0,
+        "seconds": 3.857,
+        "pass_markers": 143,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "test_tuned_branch_bvp",
+        "script": "scripts/test_tuned_branch_bvp.py",
+        "exit_code": 0,
+        "seconds": 2.117,
+        "pass_markers": 52,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "half_interval_scan",
+        "script": "calculations/half_interval_scan.py",
+        "exit_code": 0,
+        "seconds": 1.864,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "orbit_scan",
+        "script": "calculations/orbit_scan.py",
+        "exit_code": 0,
+        "seconds": 1.144,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "validate_core",
+        "script": "calculations/validate_core.py",
+        "exit_code": 0,
+        "seconds": 1.094,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_orbit",
+        "script": "calculations/plot_orbit.py",
+        "exit_code": 0,
+        "seconds": 15.861,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "c3_exact",
+        "script": "scripts/c3_exact.py",
+        "exit_code": 0,
+        "seconds": 3.598,
+        "pass_markers": 42,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "check_static_virial",
+        "script": "controls/check_static_virial.py",
+        "exit_code": 0,
+        "seconds": 3.371,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "rotating_exact_controls",
+        "script": "controls/rotating_exact_controls.py",
+        "exit_code": 0,
+        "seconds": 0.028,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "complex_validation",
+        "script": "controls/complex_validation.py",
+        "exit_code": 0,
+        "seconds": 0.206,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "second_variation_control",
+        "script": "controls/second_variation_control.py",
+        "exit_code": 0,
+        "seconds": 2.766,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "coupling_series_control",
+        "script": "controls/coupling_series_control.py",
+        "exit_code": 0,
+        "seconds": 1.544,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "exact_obstruction_control",
+        "script": "controls/exact_obstruction_control.py",
+        "exit_code": 0,
+        "seconds": 0.112,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "toda_b2_control",
+        "script": "controls/toda_b2_control.py",
+        "exit_code": 0,
+        "seconds": 6.351,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "general_translation_check",
+        "script": "controls/general_translation_check.py",
+        "exit_code": 0,
+        "seconds": 1.899,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "branch_trace",
+        "script": "calculations/branch_trace.py",
+        "exit_code": 0,
+        "seconds": 37.772,
+        "pass_markers": 5,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "fixed_coupling_control",
+        "script": "controls/fixed_coupling_control.py",
+        "exit_code": 0,
+        "seconds": 14.328,
+        "pass_markers": 18,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_branches",
+        "script": "calculations/plot_branches.py",
+        "exit_code": 0,
+        "seconds": 1.703,
+        "pass_markers": 1,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_deficit",
+        "script": "calculations/plot_deficit.py",
+        "exit_code": 0,
+        "seconds": 1.512,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_families",
+        "script": "calculations/plot_families.py",
+        "exit_code": 0,
+        "seconds": 1.548,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "numerical_regime",
+        "script": "calculations/numerical_regime.py",
+        "exit_code": 0,
+        "seconds": 0.032,
+        "pass_markers": 1,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      }
+    ],
+    "scope": "Only listed tasks were executed; no claim is made for omitted tasks.",
+    "total_seconds": 102.749,
+    "tasks_passed": 22,
+    "tasks_failed": 0,
+    "pass_markers": 262,
+    "fail_markers": 0
+  },
+  "regression_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests_passed": 12,
+    "tests_failed": 0
+  },
+  "packaged_input_selection": {
+    "mode": "selected",
+    "utc_started": "2026-11-02T13:00:04Z",
+    "environment": {
+      "python": "3.14.3",
+      "implementation": "CPython",
+      "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "sympy": "1.14.0",
+        "mpmath": "1.4.1",
+        "matplotlib": "3.10.8"
+      }
+    },
+    "tasks": [
+      {
+        "task": "quartic",
+        "script": "calculations/quartic.py",
+        "exit_code": 0,
+        "seconds": 0.031,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "validate_core",
+        "script": "calculations/validate_core.py",
+        "exit_code": 0,
+        "seconds": 1.202,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_branches",
+        "script": "calculations/plot_branches.py",
+        "exit_code": 0,
+        "seconds": 14.692,
+        "pass_markers": 1,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_deficit",
+        "script": "calculations/plot_deficit.py",
+        "exit_code": 0,
+        "seconds": 1.661,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_orbit",
+        "script": "calculations/plot_orbit.py",
+        "exit_code": 0,
+        "seconds": 2.791,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "plot_families",
+        "script": "calculations/plot_families.py",
+        "exit_code": 0,
+        "seconds": 1.61,
+        "pass_markers": 0,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      },
+      {
+        "task": "numerical_regime",
+        "script": "calculations/numerical_regime.py",
+        "exit_code": 0,
+        "seconds": 0.033,
+        "pass_markers": 1,
+        "fail_markers": 0,
+        "timed_out": false,
+        "passed": true
+      }
+    ],
+    "scope": "Only listed tasks were executed; no claim is made for omitted tasks.",
+    "total_seconds": 22.023,
+    "tasks_passed": 7,
+    "tasks_failed": 0,
+    "pass_markers": 2,
+    "fail_markers": 0
+  },
+  "execution_checks": {
+    "fresh_copy_without_existing_results": true,
+    "repository_path_contained_spaces": true,
+    "runner_invoked_from_outside_repository": true,
+    "manifest_verified_unchanged_after_default_quick_run": true,
+    "all_reference_numerical_values_preserved": true,
+    "all_reference_csv_tsv_and_figure_bytes_preserved": true,
+    "python_sources_compile": true,
+    "json_files_parse": true,
+    "local_markdown_links_resolve": true
+  },
+  "scope": "Local execution with the recorded pinned dependencies. Installation from the public package index and the complete full mode were not rerun. No new physical independence or numerical accuracy certification is inferred."
+}

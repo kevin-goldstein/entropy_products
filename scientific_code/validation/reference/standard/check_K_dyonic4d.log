@@ -1,0 +1,8 @@
+dK/dr on-shell = (P*(-c*dP*f(phi(r)) + dP*f(phi(r)))*f(phi(r))**2 + (-P*c*dP*ft(phi(r))**2 + P*dP*ft(phi(r))**2 - Q*c*dP*ft(phi(r)) + Q*dP*ft(phi(r)))*f(phi(r)))/(B(r)**2*f(phi(r))**2)
+coefficient of dP: (-P*(c - 1)*f(phi(r))**2 - (P*c*ft(phi(r)) - P*ft(phi(r)) + Q*c - Q)*ft(phi(r)))/(B(r)**2*f(phi(r)))
+solve for c: [1]
+remaining (c=1): 0
+  [PASS] the magnetic completion coefficient is c = 1  (solution [1])
+  [PASS] dK/dr = 0 on shell with c = 1 (dyonic, axionic ftilde)  (simplifies to 0)
+  [PASS] negative control: without the completion (c = 0) dK/dr is not zero
+checks: 3 passed, 0 failed

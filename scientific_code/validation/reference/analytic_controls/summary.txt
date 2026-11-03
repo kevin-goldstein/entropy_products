@@ -1,0 +1,8 @@
+task                                status      seconds   PASS   FAIL
+coupling_series_control             PASS         1.612      0      0
+series_fraction_comparison          PASS        45.605      0      0
+exact_obstruction_control           PASS         0.119      0      0
+toda_b2_control                     PASS         6.587      0      0
+general_translation_check           PASS         1.958      0      0
+5 tasks passed, 0 failed; 55.883 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

@@ -1,0 +1,17 @@
+{
+  "title": "Entropy products beyond the attractor: scientific code and data",
+  "package_identifier": "2026.11.03-prl5",
+  "prepared_date": "2026-11-03",
+  "status": "Prepared for GitHub upload",
+  "scientific_snapshot": "2026.11.02-r5",
+  "preserved_figure_revision": "2026.11.03-prl-referees",
+  "manuscript_included": false,
+  "scientific_files_modified": false,
+  "new_numerical_solutions": false,
+  "archival_doi": null,
+  "license": "Not selected by the authors; see LICENSE_STATUS.md",
+  "source_archive": "hot_attractors_prl_reproducibility_2026_11_03.zip",
+  "source_archive_sha256": "7ee97fa154d674f7614518a2df9e4a61ab4c7fa8775ef0726003e07e83091dde",
+  "integrity": "MANIFEST.sha256 covers supplied package files except itself, local caches and fresh results/; scientific_code/MANIFEST.sha256 preserves the original 266-file scientific manifest.",
+  "validation": "See PACKAGING_VALIDATION.md. Numerical and symbolic suites were not rerun for packaging."
+}

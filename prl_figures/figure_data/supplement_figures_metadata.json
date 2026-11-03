@@ -1,0 +1,19 @@
+{
+  "code_snapshot": "2026.11.02-r5",
+  "new_differential_equation_solves": false,
+  "changes": "Separate the scalar profile and n=3 amplitude example from entropy-product-versus-coupling plots already in the Letter. Numerical data unchanged.",
+  "asymptotic_modulus": 0.939575491,
+  "asymptotic_modulus_source": "validation/excess/asymmetric_excess.log in code snapshot",
+  "source_hashes": {
+    "profile_interior.csv": "b133eb40a97c5be709952f5c8c313d5372402e76855750d6a83e3ba3adb2cd8c",
+    "profile_exterior.csv": "2de199c833ba48d97174310f007b3045137362c901dce0a00e7bfd2d5e85e09d",
+    "orbit_metadata.json": "376caf028249c00dce9855e96a229851078d890038181a68e83f92a2e9ad7544",
+    "amplitude_scan.csv": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60",
+    "branch_trace.csv": "9d6686deda528b600cafdeb8cd8865c68aef1f2989fd05f64f75b9185c69a3ae"
+  },
+  "figures": {
+    "scalar_profile.pdf": "Interior and exterior scalar profile of the fixed unequal-slope example; no repeated eta(nu) panel.",
+    "amplitude_example.pdf": "nu and eta versus phi_plus for n=3 only, 45 nonzero samples; no repeated common eta(nu) curves.",
+    "families.pdf": "Unchanged schematic of fixed-coupling families and their asymptotic moduli."
+  }
+}

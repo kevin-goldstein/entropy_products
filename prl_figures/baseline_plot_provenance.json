@@ -1,0 +1,14 @@
+{
+  "original_plot": "prior PRL presentation script (identified by SHA-256 below)",
+  "original_plot_sha256": "5066391111a18ae8fc9b811dd7775c14554658ba59c64ef198cfe749e44a4078",
+  "reference_data_sha256": {
+    "figure_data/branch_r2_n2.csv": "9215c56d04ec708f598ba9ea900d353356f1864c5e8fb876a4ea5cd75c815d11",
+    "figure_data/profile_interior.csv": "b133eb40a97c5be709952f5c8c313d5372402e76855750d6a83e3ba3adb2cd8c",
+    "figure_data/supplement_figures_metadata.json": "26dbe2c22ccb0fd810d698da4ffbb5329dff0da9cc7dd924f28de52cfeb5dec7",
+    "figure_data/profile_exterior.csv": "2de199c833ba48d97174310f007b3045137362c901dce0a00e7bfd2d5e85e09d",
+    "figure_data/amplitude_scan.csv": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60",
+    "figure_data/branch_trace.csv": "9d6686deda528b600cafdeb8cd8865c68aef1f2989fd05f64f75b9185c69a3ae",
+    "figure_data/product_branches_metadata.json": "f74cb3453fe339031fcd97844c0da407d75bc249e58e35fb52883de06b32671b",
+    "figure_data/orbit_metadata.json": "376caf028249c00dce9855e96a229851078d890038181a68e83f92a2e9ad7544"
+  }
+}

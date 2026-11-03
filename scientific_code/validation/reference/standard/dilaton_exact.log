@@ -1,0 +1,32 @@
+number of independent conditions: 12
+    2*Sigma*(2*M*Sigma*exp(2*phi0) + Q1**2*exp(4*phi0) - Q2**2)
+    -8*Sigma*(Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0))
+    -Sigma**2*(Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0))
+    Sigma**2*(Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0))
+    -4*Sigma**3*(2*M*Sigma*exp(2*phi0) + Q1**2*exp(4*phi0) - Q2**2)
+    8*Sigma**3*(Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0))
+    4*Sigma**4*(2*M*Sigma*exp(2*phi0) + Q1**2*exp(4*phi0) - Q2**2)
+    -Sigma**4*(Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0))
+    2*Sigma**5*(2*M*Sigma*exp(2*phi0) + Q1**2*exp(4*phi0) - Q2**2)
+    Sigma**6*(Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0))
+    -4*(2*M*Sigma*exp(2*phi0) + Q1**2*exp(4*phi0) - Q2**2)
+    Delta**2*exp(2*phi0) - M**2*exp(2*phi0) + Q1**2*exp(4*phi0) + Q2**2 - Sigma**2*exp(2*phi0)
+  [PASS] all field equations vanish on the family (2 M Sigma = e^{-2phi0} Q2^2 - e^{2phi0} Q1^2, Delta^2 = M^2 + Sigma^2 - Veff)
+numeric point: Sigma = 0.198242581083548  Delta = 2.20594542978081  r+ = 5.20594542978081  r- = 0.794054570219191
+d/d M :  dK/dr at sample radii = [1.6401064715739963e-142, -2.624170354518394e-141, -8.397345134458861e-140, 2.624170354518394e-141]   K(r=7/2) = 1.0  K(inside, r=(r++r-)/2) = 1.0
+  [PASS] d/dM: dK/dr at four radii (inside and outside)  (|value| = 8.40e-140, tolerance 1e-100)
+  [PASS] d/dM: K outside = dM + Sigma dphi_inf  (difference 0.00e+00, tolerance 1e-20)
+  [PASS] d/dM: K in region II = K outside  (difference 0.00e+00, tolerance 1e-20)
+d/d phi0 :  dK/dr at sample radii = [-1.6794690268917722e-139, 8.200532357869981e-143, 8.397345134458861e-140, 3.3589380537835444e-139]   K(r=7/2) = 0.1982425810835478  K(inside, r=(r++r-)/2) = 0.1982425810835478
+  [PASS] d/dphi0: dK/dr at four radii (inside and outside)  (|value| = 3.36e-139, tolerance 1e-100)
+  [PASS] d/dphi0: K outside = dM + Sigma dphi_inf  (difference 0.00e+00, tolerance 1e-20)
+  [PASS] d/dphi0: K in region II = K outside  (difference 0.00e+00, tolerance 1e-20)
+d/d Q1 :  dK/dr at sample radii = [5.248340709036788e-141, -1.312085177259197e-141, -5.248340709036788e-141, -2.0993362836147152e-140]   K(r=7/2) = -1.3566642758087631e-166  K(inside, r=(r++r-)/2) = 5.426657103235053e-166
+  [PASS] d/dQ1: dK/dr at four radii (inside and outside)  (|value| = 2.10e-140, tolerance 1e-100)
+  [PASS] d/dQ1: K outside = dM + Sigma dphi_inf  (difference 1.36e-166, tolerance 1e-20)
+  [PASS] d/dQ1: K in region II = K outside  (difference 5.43e-166, tolerance 1e-20)
+d/d Q2 :  dK/dr at sample radii = [-2.624170354518394e-141, -5.248340709036788e-141, -3.2802129431479926e-142, 2.624170354518394e-141]   K(r=7/2) = 2.7133285516175262e-166  K(inside, r=(r++r-)/2) = 2.7133285516175262e-166
+  [PASS] d/dQ2: dK/dr at four radii (inside and outside)  (|value| = 5.25e-141, tolerance 1e-100)
+  [PASS] d/dQ2: K outside = dM + Sigma dphi_inf  (difference 2.71e-166, tolerance 1e-20)
+  [PASS] d/dQ2: K in region II = K outside  (difference 0.00e+00, tolerance 1e-20)
+checks: 13 passed, 0 failed

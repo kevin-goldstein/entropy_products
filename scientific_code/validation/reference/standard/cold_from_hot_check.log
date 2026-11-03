@@ -1,0 +1,105 @@
+  [PASS] RN: outer first law at fixed charge  (simplifies to 0)
+  [PASS] RN: inner first law with signed temperature  (simplifies to 0)
+  [PASS] RN: no interior rank-zero point
+  [PASS] RN: outer entropy increases
+  [PASS] RN: inner entropy decreases
+  [PASS] RN: entropy gap derivative = 4 pi q^2 cosh(2u)  (simplifies to 0)
+  [PASS] RN: entropy gap derivative is strictly positive
+  [PASS] RN: regular entropy image is the positive constant-product graph  (simplifies to 0)
+  [PASS] RN: outer extremal entropy = pi q^2  (simplifies to 0)
+  [PASS] RN: outer extremal temperature vanishes  (simplifies to 0)
+  [PASS] RN: inner extremal entropy = pi q^2  (simplifies to 0)
+  [PASS] RN: inner extremal temperature vanishes  (simplifies to 0)
+  [PASS] Countermodel: entropy gap = 1 - t^2  (simplifies to 0)
+  [PASS] Countermodel: outer first law  (simplifies to 0)
+  [PASS] Countermodel: inner first law  (simplifies to 0)
+  [PASS] Countermodel: positive gap throughout -1 < t < 1
+  [PASS] Countermodel: T+ > 0 throughout -1 < t < 1
+  [PASS] Countermodel: T- < 0 throughout -1 < t < 1
+  [PASS] Countermodel: first-law one-form vanishes at the interior cusp  (simplifies to 0)
+  [PASS] Countermodel: outer entropy derivative vanishes at the cusp  (simplifies to 0)
+  [PASS] Countermodel: inner entropy derivative vanishes at the cusp  (simplifies to 0)
+  [PASS] Countermodel: independent quadratic and cubic jets give a cusp  (simplifies to 0)
+  [PASS] Countermodel: gap reverses direction across the cusp
+  [PASS] Countermodel: diagonal entropy limit at t=-1  (simplifies to 0)
+  [PASS] Countermodel: outer temperature vanishes at t=-1  (simplifies to 0)
+  [PASS] Countermodel: inner temperature vanishes at t=-1  (simplifies to 0)
+  [PASS] Countermodel: diagonal entropy limit at t=+1  (simplifies to 0)
+  [PASS] Countermodel: outer temperature vanishes at t=+1  (simplifies to 0)
+  [PASS] Countermodel: inner temperature vanishes at t=+1  (simplifies to 0)
+  [PASS] Negative control: the two finite diagonal entropy limits differ  (|value| = 1.33e-01, must exceed 1e-01)
+The abstract cusp violates the regular-branch hypotheses; no black-hole spacetime realization is asserted.
+  [PASS] Gap: derivatives differ by one  (simplifies to 0)
+  [PASS] Gap: signed first laws agree  (simplifies to 0)
+  [PASS] Gap: omega/dg coefficient  (simplifies to 0)
+  [PASS] Gap: positive outer derivative
+  [PASS] Gap: outer derivative below one
+  [PASS] Gap: inner derivative above minus one
+  [PASS] Gap: negative inner derivative
+  [PASS] Gap: omega and dg have the same zeros
+  [PASS] Shifted RN: outer first law  (simplifies to 0)
+  [PASS] Shifted RN: inner first law  (simplifies to 0)
+  [PASS] Shifted RN: shifted product constant  (simplifies to 0)
+  [PASS] Shifted RN: outer endpoint  (simplifies to 0)
+  [PASS] Shifted RN: inner endpoint  (simplifies to 0)
+  [PASS] Shifted RN: S+ above limiting entropy
+  [PASS] Shifted RN: S- below limiting entropy
+  [PASS] Shifted RN: outer error below gap
+  [PASS] Shifted RN: inner error below gap
+  [PASS] Shifted RN: midpoint above limiting entropy
+  [PASS] Shifted RN: midpoint error below half gap
+  [PASS] Shifted RN: two-sided midpoint error identity  (simplifies to 0)
+  [PASS] Isolated critical point: outer law in x  (simplifies to 0)
+  [PASS] Isolated critical point: inner law in x  (simplifies to 0)
+  [PASS] Isolated critical point: outer law in y  (simplifies to 0)
+  [PASS] Isolated critical point: inner law in y  (simplifies to 0)
+  [PASS] Isolated critical point: gap identity  (simplifies to 0)
+  [PASS] Isolated critical point: global graph  (simplifies to 0)
+  [PASS] Isolated critical point: dg vanishes only at origin
+  [PASS] Noncold limit: outer first law  (simplifies to 0)
+  [PASS] Noncold limit: inner first law  (simplifies to 0)
+  [PASS] Noncold limit: equal endpoint entropies  (simplifies to 0)
+  [PASS] Noncold limit: finite entropy  (simplifies to 0)
+  [PASS] Noncold limit: outer temperature nonzero
+  [PASS] Noncold limit: inner temperature nonzero
+  [PASS] Two minima: derivative  (simplifies to 0)
+  [PASS] Two minima: global positivity certificate  (simplifies to 0)
+  [PASS] Physical branch phi=0: potential value  (simplifies to 0)
+  [PASS] Physical branch phi=0: stationarity  (simplifies to 0)
+  [PASS] Physical branch phi=0: positive Hessian  (simplifies to 0)
+  [PASS] Physical branch phi=0: gauge coupling derivative  (simplifies to 0)
+  [PASS] Physical branch phi=0: b equation  (simplifies to 0)
+  [PASS] Physical branch phi=0: scalar equation  (simplifies to 0)
+  [PASS] Physical branch phi=0: Maxwell charge  (simplifies to 0)
+  [PASS] Physical branch phi=0: Weyl equation  (simplifies to 0)
+  [PASS] Physical branch phi=0: tt equation  (simplifies to 0)
+  [PASS] Physical branch phi=0: angular equation  (simplifies to 0)
+  [PASS] Physical branch phi=0: Hamiltonian  (simplifies to 0)
+  [PASS] Physical branch phi=0: extremal double root  (simplifies to 0)
+  [PASS] Physical branch phi=0: extremal derivative  (simplifies to 0)
+  [PASS] Physical branch phi=3: potential value  (simplifies to 0)
+  [PASS] Physical branch phi=3: stationarity  (simplifies to 0)
+  [PASS] Physical branch phi=3: positive Hessian  (simplifies to 0)
+  [PASS] Physical branch phi=3: gauge coupling derivative  (simplifies to 0)
+  [PASS] Physical branch phi=3: b equation  (simplifies to 0)
+  [PASS] Physical branch phi=3: scalar equation  (simplifies to 0)
+  [PASS] Physical branch phi=3: Maxwell charge  (simplifies to 0)
+  [PASS] Physical branch phi=3: Weyl equation  (simplifies to 0)
+  [PASS] Physical branch phi=3: tt equation  (simplifies to 0)
+  [PASS] Physical branch phi=3: angular equation  (simplifies to 0)
+  [PASS] Physical branch phi=3: Hamiltonian  (simplifies to 0)
+  [PASS] Physical branch phi=3: extremal double root  (simplifies to 0)
+  [PASS] Physical branch phi=3: extremal derivative  (simplifies to 0)
+  [PASS] Two minima: gauge coupling globally positive
+  [PASS] Extremal: scalar equation forces D dx=0  (simplifies to 0)
+  [PASS] Extremal: AdS2 radius equation  (simplifies to 0)
+  [PASS] Extremal: implicit area gradient  (simplifies to 0)
+  [PASS] Convex potential: critical point  (simplifies to 0)
+  [PASS] Convex potential: Hessian positive
+  [PASS] Gap floor: outer constraint  (simplifies to 0)
+  [PASS] Gap floor: outer area exceeds W
+  [PASS] Gap floor: monotone difference factorization  (simplifies to 0)
+  [PASS] Gap floor: gap increases with outer entropy
+  [PASS] Gap floor: normalized deficit  (simplifies to 0)
+  [PASS] Gap floor: strict deficit gives positive floor
+checks: 103 passed, 0 failed

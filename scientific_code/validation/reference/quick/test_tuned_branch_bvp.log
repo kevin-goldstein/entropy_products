@@ -1,0 +1,54 @@
+  [PASS] independent double shoot 1e-05: three midpoint matches  (|value| = 8.88e-15, tolerance 2e-11)
+  [PASS] independent double shoot 1e-05: finite positive radius
+  [PASS] independent double shoot 1e-06: three midpoint matches  (|value| = 5.77e-15, tolerance 2e-11)
+  [PASS] independent double shoot 1e-06: finite positive radius
+  [PASS] independent double shoot 1e-07: three midpoint matches  (|value| = 4.44e-15, tolerance 2e-11)
+  [PASS] independent double shoot 1e-07: finite positive radius
+  [PASS] unmatched midpoint b prime agrees independently  (|value| = 8.62e-14, tolerance 1e-10)
+  [PASS] independent Hamiltonian constant is zero throughout interior  (|value| = 2.31e-12, tolerance 1e-10)
+  [PASS] cubic endpoint refinement converges: alpha
+  [PASS] finest independent endpoint change: alpha  (|value| = 1.09e-12, tolerance 5e-09)
+  [PASS] cubic endpoint refinement converges: bminus
+  [PASS] finest independent endpoint change: bminus  (|value| = 1.10e-12, tolerance 5e-09)
+  [PASS] cubic endpoint refinement converges: product
+  [PASS] finest independent endpoint change: product  (|value| = 4.90e-12, tolerance 5e-09)
+  [PASS] cubic endpoint refinement converges: inner_b_prime
+  [PASS] finest independent endpoint change: inner_b_prime  (|value| = 1.93e-12, tolerance 5e-09)
+  [PASS] cubic endpoint refinement converges: inner_phi_prime
+  [PASS] finest independent endpoint change: inner_phi_prime  (|value| = 2.38e-12, tolerance 5e-09)
+  [PASS] cubic endpoint refinement converges: inner_kretschmann
+  [PASS] finest independent endpoint change: inner_kretschmann  (|value| = 1.83e-11, tolerance 5e-09)
+  [PASS] collocation coupling agrees with independently joined horizons  (difference 2.58e-13, tolerance 2e-09)
+  [PASS] collocation product agrees with independently joined horizons  (difference 1.73e-13, tolerance 2e-10)
+  [PASS] both horizon field derivatives agree between methods  (|value| = 8.90e-14, tolerance 2e-08)
+  [PASS] held-out interior profile agrees: b  (|value| = 7.87e-14, tolerance 2e-08)
+  [PASS] held-out interior profile agrees: b prime  (|value| = 1.35e-13, tolerance 2e-08)
+  [PASS] held-out interior profile agrees: phi  (|value| = 1.68e-13, tolerance 2e-08)
+  [PASS] held-out interior profile agrees: phi prime  (|value| = 1.29e-12, tolerance 2e-08)
+  [PASS] held-out interior Kretschmann profiles agree  (|value| = 5.95e-13, tolerance 2e-08)
+  [PASS] direct metric differentiation verifies curvature independently of matter substitution  (|value| = 6.66e-07, tolerance 3e-05)
+  [PASS] resolved product deficit exceeds cutoff variation by at least a million
+  [PASS] negative control: untuned linear seed has resolved midpoint mismatch  (|value| = 1.59e-03, must exceed 1e-04)
+  [PASS] independent cubic launch matches exact dilaton at h=0.35, side=-1  (|value| = 1.15e-15, tolerance 2e-10)
+  [PASS] independent cubic launch matches exact dilaton at h=0.35, side=+1  (|value| = 3.71e-15, tolerance 2e-10)
+  [PASS] independent cubic launch matches exact dilaton at h=1, side=-1  (|value| = 1.12e-16, tolerance 2e-10)
+  [PASS] independent cubic launch matches exact dilaton at h=1, side=+1  (|value| = 1.36e-16, tolerance 2e-10)
+  [PASS] geometric Kretschmann formula reproduces full RN radial invariant  (|value| = 3.12e-17, tolerance 2e-14)
+  [PASS] independent sampler refuses failed IVP
+  [PASS] independent sampler refuses success-marked partial IVP
+  [PASS] independent sampler refuses NaN trajectory before reduction
+  [PASS] collocation rejects an actual exhausted node budget
+  [PASS] collocation rejects success-marked NaN field data
+  [PASS] collocation rejects NaN residual before maximum comparison
+  [PASS] collocation rejects success-marked partial interval
+  [PASS] collocation rejects NaN boundary residual before maximum comparison
+  [PASS] dense sampling refuses to clip a genuinely truncated domain
+  [PASS] collocation sampling rejects invalid radius [0.349999]
+  [PASS] collocation sampling rejects invalid radius [1.000001]
+  [PASS] collocation sampling rejects invalid radius [nan]
+  [PASS] exterior rejects success-marked short integration
+  [PASS] exterior rejects NaN dense data before AF comparisons
+  [PASS] exterior rejects NaN integration mesh before dense evaluation
+  [PASS] exterior refuses a radius that would place diagnostic samples outside its domain
+Independent alpha=4.89376036208434, product=0.99985996647418, Kminus=100482.028508570
+checks: 52 passed, 0 failed

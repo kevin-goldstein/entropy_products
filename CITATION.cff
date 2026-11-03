@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated paper when using these calculations."
+type: software
+title: "Entropy products beyond the attractor: scientific code and data"
+authors:
+  - family-names: Goldstein
+    given-names: Kevin
+  - family-names: Jejjala
+    given-names: Vishnu
+  - family-names: Nampuri
+    given-names: Suresh
+version: "2026.11.03-prl5"
+abstract: >-
+  Numerical and symbolic calculations of conserved black-hole entropy products,
+  deficits and excesses relative to the extremal reference, fixed-coupling
+  families, scalar focusing, entropy-gap bounds and near-horizon geometries.
+  This package preserves scientific snapshot 2026.11.02-r5 and includes
+  the corresponding PRL figure scripts and reference data.
+keywords:
+  - black holes
+  - entropy
+  - numerical relativity
+  - symbolic computation

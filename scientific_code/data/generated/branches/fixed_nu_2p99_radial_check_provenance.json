@@ -1,0 +1,7 @@
+{
+  "source": "Stored historical independent radial verification at fixed nu=2.99.",
+  "imported_for": "2026.11.02-r2",
+  "rerun_in_this_snapshot": false,
+  "sha256": "8b08c45598b09c00739fb20c119fdf29128e62185d60fb032bb5b4fe88194ec6",
+  "scope": "Historical numerical result, not a newly executed task; the reusable radial implementation is calculations/half_interval_scan.py."
+}

@@ -1,0 +1,23 @@
+horizon +: S_RN - S_sub = 0 ;  T_RN - T_sub = 0
+  [PASS] subtraction preserves S at the + horizon  (simplifies to 0)
+  [PASS] subtraction preserves T at the + horizon  (simplifies to 0)
+horizon -: S_RN - S_sub = 0 ;  T_RN - T_sub = 0
+  [PASS] subtraction preserves S at the - horizon  (simplifies to 0)
+  [PASS] subtraction preserves T at the - horizon  (simplifies to 0)
+3D base metric gamma = dr^2 + X dOmega^2 for both (g_tt g_rr = -1/ ... ): X = -2*m*r + r**2
+rescaling, horizon +: T S before/after: -r_m/4 + r_p/4 / -r_m/4 + r_p/4 ;  S before/after: pi*r_p**2 / pi*r_m*r_p
+  [PASS] GJN rescaling preserves T S at the + horizon  (simplifies to 0)
+  [PASS] GJN rescaling changes S at the + horizon
+rescaling, horizon -: T S before/after: r_m/4 - r_p/4 / r_m/4 - r_p/4 ;  S before/after: pi*r_m**2 / pi*r_m*r_p
+  [PASS] GJN rescaling preserves T S at the - horizon  (simplifies to 0)
+  [PASS] GJN rescaling changes S at the - horizon
+  [PASS] GJN rescaling preserves S+S-  (simplifies to 0)
+lift of the AdS2 x S2 black hole: locally AdS3 iff [{ell: 2*L, k: 1/(L*R)}] (independent of Delta)
+  [PASS] lift: Ric = -(2/ell^2) g has the unique solution k = 1/(L R), ell = 2 L for every Delta
+  [PASS] constant-fibre lift: scalar curvature is -6/(2 L)^2  (simplifies to 0)
+GJN2014 Eq. (5.3), printed 3D metric: Ricci scalar = -(12*r**2 - 4*r*r_m - 4*r*r_p - r_m**2*r_p**2)/(2*L**2*r**2)
+  [PASS] printed GJN2014 metric: exact nonconstant Ricci scalar  (simplifies to 0)
+  [PASS] printed GJN2014 metric: d(Ricci scalar)/dr < 0 for positive r, r_p, r_m, L
+  [PASS] printed GJN2014 metric: exact trace-free yy Ricci component  (simplifies to 0)
+  [PASS] negative control: printed GJN2014 metric is not Einstein even with L^2 = r_p r_m  (|value| = 1.83e+00, must exceed 1e+00)
+checks: 15 passed, 0 failed

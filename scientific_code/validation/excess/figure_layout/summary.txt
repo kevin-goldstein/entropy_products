@@ -1,0 +1,4 @@
+task                                status      seconds   PASS   FAIL
+plot_branches                       PASS        14.324      1      0
+1 tasks passed, 0 failed; 14.327 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

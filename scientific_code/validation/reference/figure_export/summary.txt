@@ -1,0 +1,4 @@
+task                                status      seconds   PASS   FAIL
+plot_orbit                          PASS        15.025      0      0
+1 tasks passed, 0 failed; 15.026 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

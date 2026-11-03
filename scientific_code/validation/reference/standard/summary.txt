@@ -1,0 +1,36 @@
+task                                status      seconds   PASS   FAIL
+test_checklib_regressions           PASS         9.701     35      0
+test_inner_regularity_validation    PASS         2.630     30      0
+test_exact_dilaton_integration      PASS         1.389     65      0
+cold_from_hot_check                 PASS         1.747    103      0
+static_K                            PASS         1.658      3      0
+check_K_conservation                PASS         6.946      4      0
+check_K_dyonic4d                    PASS         3.046      3      0
+reduced_equations_check             PASS         3.162      6      0
+ddim_identity                       PASS         2.892      3      0
+dilaton_exact                       PASS        22.613     13      0
+dilaton_thermo                      PASS         1.591     38      0
+agm_checks                          PASS         3.479     35      0
+smooth_representative_check         PASS         1.703     14      0
+complex_horizons                    PASS         1.465     42      0
+btz_check                           PASS         2.381     12      0
+subtracted_rn                       PASS         2.387     15      0
+test_eom_num                        PASS         1.645      3      0
+kerr_newman_check                   PASS        30.103     25      0
+kerr_sen_eom_grid                   PASS         2.912      3      0
+c3_exact                            PASS         3.729     42      0
+tuned_branch_bvp                    PASS         4.318    143      0
+test_tuned_branch_bvp               PASS         2.203     52      0
+complex_horizons_symbolic           PASS         1.814     26      0
+toda_exact                          PASS         4.125     49      0
+quartic                             PASS         0.032      0      0
+half_interval_scan                  PASS         1.930      0      0
+orbit_scan                          PASS         1.147      0      0
+validate_core                       PASS         1.155      0      0
+plot_orbit                          PASS        15.077      0      0
+check_static_virial                 PASS         3.447      0      0
+rotating_exact_controls             PASS         0.029      0      0
+complex_validation                  PASS         0.200      0      0
+second_variation_control            PASS         2.774      0      0
+33 tasks passed, 0 failed; 145.443 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.

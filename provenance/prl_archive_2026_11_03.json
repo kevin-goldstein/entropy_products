@@ -1,0 +1,9 @@
+{
+  "scientific_snapshot": "2026.11.02-r5",
+  "presentation_revision": "2026.11.03-prl-referees",
+  "archival_doi": null,
+  "status": "Prepared for author archival deposit",
+  "new_numerical_solutions": false,
+  "license": "Not selected by the authors; see scientific_code/LICENSE_STATUS.md",
+  "validation": "Original 266-file scientific manifest verified; PRL plots regenerated; scientific plot_deficit task passed; exact higher-mode ordering checked."
+}

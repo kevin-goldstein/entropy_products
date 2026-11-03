@@ -1,0 +1,5 @@
+KN: max |Einstein| = 1.02e-25  Maxwell = ['0.0', '0.0', '0.0', '0.0']
+  [PASS] Kerr-Newman: Einstein residuals  (|value| = 1.02e-25, tolerance 1e-20)
+  [PASS] Kerr-Newman: Maxwell residuals  (|value| = 0.00e+00, tolerance 1e-20)
+  [PASS] negative control: A -> 1.1 A at fixed metric violates the Einstein equations  (|value| = 1.05e-02, must exceed 1e-03)
+checks: 3 passed, 0 failed

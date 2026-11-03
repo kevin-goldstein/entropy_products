@@ -1,0 +1,78 @@
+K(r) for RN-AdS from the radial Noether function of Prop. 3.1 (b = r, A_t = -Q/r): dM
+  [PASS] RN-AdS: K(r) = dM identically in r  (simplifies to 0)
+RN-AdS roots: ['0.15179127', '1.1059172', '(-0.62885425 - 1.9769938j)', '(-0.62885425 + 1.9769938j)']
+   d/dM at r=0.151791 : dM - (T dS + Phi dQ) = -2.41e-29
+  [PASS] RN-AdS: first law d/dM at the root r = 0.151791  (|value| = 2.41e-29, tolerance 1e-22)
+   d/dM at r=1.10592 : dM - (T dS + Phi dQ) = -2.58e-27
+  [PASS] RN-AdS: first law d/dM at the root r = 1.10592  (|value| = 2.58e-27, tolerance 1e-22)
+   d/dM at r=(-0.628854 - 1.97699j) : dM - (T dS + Phi dQ) = (-3.63e-27 - 1.39e-26j)
+  [PASS] RN-AdS: first law d/dM at the root r = (-0.628854 - 1.97699j)  (|value| = 1.44e-26, tolerance 1e-22)
+   d/dM at r=(-0.628854 + 1.97699j) : dM - (T dS + Phi dQ) = (-3.63e-27 + 1.39e-26j)
+  [PASS] RN-AdS: first law d/dM at the root r = (-0.628854 + 1.97699j)  (|value| = 1.44e-26, tolerance 1e-22)
+   d/dQ at r=0.151791 : dM - (T dS + Phi dQ) = 1.4e-26
+  [PASS] RN-AdS: first law d/dQ at the root r = 0.151791  (|value| = 1.40e-26, tolerance 1e-22)
+   d/dQ at r=1.10592 : dM - (T dS + Phi dQ) = -3.16e-28
+  [PASS] RN-AdS: first law d/dQ at the root r = 1.10592  (|value| = 3.16e-28, tolerance 1e-22)
+   d/dQ at r=(-0.628854 - 1.97699j) : dM - (T dS + Phi dQ) = (1.63e-26 + 1.73e-26j)
+  [PASS] RN-AdS: first law d/dQ at the root r = (-0.628854 - 1.97699j)  (|value| = 2.37e-26, tolerance 1e-22)
+   d/dQ at r=(-0.628854 + 1.97699j) : dM - (T dS + Phi dQ) = (1.63e-26 - 1.73e-26j)
+  [PASS] RN-AdS: first law d/dQ at the root r = (-0.628854 + 1.97699j)  (|value| = 2.37e-26, tolerance 1e-22)
+   sum 1/(T S) = (0.0 + 0.0j)   sum 1/T = (-1.84e-40 + 0.0j)
+  [PASS] RN-AdS: sum_i 1/(T_i S_i) = 0 over the four roots  (|value| = 0.00e+00, tolerance 1e-30)
+  [PASS] RN-AdS: sum_i 1/T_i = 0 over the four roots  (|value| = 1.84e-40, tolerance 1e-30)
+  [PASS] negative control: RN-AdS sum 1/T over the two real roots only is nonzero  (|value| = 6.54e+00, must exceed 1e-02)
+   prod S - pi^4 Q^4 l^4 = (-7.35e-40 + 3.49e-40j)    sum S + 2 pi l^2 = (3.67e-40 + 0.0j)
+  [PASS] RN-AdS: prod_i S_i = pi^4 Q^4 l^4  (|value| = 8.14e-40, tolerance 1e-30)
+  [PASS] RN-AdS: sum_i S_i = -2 pi l^2  (|value| = 3.67e-40, tolerance 1e-30)
+   M = 0.9: S+ S- (real roots) = 0.278124 ;  prod over all roots = 50.8481543266
+   M = 1.3: S+ S- (real roots) = 0.200312 ;  prod over all roots = 50.8481543266
+   M = 2.0: S+ S- (real roots) = 0.13042 ;  prod over all roots = 50.8481543266
+  [PASS] RN-AdS: prod over all roots is the same at M = 0.9, 1.3, 2.0  (|value| = 1.49e-39, tolerance 1e-30)
+  [PASS] RN-AdS: S+S- over the two real roots depends on M (M = 0.9 vs 2.0)  (|value| = 1.48e-01, must exceed 1e-02)
+KN-AdS roots: ['0.2712963', '1.3265802', '(-0.79893823 - 2.6466981j)', '(-0.79893823 + 2.6466981j)']
+   d/dm at r=0.271296 : first-law residual = 2.15e-28
+  [PASS] KN-AdS: first law d/dm at the root r = 0.271296  (|value| = 2.15e-28, tolerance 1e-22)
+   d/dm at r=1.32658 : first-law residual = 4.2e-27
+  [PASS] KN-AdS: first law d/dm at the root r = 1.32658  (|value| = 4.20e-27, tolerance 1e-22)
+   d/dm at r=(-0.798938 - 2.6467j) : first-law residual = (1.38e-26 + 2.03e-26j)
+  [PASS] KN-AdS: first law d/dm at the root r = (-0.798938 - 2.6467j)  (|value| = 2.46e-26, tolerance 1e-22)
+   d/dm at r=(-0.798938 + 2.6467j) : first-law residual = (1.38e-26 - 2.03e-26j)
+  [PASS] KN-AdS: first law d/dm at the root r = (-0.798938 + 2.6467j)  (|value| = 2.46e-26, tolerance 1e-22)
+   d/da at r=0.271296 : first-law residual = 6.85e-28
+  [PASS] KN-AdS: first law d/da at the root r = 0.271296  (|value| = 6.85e-28, tolerance 1e-22)
+   d/da at r=1.32658 : first-law residual = -4.96e-27
+  [PASS] KN-AdS: first law d/da at the root r = 1.32658  (|value| = 4.96e-27, tolerance 1e-22)
+   d/da at r=(-0.798938 - 2.6467j) : first-law residual = (1.32e-26 + 2.96e-26j)
+  [PASS] KN-AdS: first law d/da at the root r = (-0.798938 - 2.6467j)  (|value| = 3.24e-26, tolerance 1e-22)
+   d/da at r=(-0.798938 + 2.6467j) : first-law residual = (1.32e-26 - 2.96e-26j)
+  [PASS] KN-AdS: first law d/da at the root r = (-0.798938 + 2.6467j)  (|value| = 3.24e-26, tolerance 1e-22)
+   d/dq at r=0.271296 : first-law residual = 1.29e-27
+  [PASS] KN-AdS: first law d/dq at the root r = 0.271296  (|value| = 1.29e-27, tolerance 1e-22)
+   d/dq at r=1.32658 : first-law residual = -1.77e-27
+  [PASS] KN-AdS: first law d/dq at the root r = 1.32658  (|value| = 1.77e-27, tolerance 1e-22)
+   d/dq at r=(-0.798938 - 2.6467j) : first-law residual = (-2.42e-26 - 1.98e-26j)
+  [PASS] KN-AdS: first law d/dq at the root r = (-0.798938 - 2.6467j)  (|value| = 3.13e-26, tolerance 1e-22)
+   d/dq at r=(-0.798938 + 2.6467j) : first-law residual = (-2.42e-26 + 1.98e-26j)
+  [PASS] KN-AdS: first law d/dq at the root r = (-0.798938 + 2.6467j)  (|value| = 3.13e-26, tolerance 1e-22)
+   sum 1/(T S) = (-5.74e-41 + 0.0j)   sum 1/T = (3.67e-40 + 0.0j)
+  [PASS] KN-AdS: sum_i 1/(T_i S_i) = 0  (|value| = 5.74e-41, tolerance 1e-30)
+  [PASS] KN-AdS: sum_i 1/T_i = 0  (|value| = 3.67e-40, tolerance 1e-30)
+   prod S - pi^4 l^4 (Q^4 + 4J^2) = (4.7e-38 + 8.24e-39j)    sum S + 2 pi l^2 = (0.0 + 0.0j)
+  [PASS] KN-AdS: prod_i S_i = pi^4 l^4 (Q^4 + 4 J^2)  (|value| = 4.77e-38, tolerance 1e-30)
+  [PASS] KN-AdS: sum_i S_i = -2 pi l^2  (|value| = 0.00e+00, tolerance 1e-30)
+   at m=1.1 (start): prod S = (2786.32962826 + 8.24468322557e-39j), sum S = (-33.238050275 + 0.0j), S+ S- (real pair) = 4.7066477217
+  [PASS] KN-AdS at m = 1.3, same (J, Q): prod S unchanged  (|value| = 4.72e-38, tolerance 1e-25)
+  [PASS] KN-AdS at m = 1.3, same (J, Q): sum S unchanged  (|value| = 1.47e-39, tolerance 1e-25)
+  [PASS] KN-AdS at m = 1.3, same (J, Q): S+S- of the real pair changes  (|value| = 5.62e-01, must exceed 1e-02)
+   at m=1.3 (same J,Q): prod S = (2786.32962826 + 1.26548469005e-38j), sum S = (-33.238050275 + 0.0j), S+ S- (real pair) = 4.14490314631
+  [PASS] KN-AdS at m = 2.0, same (J, Q): prod S unchanged  (|value| = 4.92e-38, tolerance 1e-25)
+  [PASS] KN-AdS at m = 2.0, same (J, Q): sum S unchanged  (|value| = 7.35e-40, tolerance 1e-25)
+  [PASS] KN-AdS at m = 2.0, same (J, Q): S+S- of the real pair changes  (|value| = 1.86e+00, must exceed 1e-02)
+   at m=2.0 (same J,Q): prod S = (2786.32962826 - 6.21505245362e-39j), sum S = (-33.238050275 + 0.0j), S+ S- (real pair) = 2.84608017416
+D=5 RN-AdS: 6 roots; sum 1/(T S) = (3.56e-40 + 0.0j) ; sum 1/T = (0.0 + 0.0j)
+  [PASS] D=5 RN-AdS: sum_i 1/(T_i S_i) = 0 over all 6 roots  (|value| = 3.56e-40, tolerance 1e-30)
+  [PASS] D=5 RN-AdS: sum_i 1/T_i = 0 over all 6 roots  (|value| = 0.00e+00, tolerance 1e-30)
+D=6 RN-AdS: 8 roots; sum 1/(T S) = (-1.55e-40 + 0.0j) ; sum 1/T = (2.76e-40 + 0.0j)
+  [PASS] D=6 RN-AdS: sum_i 1/(T_i S_i) = 0 over all 8 roots  (|value| = 1.55e-40, tolerance 1e-30)
+  [PASS] D=6 RN-AdS: sum_i 1/T_i = 0 over all 8 roots  (|value| = 2.76e-40, tolerance 1e-30)
+checks: 42 passed, 0 failed

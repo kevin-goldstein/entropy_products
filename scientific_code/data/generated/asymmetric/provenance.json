@@ -1,0 +1,33 @@
+{
+  "version": "2026.11.02-r4",
+  "fixed_example": {
+    "alpha1": "sqrt(7)",
+    "alpha2": "-2*sqrt(7)",
+    "Q_squared": 2,
+    "P_squared": 1,
+    "V_eff_min": 3,
+    "nu": "(sqrt(29)-1)/2",
+    "eta_shooting": 1.0220531880189
+  },
+  "profile_generator": "calculations/plot_excess.py",
+  "collocation_generator": "controls/asymmetric_collocation.py",
+  "branch": "Two-node even-reflection branch at fixed slope ratio 2, squared charges 2 and 1; slopes vary along the trace",
+  "finite_amplitude_range": [
+    -3,
+    3
+  ],
+  "maximum_scope": "Neither a fixed-slope eta_max nor global branch endpoints are established",
+  "method_scope": "Autonomous and two-sided shooting are separate constructions. Coupling integration uses autonomous profiles and is a consistency check. Collocation is seeded independently from analytic RN plus P2.",
+  "files": {
+    "branch_r2_n2.csv": "9215c56d04ec708f598ba9ea900d353356f1864c5e8fb876a4ea5cd75c815d11",
+    "independent_collocation.json": "179ec0e137747ba8dd8d41efe009d9b4ee7ae045cb6c71443a6bad90a9a576d2",
+    "profile_exterior.csv": "2de199c833ba48d97174310f007b3045137362c901dce0a00e7bfd2d5e85e09d",
+    "profile_interior.csv": "b133eb40a97c5be709952f5c8c313d5372402e76855750d6a83e3ba3adb2cd8c"
+  },
+  "reproducers": {
+    "controls/asymmetric_excess.py": "80458b57662dc1ecfeeb9a887f3c41d9b46bc5027fdfdaee3cf81450b0aa7710",
+    "controls/asymmetric_collocation.py": "632a7e669548299975772eb70f775c7a20dd4117aa76cd22323e40b320296105",
+    "controls/asymmetric_branch_check.py": "17ce103210d75e0065add8627127447f19ac8b5f1856c5dc57099e1d09efda7f",
+    "calculations/plot_excess.py": "c5899aed0cde672872bd9bb02f85808f11ae8153c09235b25686735e98ae6022"
+  }
+}

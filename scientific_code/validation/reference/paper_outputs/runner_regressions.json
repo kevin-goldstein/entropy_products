@@ -1,0 +1,9 @@
+{
+  "command": "python3 tests/test_runner.py",
+  "python": "3.14.3",
+  "tests_run": 8,
+  "failures": 0,
+  "result": "OK",
+  "elapsed_seconds": 0.304,
+  "scope": "Runner behavior regression tests; not physical solution tests."
+}

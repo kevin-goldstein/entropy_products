@@ -1,0 +1,32 @@
+{
+  "source_snapshot": "data/generated/branch/amplitude_scan.csv",
+  "source_package_path": "data/generated/branch/amplitude_scan.csv",
+  "source_sha256": "8b1507268f1a3fdea3d62d58015b05ea7a757c17701cee772774fa4430d41d60",
+  "numerical_generator": "calculations/half_interval_scan.py",
+  "validation": "validation/reference/standard/half_interval_scan.log",
+  "new_ODE_solves": false,
+  "numerical_points": 9,
+  "epsilon_range": [
+    0.025,
+    0.35
+  ],
+  "numerical_settings": {
+    "horizon_cutoff": 1e-06,
+    "Taylor_order": 5,
+    "relative_tolerance": 3e-14,
+    "coordinate_rminus": 0.35,
+    "coordinate_rplus": 1.0
+  },
+  "quartic_coefficient": "96/1001",
+  "curve_scope": "Leading quartic asymptote only; not an exact solution or interpolated numerical data.",
+  "dimensions_inches": [
+    3.4,
+    2.75
+  ],
+  "software": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "matplotlib": "3.10.8"
+  },
+  "pdf_sha256": "500362fead631d341da5b39f8c7501a3efc5750a31da9a24cd6590684585ce39"
+}

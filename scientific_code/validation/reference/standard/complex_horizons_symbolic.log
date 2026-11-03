@@ -1,0 +1,29 @@
+--- (A) RN-AdS_4, general M, Q, l
+  [PASS] RN-AdS: dM = T_i dS_i + Phi_i dQ at every root, for d/dM (remainder mod P)  (simplifies to 0)
+  [PASS] RN-AdS: dM = T_i dS_i + Phi_i dQ at every root, for d/dQ (remainder mod P)  (simplifies to 0)
+  [PASS] RN-AdS: T_i S_i = P'(r_i)/4  (simplifies to 0)
+  [PASS] RN-AdS: sum_i 1/(T_i S_i) = 4 sum_i 1/P'(r_i) = -4 Res_inf 1/P = 0  (simplifies to 0)
+  [PASS] RN-AdS: sum_i 1/T_i = 4 pi sum_i r_i^2/P'(r_i) = -4 pi Res_inf r^2/P = 0  (simplifies to 0)
+  [PASS] negative control: Res_inf r^3/P != 0 (deg r^3 = deg P - 1)  (|value| = 1.00e+00, must exceed 1e-03)
+  [PASS] RN-AdS: prod_i S_i = pi^4 (prod_i r_i)^2 = pi^4 Q^4 l^4 (Vieta)  (simplifies to 0)
+  [PASS] RN-AdS: sum_i S_i = pi (e_1^2 - 2 e_2) = -2 pi l^2 (Vieta)  (simplifies to 0)
+--- (B) Kerr-Newman-AdS_4, general m, a, q, l
+  [PASS] KN-AdS: dM = T_i dS_i + Omega_i dJ + Phi_i dQ at every root, for d/dm (remainder mod Delta_r)  (simplifies to 0)
+  [PASS] KN-AdS: dM = T_i dS_i + Omega_i dJ + Phi_i dQ at every root, for d/da (remainder mod Delta_r)  (simplifies to 0)
+  [PASS] KN-AdS: dM = T_i dS_i + Omega_i dJ + Phi_i dQ at every root, for d/dq (remainder mod Delta_r)  (simplifies to 0)
+  [PASS] KN-AdS: T_i S_i = Delta_r'(r_i)/(4 Xi)  (simplifies to 0)
+  [PASS] KN-AdS: sum_i 1/(T_i S_i) = 4 Xi sum_i 1/Delta_r'(r_i) = 0  (simplifies to 0)
+  [PASS] KN-AdS: sum_i 1/T_i = 4 pi sum_i (r_i^2 + a^2)/Delta_r'(r_i) = 0  (simplifies to 0)
+  [PASS] KN-AdS: prod_i (r_i^2 + a^2) = resultant = l^4 Delta_r(ia) Delta_r(-ia) = l^4 (q^4 + 4 m^2 a^2)  (simplifies to 0)
+  [PASS] KN-AdS: prod_i S_i = pi^4 l^4 (Q^4 + 4 J^2)  (simplifies to 0)
+  [PASS] KN-AdS: sum_i S_i = (pi/Xi)(sum r_i^2 + 4 a^2) = -2 pi l^2  (simplifies to 0)
+  [PASS] D = 5 RN-AdS: sum_i r_i^{D-4}/P'(r_i) = 0 (sum of 1/(T_i S_i))  (simplifies to 0)
+  [PASS] D = 5 RN-AdS: sum_i r_i^{2(D-3)}/P'(r_i) = 0 (sum of 1/T_i)  (simplifies to 0)
+  [PASS] D = 6 RN-AdS: sum_i r_i^{D-4}/P'(r_i) = 0 (sum of 1/(T_i S_i))  (simplifies to 0)
+  [PASS] D = 6 RN-AdS: sum_i r_i^{2(D-3)}/P'(r_i) = 0 (sum of 1/T_i)  (simplifies to 0)
+  [PASS] negative control: reversing root displacement fails RN-AdS first law
+  [PASS] negative control: rotating-frame Omega with nonrotating-frame mass fails
+  [PASS] quotient-ring control: a regular multiple of P vanishes at every root  (simplifies to 0)
+  [PASS] negative control: quotient reduction rejects pole at a root
+  [PASS] negative control: quotient reduction rejects repeated roots
+checks: 26 passed, 0 failed

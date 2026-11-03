@@ -1,0 +1,5 @@
+task                                status      seconds   PASS   FAIL
+half_interval_scan                  PASS         2.057      0      0
+series_fraction_comparison          PASS        46.477      0      0
+2 tasks passed, 0 failed; 48.535 seconds.
+PASS-marker totals exclude uncounted assertions and are not a count of independent methods.
